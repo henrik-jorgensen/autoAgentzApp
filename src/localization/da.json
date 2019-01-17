@@ -1,0 +1,38 @@
+{
+  "mainTabNavigator": {
+    "newVehicles": "Nye biler",
+    "like": "Jeps",
+    "nope": "Nope",
+    "settings": "Mere"
+  },
+  "authHome": {
+    "continue": "FORTSÆT",
+    "enterMobile": "Indtast dit mobilnummer"
+  },
+  "newVehicles": {
+    "checkForVehicles": "Checking for new vehicles",
+    "resettingVehicles": "Resetting vehicles",
+    "submittingLikesText": "Submitting your likes",
+    "demoAllDone": "All done!",
+    "demoAllDoneInfo": "If you had submitted real vehicles they would have been added to your favorites list on the relevant auction sites.",
+    "demoBackToWelcome": "Go back to Welcome screen",
+    "demoNoMoreVehicles": "No more vehicles",
+    "demoNoMoreVehiclesInfo": "In the &quot;Like&quot; and &quot;Nope&quot; menus below you can review the vehicles you liked and disliked.",
+    "demoSubmitLikesButton": "Submit Likes to continue",
+    "allDone": "All done!",
+    "allDoneInfo": "Come back tomorrow for more",
+    "noNewVehicles": "Ingen nye biler",
+    "checkForVehiclesButton": "Check for nye biler",
+    "noMoreVehicles": "No more vehicles",
+    "noMoreVehiclesInfo": "Click &quot;Submit Likes&quot; to add liked vehicles to your favorites list",
+    "submitLikesButton": "Submit Likes"
+  },
+  "helpMessages": {
+    "helpHeader": "Hjælpebesked",
+    "oopsHeader": "Oops, something went wrong",
+    "freeTrialHeader": "Free Trial",
+    "phoneLengthHelp": "Du skal indtaste et 8-cifret telefonnummer for at fortsætte.",
+    "isConnectedHelp": "Det ser ud til at din internetforbindelse er offline. Du skal være online for at fortsætte.",
+    "freeTrialHelp": "Your free trial is not ready yet"
+  }
+}

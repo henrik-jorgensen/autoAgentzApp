@@ -1,0 +1,38 @@
+{
+  "mainTabNavigator": {
+    "newVehicles": "New Vehicles",
+    "like": "Like",
+    "nope": "Nope",
+    "settings": "More"
+  },
+  "authHome": {
+    "continue": "CONTINUE",
+    "enterMobile": "Enter your mobile number"
+  },
+  "newVehicles": {
+    "checkForVehicles": "Checking for new vehicles",
+    "resettingVehicles": "Resetting vehicles",
+    "submittingLikesText": "Submitting your likes",
+    "demoAllDone": "All done!",
+    "demoAllDoneInfo": "If you had submitted real vehicles they would have been added to your favorites list on the relevant auction sites.",
+    "demoBackToWelcome": "Go back to Welcome screen",
+    "demoNoMoreVehicles": "No more vehicles",
+    "demoNoMoreVehiclesInfo": "In the &quot;Like&quot; and &quot;Nope&quot; menus below you can review the vehicles you liked and disliked.",
+    "demoSubmitLikesButton": "Submit Likes to continue",
+    "allDone": "All done!",
+    "allDoneInfo": "Come back tomorrow for more",
+    "noNewVehicles": "No new vehicles",
+    "checkForVehiclesButton": "Check for new vehicles",
+    "noMoreVehicles": "No more vehicles",
+    "noMoreVehiclesInfo": "Click &quot;Submit Likes&quot; to add liked vehicles to your favorites list",
+    "submitLikesButton": "Submit Likes"
+  },
+  "helpMessages": {
+    "helpHeader": "Help Message",
+    "oopsHeader": "Oops, something went wrong",
+    "freeTrialHeader": "Free Trial",
+    "phoneLengthHelp": "You must enter an 8 digit phone number to continue.",
+    "isConnectedHelp": "Looks like you lost your internet connection. Please reconnect and try again.",
+    "freeTrialHelp": "Your free trial is not ready yet"
+  }
+}
