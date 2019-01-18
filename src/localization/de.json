@@ -1,14 +1,14 @@
 {
-  "language": "Dansk",
+  "language": "Deutsch",
   "mainTabNavigator": {
-    "newVehicles": "Nye biler",
-    "like": "Jeps",
+    "newVehicles": "New Vehicles",
+    "like": "Like",
     "nope": "Nope",
-    "settings": "Mere"
+    "settings": "More"
   },
   "authHome": {
-    "continue": "FORTSÆT",
-    "enterMobile": "Indtast dit mobilnummer"
+    "continue": "CONTINUE",
+    "enterMobile": "Enter your mobile number"
   },
   "newVehicles": {
     "checkForVehicles": "Checking for new vehicles",
@@ -22,18 +22,18 @@
     "demoSubmitLikesButton": "Submit Likes to continue",
     "allDone": "All done!",
     "allDoneInfo": "Come back tomorrow for more",
-    "noNewVehicles": "Ingen nye biler",
-    "checkForVehiclesButton": "Check for nye biler",
+    "noNewVehicles": "Keine neue Fahrzeuge",
+    "checkForVehiclesButton": "Neue Fahrzeuge suchen",
     "noMoreVehicles": "No more vehicles",
     "noMoreVehiclesInfo": "Click &quot;Submit Likes&quot; to add liked vehicles to your favorites list",
     "submitLikesButton": "Submit Likes"
   },
   "helpMessages": {
-    "helpHeader": "Hjælpebesked",
+    "helpHeader": "Help Message",
     "oopsHeader": "Oops, something went wrong",
     "freeTrialHeader": "Free Trial",
-    "phoneLengthHelp": "Du skal indtaste et 8-cifret telefonnummer for at fortsætte.",
-    "isConnectedHelp": "Det ser ud til at din internetforbindelse er offline. Du skal være online for at fortsætte.",
+    "phoneLengthHelp": "You must enter an 8 digit phone number to continue.",
+    "isConnectedHelp": "Looks like you lost your internet connection. Please reconnect and try again.",
     "freeTrialHelp": "Your free trial is not ready yet"
   }
 }

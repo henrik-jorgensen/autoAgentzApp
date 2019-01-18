@@ -1,4 +1,5 @@
 {
+  "language": "English",
   "mainTabNavigator": {
     "newVehicles": "New Vehicles",
     "like": "Like",

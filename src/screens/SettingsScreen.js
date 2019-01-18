@@ -15,6 +15,7 @@ import * as firebase from "firebase";
 import { connect } from "react-redux";
 import * as actions from "../redux/actions";
 import { NavigationEvents } from "react-navigation";
+import ModalSelector from "react-native-modal-selector";
 
 import { Translations } from "../components/common/Translations";
 
@@ -40,7 +41,7 @@ class SettingsScreen extends Component {
           {this.checkForNewVehiclesButton()}
           {this.resetVehiclesButton()}
           {this.showSwipeHelp()}
-          {this.languageButton()}
+          {this.languageSelector()}
         </View>
       );
     }
@@ -49,7 +50,7 @@ class SettingsScreen extends Component {
       <View style={{ paddingHorizontal: 10 }}>
         {this.signOutButton()}
         {this.checkIfTrialReadyButton()}
-        {this.languageButton()}
+        {this.languageSelector()}
       </View>
     );
   };
@@ -176,52 +177,33 @@ class SettingsScreen extends Component {
     );
   };
 
-  languageButton = () => {
+  languageSelector = () => {
+    const data = [
+      { key: "da", label: "Dansk" },
+      { key: "de", label: "Deutsch" },
+      { key: "en", label: "English" }
+    ];
     return (
       <View style={{ paddingHorizontal: 10 }}>
-        <TouchableOpacity
-          style={styles.button}
-          onPress={() => this._toggleModal()}
-        >
-          <Text style={styles.textStyleButton}>Select language</Text>
-        </TouchableOpacity>
-        <Modal
-          visible={this.state.modalVisible}
+        <ModalSelector
+          data={data}
+          initValue="Select language"
+          onChange={item => {
+            console.log("item.key: ", item.key);
+            this.props.setLanguage(item.key);
+            this.handleStrings(item.key);
+          }}
           animationType="none"
-          onRequestClose={() => this._toggleModal()}
-          transparent={true}
+          cancelText="Cancel"
+          supportedOrientations={["portrait"]}
+          overlayStyle={styles.overlayStyle}
         >
-          <View
-            style={{
-              flex: 1,
-              paddingHorizontal: 20,
-              backgroundColor: "#2b2b2b",
-              justifyContent: "center",
-              marginTop: -100
-            }}
-          >
-            <Picker
-              selectedValue={this.props.language}
-              style={{ height: 130, width: SCREEN_WIDTH - 40, color: "#fff" }}
-              onValueChange={(itemValue, itemIndex) => {
-                this.props.setLanguage(itemValue);
-                this.handleStrings(itemValue);
-              }}
-              itemStyle={{ color: "#fff" }}
-            >
-              <Picker.Item label="Dansk" value="da" />
-              <Picker.Item label="Deutsch" value="de" />
-              <Picker.Item label="English" value="en" />
-              <Picker.Item label="Espanol" value="es" />
-            </Picker>
-            <TouchableOpacity
-              style={[styles.button, { marginTop: 80 }]}
-              onPress={this._toggleModal}
-            >
-              <Text style={styles.textStyleButton}>OK</Text>
-            </TouchableOpacity>
+          <View style={styles.button}>
+            <Text style={styles.textStyleButton}>
+              Select language: {this.props.strings.language}
+            </Text>
           </View>
-        </Modal>
+        </ModalSelector>
       </View>
     );
   };
@@ -314,6 +296,12 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     marginTop: 20,
     marginBottom: 20
+  },
+  overlayStyle: {
+    flex: 1,
+    padding: "5%",
+    justifyContent: "center",
+    backgroundColor: "rgba(0,0,0,0.9)"
   }
 });
 
