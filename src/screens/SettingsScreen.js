@@ -8,7 +8,8 @@ import {
   Platform,
   TouchableOpacity,
   Picker,
-  Modal
+  Modal,
+  Dimensions
 } from "react-native";
 import * as firebase from "firebase";
 import { connect } from "react-redux";
@@ -18,16 +19,18 @@ import { NavigationEvents } from "react-navigation";
 import { Translations } from "../components/common/Translations";
 
 const STATUSBAR_HEIGHT = Platform.OS === "ios" ? 0 : StatusBar.currentHeight;
+const SCREEN_WIDTH = Dimensions.get("window").width;
 
 class SettingsScreen extends Component {
   static navigationOptions = {
     header: null
   };
 
-  state = { isModalVisible: false };
+  state = { modalVisible: false };
 
-  _toggleModal = () =>
-    this.setState({ isModalVisible: !this.state.isModalVisible });
+  _toggleModal = () => {
+    this.setState({ modalVisible: !this.state.modalVisible });
+  };
 
   renderScreen = () => {
     if (this.props.isCustomer) {
@@ -38,7 +41,6 @@ class SettingsScreen extends Component {
           {this.resetVehiclesButton()}
           {this.showSwipeHelp()}
           {this.languageButton()}
-          {this.languagePicker()}
         </View>
       );
     }
@@ -48,7 +50,6 @@ class SettingsScreen extends Component {
         {this.signOutButton()}
         {this.checkIfTrialReadyButton()}
         {this.languageButton()}
-        {this.languagePicker()}
       </View>
     );
   };
@@ -178,45 +179,49 @@ class SettingsScreen extends Component {
   languageButton = () => {
     return (
       <View style={{ paddingHorizontal: 10 }}>
-        <TouchableOpacity onPress={this._toggleModal}>
+        <TouchableOpacity
+          style={styles.button}
+          onPress={() => this._toggleModal()}
+        >
           <Text style={styles.textStyleButton}>Select language</Text>
         </TouchableOpacity>
-        <Modal isVisible={this.state.isModalVisible}>
-          <View style={{ flex: 1 }}>
+        <Modal
+          visible={this.state.modalVisible}
+          animationType="none"
+          onRequestClose={() => this._toggleModal()}
+          transparent={true}
+        >
+          <View
+            style={{
+              flex: 1,
+              paddingHorizontal: 20,
+              backgroundColor: "#2b2b2b",
+              justifyContent: "center",
+              marginTop: -100
+            }}
+          >
             <Picker
               selectedValue={this.props.language}
-              style={{ height: 50, width: 100 }}
+              style={{ height: 130, width: SCREEN_WIDTH - 40, color: "#fff" }}
               onValueChange={(itemValue, itemIndex) => {
                 this.props.setLanguage(itemValue);
                 this.handleStrings(itemValue);
               }}
+              itemStyle={{ color: "#fff" }}
             >
               <Picker.Item label="Dansk" value="da" />
+              <Picker.Item label="Deutsch" value="de" />
               <Picker.Item label="English" value="en" />
+              <Picker.Item label="Espanol" value="es" />
             </Picker>
-            <TouchableOpacity onPress={this._toggleModal}>
-              <Text>OK</Text>
+            <TouchableOpacity
+              style={[styles.button, { marginTop: 80 }]}
+              onPress={this._toggleModal}
+            >
+              <Text style={styles.textStyleButton}>OK</Text>
             </TouchableOpacity>
           </View>
         </Modal>
-      </View>
-    );
-  };
-
-  languagePicker = () => {
-    return (
-      <View style={{ paddingHorizontal: 10 }}>
-        <Picker
-          selectedValue={this.props.language}
-          style={{ height: 50, width: 100 }}
-          onValueChange={(itemValue, itemIndex) => {
-            this.props.setLanguage(itemValue);
-            this.handleStrings(itemValue);
-          }}
-        >
-          <Picker.Item label="Dansk" value="da" />
-          <Picker.Item label="English" value="en" />
-        </Picker>
       </View>
     );
   };
