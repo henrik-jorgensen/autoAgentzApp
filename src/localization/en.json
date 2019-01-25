@@ -27,9 +27,9 @@
     "noMoreVehicles": "No more vehicles",
     "noMoreVehiclesInfo": "Click \"Submit Likes\" to add liked vehicles to your favorites list",
     "submitLikesButton": "Submit Likes",
-    "noLikedVehiclesInfo": "You didn't like any of today's vehicles. Please confirm by clicking the button below.",
-    "confirmNoLikesButton": "I didn't like any vehicles today",
-    "noLikesResetVehiclesButton": "Made a mistake, reset vehicles"
+    "noLikedVehiclesInfo": "You didn't like any of today's vehicles. Please contact us if you want to make changes to your daily picks",
+    "confirmNoLikesButton": "No likes today",
+    "noLikesResetVehiclesButton": "Oops, I want to start over"
   },
   "helpMessages": {
     "helpHeader": "Help Message",

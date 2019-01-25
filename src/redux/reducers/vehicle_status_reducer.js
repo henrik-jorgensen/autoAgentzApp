@@ -5,7 +5,8 @@ import {
   NO_MORE_VEHICLES,
   SUBMITTED_LIKED_VEHICLES,
   VEHICLES_OUTDATED,
-  NO_LIKED_VEHICLES
+  NO_LIKED_VEHICLES,
+  NEW_STATUS_FALSE
 } from "../actions/types";
 
 const INITIAL_STATE = {
@@ -38,6 +39,8 @@ export default function(state = INITIAL_STATE, action) {
     case SUBMITTED_LIKED_VEHICLES:
       return { ...state, newStatus: false };
     case NO_LIKED_VEHICLES:
+      return { ...state, newStatus: false };
+    case NEW_STATUS_FALSE:
       return { ...state, newStatus: false };
     case VEHICLES_OUTDATED:
       return { ...state, noVehicles: true };

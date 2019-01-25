@@ -336,7 +336,7 @@ class NewVehiclesScreen extends Component {
   renderNoMoreCards = () => {
     const strings = this.props.strings.newVehicles;
 
-    // show if NO vehicles were liked and NOT in Demo mode
+    // show when NO vehicles were liked and NOT in Demo mode
     if (this.props.likedVehicles.length === 0 && !this.props.showDemo) {
       return (
         <View>
@@ -357,7 +357,7 @@ class NewVehiclesScreen extends Component {
             </TouchableOpacity>
             <TouchableOpacity
               onPress={() => this.resetVehicles()}
-              style={styles.button}
+              style={[styles.button, { marginTop: 20 }]}
             >
               <Text style={styles.textStyleButton}>
                 {strings.noLikesResetVehiclesButton}
@@ -368,7 +368,7 @@ class NewVehiclesScreen extends Component {
       );
     }
 
-    // show if NO vehicles were liked and IN Demo mode
+    // show when NO vehicles were liked and IN Demo mode
     if (this.props.likedVehicles.length === 0 && this.props.showDemo) {
       return (
         <View>
@@ -392,7 +392,7 @@ class NewVehiclesScreen extends Component {
       );
     }
 
-    // show if SOME vehicles were liked and NOT in Demo mode
+    // show when SOME vehicles were liked and NOT in Demo mode
     if (!this.props.showDemo) {
       return (
         <View>
@@ -416,7 +416,7 @@ class NewVehiclesScreen extends Component {
       );
     }
 
-    // show if SOME vehicles were liked and IN Demo mode
+    // show when SOME vehicles were liked and IN Demo mode
     if (this.props.showDemo) {
       return (
         <View>
@@ -557,7 +557,7 @@ class NewVehiclesScreen extends Component {
 
     console.log("checking for new vehicles...");
 
-    // Get today's date
+    // Get today's date (yyyymmdd)
     const date = new Date()
       .toJSON()
       .slice(0, 10)
@@ -618,11 +618,25 @@ class NewVehiclesScreen extends Component {
   resetVehicles = async () => {
     strings = this.props.strings.helpMessages;
 
+    // check if user is connected to the internet
     if (!this.props.isConnected) {
       return Alert.alert(strings.oopsHeader, strings.isConnectedHelp);
     }
 
     this.setState({ resetting: true });
+
+    // Get today's date (yyyymmdd)
+    const date = new Date()
+      .toJSON()
+      .slice(0, 10)
+      .replace(/-/g, "");
+
+    // check if today's date equals date stored in props.newDate (= date for latest vehicles batch)
+    if (date !== this.props.newDate) {
+      this.props.setNewStatusFalse();
+      this.setState({ resetting: false });
+      return this.checkForNewVehicles();
+    }
 
     this.props.resetIndex();
     this.props.clearLikesDislikes();
@@ -640,6 +654,21 @@ class NewVehiclesScreen extends Component {
     }
 
     this.setState({ submittingLikes: true });
+
+    // check if likesSummary is empty
+    if (this.props.likesSummary.length === 0) {
+      console.log("likesSummary array is empty");
+
+      const likesSummary = {
+        error:
+          "likesSummary was empty. Possible reason: User did not submit likes for yesterday's vehicles"
+      };
+
+      await this.props.submitLikes(this.props.uid, likesSummary);
+
+      this.setState({ submittingLikes: false });
+      return;
+    }
 
     //Convert likesSummary array to object
     const likesSummary = Object.assign(
@@ -691,7 +720,6 @@ class NewVehiclesScreen extends Component {
   };
 
   render() {
-    console.log("this.props.noLikes: ", this.props.noLikes);
     return (
       <View style={styles.container}>
         <NavigationEvents

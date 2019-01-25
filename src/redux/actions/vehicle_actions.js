@@ -5,7 +5,7 @@ import {
   LIKE_VEHICLE,
   DISLIKE_VEHICLE,
   FETCHED_NEW_VEHICLES,
-  NO_NEW_VEHICLES,
+  NEW_STATUS_FALSE,
   NO_MORE_VEHICLES,
   CLEAR_LIKES_DISLIKES,
   SUBMITTED_LIKED_VEHICLES,
@@ -32,6 +32,12 @@ export const dislikeVehicle = vehicle => {
 export const clearLikesDislikes = () => {
   return {
     type: CLEAR_LIKES_DISLIKES
+  };
+};
+
+export const setNewStatusFalse = () => {
+  return {
+    type: NEW_STATUS_FALSE
   };
 };
 

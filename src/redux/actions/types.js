@@ -31,3 +31,4 @@ export const IS_NOT_CONNECTED = "is_not_connected";
 export const CHANGE_LANGUAGE = "change_language";
 export const UPDATE_STRINGS = "update_strings";
 export const NO_LIKED_VEHICLES = "no_liked_vehicles";
+export const NEW_STATUS_FALSE = "new_status_false";
