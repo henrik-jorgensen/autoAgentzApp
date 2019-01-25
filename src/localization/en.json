@@ -15,18 +15,21 @@
     "resettingVehicles": "Resetting vehicles",
     "submittingLikesText": "Submitting your likes",
     "demoAllDone": "All done!",
-    "demoAllDoneInfo": "If you had submitted real vehicles they would have been added to your favorites list on the relevant auction sites.",
+    "demoAllDoneInfo": "This is how the app works. Every day you will receive a new collection of vehicles. The vehicles you like will be added to your favorites list on the relevant auction sites.",
     "demoBackToWelcome": "Go back to Welcome screen",
     "demoNoMoreVehicles": "No more vehicles",
-    "demoNoMoreVehiclesInfo": "In the &quot;Like&quot; and &quot;Nope&quot; menus below you can review the vehicles you liked and disliked.",
-    "demoSubmitLikesButton": "Submit Likes to continue",
+    "demoNoMoreVehiclesInfo": "In the \"Like\" and \"Nope\" menus below you can review the vehicles you liked and disliked.",
+    "demoSubmitLikesButton": "Continue",
     "allDone": "All done!",
     "allDoneInfo": "Come back tomorrow for more",
     "noNewVehicles": "No new vehicles",
     "checkForVehiclesButton": "Check for new vehicles",
     "noMoreVehicles": "No more vehicles",
-    "noMoreVehiclesInfo": "Click &quot;Submit Likes&quot; to add liked vehicles to your favorites list",
-    "submitLikesButton": "Submit Likes"
+    "noMoreVehiclesInfo": "Click \"Submit Likes\" to add liked vehicles to your favorites list",
+    "submitLikesButton": "Submit Likes",
+    "noLikedVehiclesInfo": "You didn't like any of today's vehicles. Please confirm by clicking the button below.",
+    "confirmNoLikesButton": "I didn't like any vehicles today",
+    "noLikesResetVehiclesButton": "Made a mistake, reset vehicles"
   },
   "helpMessages": {
     "helpHeader": "Help Message",
@@ -35,5 +38,51 @@
     "phoneLengthHelp": "You must enter an 8 digit phone number to continue.",
     "isConnectedHelp": "Looks like you lost your internet connection. Please reconnect and try again.",
     "freeTrialHelp": "Your free trial is not ready yet"
+  },
+  "settings": {
+    "signOut": "Sign out",
+    "checkForVehicles": "Check for new vehicles",
+    "checkIfTrialReady": "Check if free trial is ready",
+    "resetVehicles": "Reset vehicles",
+    "activateHelpScreens": "Activate help screens",
+    "selectLanguage": "Select language",
+    "userID": "User id"
+  },
+  "liked": {
+    "noVehicles": "No vehicles have been liked",
+    "likesSubmitted": "Your likes have been submitted!"
+  },
+  "nope": {
+    "noVehicles": "No vehicles have been disliked",
+    "likesSubmitted": "Your likes have been submitted!"
+  },
+  "vehicleCardDemo": {
+    "demoVehicle": "DEMO VEHICLE",
+    "auctionEnds": "Auction ends",
+    "at": "at",
+    "kwText": "kW/",
+    "hpText": "HP",
+    "doorsText": "doors",
+    "km": "km",
+    "seatsText": "seats",
+    "gearText": "g",
+    "daysToSell": "Sells within",
+    "days": "days",
+    "sold12Months": "Sold 12 mths",
+    "onStockText": "On stock"
+  },
+  "vehicleCard": {
+    "auctionEnds": "Auction ends",
+    "at": "at",
+    "kwText": "kW/",
+    "hpText": "HP",
+    "doorsText": "doors",
+    "km": "km",
+    "seatsText": "seats",
+    "gearText": "g",
+    "daysToSell": "Sells within",
+    "days": "days",
+    "sold12Months": "Sold 12 mths",
+    "onStockText": "On stock"
   }
 }

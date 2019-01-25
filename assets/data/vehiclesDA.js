@@ -1,4 +1,4 @@
-export const Vehicles = [
+export const VehiclesDA = [
   {
     id: "1",
     imageUri: require("../1.jpg"),
@@ -13,16 +13,16 @@ export const Vehicles = [
       horsePower: 140,
       kW: 104,
       fuelType: "Diesel",
-      transmissionType: "Manual",
+      transmissionType: "Manuel",
       transmissionGears: 6,
-      mileage: "94,254",
+      mileage: "94.254",
       trim: "Attraction",
       seats: 5,
       doors: 4,
       location: "DE, Hessen",
-      color: "Black",
+      color: "Sort",
       bodyType: "Sedan",
-      taxCategory: "+VAT"
+      taxCategory: "U.afgift, +moms"
     },
     dealerVehiclePerformance: {
       avgStockDaysSimilar: 24,
@@ -30,7 +30,7 @@ export const Vehicles = [
       onStock: 2
     },
     auction: "Leaseplan",
-    auctionEndDate: "3 Feb",
+    auctionEndDate: "3. feb",
     auctionEndTime: "11:00",
     auctionSite: "www.autorola.de",
     likeStatus: null // options: null, like, dislike
@@ -44,21 +44,21 @@ export const Vehicles = [
       modelYear: "2015",
       firstRegistration: "04/2015",
       engineType: "320d",
-      engineSize: "2.0",
+      engineSize: "2,0",
       emissionStandard: "EU5",
       horsePower: 190,
       kW: 142,
       fuelType: "Diesel",
       transmissionType: "Auto",
       transmissionGears: 6,
-      mileage: "82,541",
+      mileage: "82.541",
       trim: "Sport Line",
       seats: 5,
       doors: 5,
       location: "DE, Hamburg",
-      color: "Dark grey",
-      bodyType: "Estate",
-      taxCategory: "+VAT"
+      color: "Koksgrå",
+      bodyType: "Stationcar",
+      taxCategory: "U.afgift, +moms"
     },
     dealerVehiclePerformance: {
       avgStockDaysSimilar: 28,
@@ -66,7 +66,7 @@ export const Vehicles = [
       onStock: 2
     },
     auction: "Autorola MAXbid",
-    auctionEndDate: "3 Feb",
+    auctionEndDate: "3. feb",
     auctionEndTime: "11:00",
     auctionSite: "www.autorola.de",
     likeStatus: null // options: null, like, dislike
@@ -87,14 +87,14 @@ export const Vehicles = [
       fuelType: "Diesel",
       transmissionType: "Auto",
       transmissionGears: 6,
-      mileage: "82,541",
+      mileage: "82.541",
       trim: "Sport Line",
       seats: 5,
       doors: 5,
       location: "DK, Copenhagen",
       color: "White",
       bodyType: "SUV",
-      taxCategory: "+VAT"
+      taxCategory: "U.afgift, +moms"
     },
     dealerVehiclePerformance: {
       avgStockDaysSimilar: 32,
@@ -102,7 +102,7 @@ export const Vehicles = [
       onStock: 2
     },
     auction: "Nordania Leasing",
-    auctionEndDate: "3 Feb",
+    auctionEndDate: "3. feb",
     auctionEndTime: "11:00",
     auctionSite: "www.bilsalg.dk",
     likeStatus: null // options: null, like, dislike
@@ -121,16 +121,16 @@ export const Vehicles = [
       horsePower: 130,
       kW: 97,
       fuelType: "Diesel",
-      transmissionType: "Manual",
+      transmissionType: "Manuel",
       transmissionGears: 6,
-      mileage: "82,541",
+      mileage: 82541,
       trim: "Sport Line",
       seats: 5,
       doors: 5,
       location: "DE, Bayern",
-      color: "White",
+      color: "Hvid",
       bodyType: "SUV",
-      taxCategory: "+VAT"
+      taxCategory: "U.afgift, +moms"
     },
     dealerVehiclePerformance: {
       avgStockDaysSimilar: 22,
@@ -138,7 +138,7 @@ export const Vehicles = [
       onStock: 2
     },
     auction: "Autorola MAXbid",
-    auctionEndDate: "3 Feb",
+    auctionEndDate: "3. feb",
     auctionEndTime: "10:30",
     auctionSite: "www.autorola.de",
     likeStatus: null // options: null, like, dislike
@@ -159,14 +159,14 @@ export const Vehicles = [
       fuelType: "Diesel",
       transmissionType: "Auto",
       transmissionGears: 6,
-      mileage: "82,541",
+      mileage: "82.541",
       trim: "Sport Line",
       seats: 5,
       doors: 5,
       location: "NL, Limburg",
-      color: "Black",
-      bodyType: "Estate",
-      taxCategory: "+VAT"
+      color: "Sort",
+      bodyType: "Stationcar",
+      taxCategory: "U.afgift, +moms"
     },
     dealerVehiclePerformance: {
       avgStockDaysSimilar: 24,
@@ -174,7 +174,7 @@ export const Vehicles = [
       onStock: 2
     },
     auction: "Athlon Car Lease NL",
-    auctionEndDate: "3 Feb",
+    auctionEndDate: "3. feb",
     auctionEndTime: "11:30",
     auctionSite: "www.autorola.nl",
     likeStatus: null // options: null, like, dislike

@@ -3,7 +3,7 @@
   "mainTabNavigator": {
     "newVehicles": "Nye biler",
     "like": "Jeps",
-    "nope": "Nope",
+    "nope": "Niks",
     "settings": "Mere"
   },
   "authHome": {
@@ -11,29 +11,78 @@
     "enterMobile": "Indtast dit mobilnummer"
   },
   "newVehicles": {
-    "checkForVehicles": "Checking for new vehicles",
-    "resettingVehicles": "Resetting vehicles",
-    "submittingLikesText": "Submitting your likes",
-    "demoAllDone": "All done!",
-    "demoAllDoneInfo": "If you had submitted real vehicles they would have been added to your favorites list on the relevant auction sites.",
-    "demoBackToWelcome": "Go back to Welcome screen",
-    "demoNoMoreVehicles": "No more vehicles",
-    "demoNoMoreVehiclesInfo": "In the &quot;Like&quot; and &quot;Nope&quot; menus below you can review the vehicles you liked and disliked.",
-    "demoSubmitLikesButton": "Submit Likes to continue",
-    "allDone": "All done!",
-    "allDoneInfo": "Come back tomorrow for more",
+    "checkForVehicles": "Tjekker for nye biler",
+    "resettingVehicles": "Nulstiller biler",
+    "submittingLikesText": "Indsender Jeps listen",
+    "demoAllDone": "Færdig!",
+    "demoAllDoneInfo": "Hvis du havde indsendt rigtige biler, ville de blive tilføjet dine favoritlister på de relevante auktion sites.",
+    "demoBackToWelcome": "Tilbage til velkomstskærmen",
+    "demoNoMoreVehicles": "Ikke flere biler for i dag",
+    "demoNoMoreVehiclesInfo": "I \"Jeps\" og \"Niks\" menuerne nedenfor kan du gennemse bilerne, du har Jeps'et og Niks'et",
+    "demoSubmitLikesButton": "Fortsæt",
+    "allDone": "Færdig!",
+    "allDoneInfo": "Kom tilbage i morgen for flere biler",
     "noNewVehicles": "Ingen nye biler",
-    "checkForVehiclesButton": "Check for nye biler",
-    "noMoreVehicles": "No more vehicles",
-    "noMoreVehiclesInfo": "Click &quot;Submit Likes&quot; to add liked vehicles to your favorites list",
-    "submitLikesButton": "Submit Likes"
+    "checkForVehiclesButton": "Tjek for nye biler",
+    "noMoreVehicles": "Ikke flere biler for i dag",
+    "noMoreVehiclesInfo": "Klik på knappen nedenfor for at tilføje Jeps listen til din favoritliste",
+    "submitLikesButton": "Føj Jeps liste til favoritter",
+    "noLikedVehiclesInfo": "You didn't like any of today's vehicles. Please confirm by clicking the button below.",
+    "confirmNoLikesButton": "I didn't like any vehicles today",
+    "noLikesResetVehiclesButton": "Made a mistake, reset vehicles"
   },
   "helpMessages": {
     "helpHeader": "Hjælpebesked",
     "oopsHeader": "Oops, something went wrong",
-    "freeTrialHeader": "Free Trial",
+    "freeTrialHeader": "Gratis test",
     "phoneLengthHelp": "Du skal indtaste et 8-cifret telefonnummer for at fortsætte.",
     "isConnectedHelp": "Det ser ud til at din internetforbindelse er offline. Du skal være online for at fortsætte.",
-    "freeTrialHelp": "Your free trial is not ready yet"
+    "freeTrialHelp": "Din gratis test er ikke klar endnu"
+  },
+  "settings": {
+    "signOut": "Log ud",
+    "checkForVehicles": "Tjek for nye biler",
+    "checkIfTrialReady": "Tjek om din gratis test er klar",
+    "resetVehicles": "Nulstil biler",
+    "activateHelpScreens": "Aktiver hjælpeskærme",
+    "selectLanguage": "Vælg sprog",
+    "userID": "Bruger-id"
+  },
+  "liked": {
+    "noVehicles": "Ingen biler på Jeps listen endnu",
+    "likesSubmitted": "Dine biler på Jeps listen er blevet sendt!"
+  },
+  "nope": {
+    "noVehicles": "Ingen biler på Nope listen endnu",
+    "likesSubmitted": "Dine biler på Jeps listen er blevet sendt!"
+  },
+  "vehicleCardDemo": {
+    "demoVehicle": "DEMO BIL",
+    "auctionEnds": "Auktionen slutter",
+    "at": "kl",
+    "kwText": "kW/",
+    "hpText": "hk",
+    "doorsText": "døre",
+    "km": "km",
+    "seatsText": "sæder",
+    "gearText": "g",
+    "daysToSell": "Sælger på",
+    "days": "dage",
+    "sold12Months": "Solgt 12 mdr",
+    "onStockText": "På lager"
+  },
+  "vehicleCard": {
+    "auctionEnds": "Auktionen slutter",
+    "at": "kl",
+    "kwText": "kW/",
+    "hpText": "hk",
+    "doorsText": "døre",
+    "km": "km",
+    "seatsText": "sæder",
+    "gearText": "g",
+    "daysToSell": "Sælger på",
+    "days": "dage",
+    "sold12Months": "Solgt 12 mdr",
+    "onStockText": "På lager"
   }
 }

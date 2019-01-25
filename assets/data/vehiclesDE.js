@@ -1,4 +1,4 @@
-export const Vehicles = [
+export const VehiclesDE = [
   {
     id: "1",
     imageUri: require("../1.jpg"),
@@ -13,16 +13,16 @@ export const Vehicles = [
       horsePower: 140,
       kW: 104,
       fuelType: "Diesel",
-      transmissionType: "Manual",
+      transmissionType: "Manuell",
       transmissionGears: 6,
-      mileage: "94,254",
+      mileage: "94.254",
       trim: "Attraction",
       seats: 5,
       doors: 4,
       location: "DE, Hessen",
-      color: "Black",
-      bodyType: "Sedan",
-      taxCategory: "+VAT"
+      color: "Schwarz",
+      bodyType: "Limousine",
+      taxCategory: "+MwSt."
     },
     dealerVehiclePerformance: {
       avgStockDaysSimilar: 24,
@@ -30,7 +30,7 @@ export const Vehicles = [
       onStock: 2
     },
     auction: "Leaseplan",
-    auctionEndDate: "3 Feb",
+    auctionEndDate: "3. Feb",
     auctionEndTime: "11:00",
     auctionSite: "www.autorola.de",
     likeStatus: null // options: null, like, dislike
@@ -51,14 +51,14 @@ export const Vehicles = [
       fuelType: "Diesel",
       transmissionType: "Auto",
       transmissionGears: 6,
-      mileage: "82,541",
+      mileage: "82.541",
       trim: "Sport Line",
       seats: 5,
       doors: 5,
       location: "DE, Hamburg",
-      color: "Dark grey",
-      bodyType: "Estate",
-      taxCategory: "+VAT"
+      color: "Dunkelgrau",
+      bodyType: "Kombi",
+      taxCategory: "+MwSt."
     },
     dealerVehiclePerformance: {
       avgStockDaysSimilar: 28,
@@ -66,7 +66,7 @@ export const Vehicles = [
       onStock: 2
     },
     auction: "Autorola MAXbid",
-    auctionEndDate: "3 Feb",
+    auctionEndDate: "3. Feb",
     auctionEndTime: "11:00",
     auctionSite: "www.autorola.de",
     likeStatus: null // options: null, like, dislike
@@ -87,14 +87,14 @@ export const Vehicles = [
       fuelType: "Diesel",
       transmissionType: "Auto",
       transmissionGears: 6,
-      mileage: "82,541",
+      mileage: "82.541",
       trim: "Sport Line",
       seats: 5,
       doors: 5,
       location: "DK, Copenhagen",
-      color: "White",
+      color: "Weiß",
       bodyType: "SUV",
-      taxCategory: "+VAT"
+      taxCategory: "+MwSt."
     },
     dealerVehiclePerformance: {
       avgStockDaysSimilar: 32,
@@ -102,7 +102,7 @@ export const Vehicles = [
       onStock: 2
     },
     auction: "Nordania Leasing",
-    auctionEndDate: "3 Feb",
+    auctionEndDate: "3. Feb",
     auctionEndTime: "11:00",
     auctionSite: "www.bilsalg.dk",
     likeStatus: null // options: null, like, dislike
@@ -121,16 +121,16 @@ export const Vehicles = [
       horsePower: 130,
       kW: 97,
       fuelType: "Diesel",
-      transmissionType: "Manual",
+      transmissionType: "Manuell",
       transmissionGears: 6,
-      mileage: "82,541",
+      mileage: "82.541",
       trim: "Sport Line",
       seats: 5,
       doors: 5,
       location: "DE, Bayern",
-      color: "White",
+      color: "Weiß",
       bodyType: "SUV",
-      taxCategory: "+VAT"
+      taxCategory: "+MwSt."
     },
     dealerVehiclePerformance: {
       avgStockDaysSimilar: 22,
@@ -138,7 +138,7 @@ export const Vehicles = [
       onStock: 2
     },
     auction: "Autorola MAXbid",
-    auctionEndDate: "3 Feb",
+    auctionEndDate: "3. Feb",
     auctionEndTime: "10:30",
     auctionSite: "www.autorola.de",
     likeStatus: null // options: null, like, dislike
@@ -159,14 +159,14 @@ export const Vehicles = [
       fuelType: "Diesel",
       transmissionType: "Auto",
       transmissionGears: 6,
-      mileage: "82,541",
+      mileage: "82.541",
       trim: "Sport Line",
       seats: 5,
       doors: 5,
       location: "NL, Limburg",
-      color: "Black",
-      bodyType: "Estate",
-      taxCategory: "+VAT"
+      color: "Schwarz",
+      bodyType: "Kombi",
+      taxCategory: "+MwSt."
     },
     dealerVehiclePerformance: {
       avgStockDaysSimilar: 24,
@@ -174,7 +174,7 @@ export const Vehicles = [
       onStock: 2
     },
     auction: "Athlon Car Lease NL",
-    auctionEndDate: "3 Feb",
+    auctionEndDate: "3. Feb",
     auctionEndTime: "11:30",
     auctionSite: "www.autorola.nl",
     likeStatus: null // options: null, like, dislike

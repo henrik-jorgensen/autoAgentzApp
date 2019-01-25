@@ -12,6 +12,9 @@ import {
   Left,
   Right
 } from "native-base";
+import { connect } from "react-redux";
+
+import * as actions from "../../redux/actions";
 
 const SCREEN_WIDTH = Dimensions.get("window").width;
 const SIZE_THRESHOLD = 360;
@@ -67,6 +70,21 @@ class VehicleCard extends Component {
       auctionSiteTextSmall
     } = styles;
 
+    const {
+      auctionEnds,
+      at,
+      kwText,
+      hpText,
+      doorsText,
+      km,
+      seatsText,
+      gearText,
+      daysToSell,
+      days,
+      sold12Months,
+      onStockText
+    } = this.props.strings.vehicleCard;
+
     return (
       <Content>
         <Card>
@@ -85,7 +103,7 @@ class VehicleCard extends Component {
                 : auctionEndText
             }
           >
-            Auction ends {auctionEndDate} at {auctionEndTime}
+            {auctionEnds} {auctionEndDate} {at} {auctionEndTime}
           </Text>
           <Text
             style={
@@ -140,7 +158,10 @@ class VehicleCard extends Component {
                   SCREEN_WIDTH < SIZE_THRESHOLD ? textStyleSmall : textStyle
                 }
               >
-                {kW}kW/{horsePower}HP
+                {kW}
+                {kwText}
+                {horsePower}
+                {hpText}
               </Text>
               <Text
                 style={
@@ -161,7 +182,7 @@ class VehicleCard extends Component {
                   SCREEN_WIDTH < SIZE_THRESHOLD ? textStyleSmall : textStyle
                 }
               >
-                {doors} doors
+                {doors} {doorsText}
               </Text>
             </Body>
             <Right>
@@ -170,21 +191,22 @@ class VehicleCard extends Component {
                   SCREEN_WIDTH < SIZE_THRESHOLD ? textStyleSmall : textStyle
                 }
               >
-                {mileage} km
+                {mileage} {km}
               </Text>
               <Text
                 style={
                   SCREEN_WIDTH < SIZE_THRESHOLD ? textStyleSmall : textStyle
                 }
               >
-                {seats} seats
+                {seats} {seatsText}
               </Text>
               <Text
                 style={
                   SCREEN_WIDTH < SIZE_THRESHOLD ? textStyleSmall : textStyle
                 }
               >
-                {transmissionType}, {transmissionGears}g
+                {transmissionType}, {transmissionGears}
+                {gearText}
               </Text>
               <Text
                 style={
@@ -205,7 +227,7 @@ class VehicleCard extends Component {
                     SCREEN_WIDTH < SIZE_THRESHOLD ? textStyleSmall : textStyle
                   ]}
                 >
-                  Days to sell
+                  {daysToSell}
                 </Text>
                 <Text
                   style={
@@ -214,7 +236,7 @@ class VehicleCard extends Component {
                       : textStylePerformance
                   }
                 >
-                  {avgStockDaysSimilar}
+                  {avgStockDaysSimilar} {days}
                 </Text>
               </Body>
             </Left>
@@ -225,7 +247,7 @@ class VehicleCard extends Component {
                   SCREEN_WIDTH < SIZE_THRESHOLD ? textStyleSmall : textStyle
                 ]}
               >
-                Sold 12 mths
+                {sold12Months}
               </Text>
               <Text
                 style={
@@ -244,7 +266,7 @@ class VehicleCard extends Component {
                   SCREEN_WIDTH < SIZE_THRESHOLD ? textStyleSmall : textStyle
                 ]}
               >
-                On stock
+                {onStockText}
               </Text>
               <Text
                 style={
@@ -366,4 +388,12 @@ const styles = StyleSheet.create({
   }
 });
 
-export default VehicleCard;
+function mapStateToProps(state) {
+  const { strings } = state.locale;
+  return { strings };
+}
+
+export default connect(
+  mapStateToProps,
+  actions
+)(VehicleCard);

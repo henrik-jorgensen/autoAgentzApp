@@ -16,6 +16,7 @@ import { connect } from "react-redux";
 import * as actions from "../redux/actions";
 import { NavigationEvents } from "react-navigation";
 import ModalSelector from "react-native-modal-selector";
+import { Icon } from "native-base";
 
 import { Translations } from "../components/common/Translations";
 
@@ -23,14 +24,47 @@ const STATUSBAR_HEIGHT = Platform.OS === "ios" ? 0 : StatusBar.currentHeight;
 const SCREEN_WIDTH = Dimensions.get("window").width;
 
 class SettingsScreen extends Component {
-  static navigationOptions = {
-    header: null
+  static navigationOptions = ({ navigation }) => {
+    const tabBarLabel =
+      navigation.state.params && navigation.state.params.tabBarLabel
+        ? navigation.state.params.tabBarLabel
+        : "More";
+
+    return {
+      header: null,
+      tabBarLabel: tabBarLabel,
+      tabBarIcon: ({ tintColor }) => (
+        <Icon
+          ios="ios-menu"
+          android="md-menu"
+          style={{ color: tintColor, fontSize: 30 }}
+        />
+      )
+    };
   };
 
   state = { modalVisible: false };
 
+  componentDidMount() {
+    // update tabBarLabel translation
+    this.translateTabBarLabel();
+  }
+
   _toggleModal = () => {
     this.setState({ modalVisible: !this.state.modalVisible });
+  };
+
+  onWillFocus = params => {
+    //console.log("will focus params: ", params);
+    this.translateTabBarLabel();
+
+    if (!params) {
+      return;
+    }
+
+    if (params.itemID === "changedLanguage") {
+      this.props.navigation.setParams({ itemID: "none" });
+    }
   };
 
   renderScreen = () => {
@@ -64,7 +98,9 @@ class SettingsScreen extends Component {
     return (
       <View style={{ paddingHorizontal: 10 }}>
         <TouchableOpacity onPress={this.onSignOut} style={styles.mwrButton}>
-          <Text style={styles.mwrTextStyle}>Sign out</Text>
+          <Text style={styles.mwrTextStyle}>
+            {this.props.strings.settings.signOut}
+          </Text>
         </TouchableOpacity>
       </View>
     );
@@ -92,7 +128,7 @@ class SettingsScreen extends Component {
                 : styles.textStyleButton
             }
           >
-            Check for new vehicles
+            {this.props.strings.settings.checkForVehicles}
           </Text>
         </TouchableOpacity>
       </View>
@@ -121,7 +157,7 @@ class SettingsScreen extends Component {
                 : styles.textStyleButton
             }
           >
-            Check if free trial is ready
+            {this.props.strings.settings.checkIfTrialReady}
           </Text>
         </TouchableOpacity>
       </View>
@@ -149,7 +185,7 @@ class SettingsScreen extends Component {
                 : styles.textStyleInactiveButton
             }
           >
-            Reset vehicles
+            {this.props.strings.settings.resetVehicles}
           </Text>
         </TouchableOpacity>
       </View>
@@ -170,7 +206,7 @@ class SettingsScreen extends Component {
                 : styles.textStyleInactiveButton
             }
           >
-            Activate help screens
+            {this.props.strings.settings.activateHelpScreens}
           </Text>
         </TouchableOpacity>
       </View>
@@ -189,9 +225,12 @@ class SettingsScreen extends Component {
           data={data}
           initValue="Select language"
           onChange={item => {
-            console.log("item.key: ", item.key);
             this.props.setLanguage(item.key);
             this.handleStrings(item.key);
+            this.translateTabBarLabel();
+            this.props.navigation.navigate("newVehicles", {
+              itemID: "changedLanguage"
+            });
           }}
           animationType="none"
           cancelText="Cancel"
@@ -200,12 +239,25 @@ class SettingsScreen extends Component {
         >
           <View style={styles.button}>
             <Text style={styles.textStyleButton}>
-              Select language: {this.props.strings.language}
+              {this.props.strings.settings.selectLanguage}:{" "}
+              {this.props.strings.language}
             </Text>
           </View>
         </ModalSelector>
       </View>
     );
+  };
+
+  translateTabBarLabel = () => {
+    // get react-navigation's setParams function from props
+    const {
+      navigation: { setParams }
+    } = this.props;
+
+    // update react-navigation tabBarLabel params dynamically from redux store
+    setParams({
+      tabBarLabel: this.props.strings.mainTabNavigator.settings
+    });
   };
 
   handleStrings = language => {
@@ -224,7 +276,9 @@ class SettingsScreen extends Component {
 
     return (
       <View style={styles.container}>
-        <NavigationEvents onWillFocus={() => {}} />
+        <NavigationEvents
+          onWillFocus={payload => this.onWillFocus(payload.state.params)}
+        />
         <View style={{ height: STATUSBAR_HEIGHT }}>
           <StatusBar translucent barStyle="light-content" />
         </View>
@@ -232,7 +286,9 @@ class SettingsScreen extends Component {
         {this.renderScreen()}
 
         <View style={styles.viewStyle}>
-          <Text style={styles.textStyle}>User id: {this.props.uid}</Text>
+          <Text style={styles.textStyle}>
+            {this.props.strings.settings.userID}: {this.props.uid}
+          </Text>
         </View>
       </View>
     );

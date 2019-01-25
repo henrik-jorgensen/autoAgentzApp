@@ -16,6 +16,7 @@ import { connect } from "react-redux";
 import { NavigationEvents } from "react-navigation";
 import { Permissions, Notifications } from "expo";
 import { Localization } from "expo-localization";
+import { Icon } from "native-base";
 
 import * as actions from "../redux/actions";
 import URLs from "../../constants/URLs";
@@ -29,6 +30,8 @@ import CardHelp from "../components/common/CardHelp";
 import { Translations } from "../components/common/Translations";
 
 import { Vehicles } from "../../assets/data/vehicles";
+import { VehiclesDA } from "../../assets/data/vehiclesDA";
+import { VehiclesDE } from "../../assets/data/vehiclesDE";
 
 const STATUSBAR_HEIGHT = Platform.OS === "ios" ? 0 : StatusBar.currentHeight;
 const SCREEN_WIDTH = Dimensions.get("window").width;
@@ -53,10 +56,6 @@ class NewVehiclesScreen extends Component {
     }
   }
 
-  static navigationOptions = {
-    header: null
-  };
-
   state = {
     loading: false,
     resetting: false,
@@ -65,24 +64,28 @@ class NewVehiclesScreen extends Component {
     strings: {}
   };
 
+  static navigationOptions = ({ navigation }) => {
+    const tabBarLabel =
+      navigation.state.params && navigation.state.params.tabBarLabel
+        ? navigation.state.params.tabBarLabel
+        : "New Vehicles";
+
+    return {
+      header: null,
+      tabBarLabel: tabBarLabel,
+      tabBarIcon: ({ tintColor }) => (
+        <Icon
+          ios="ios-car"
+          android="md-car"
+          style={{ color: tintColor, fontSize: 30 }}
+        />
+      )
+    };
+  };
+
   async componentDidMount() {
-    // Check if language is set. If not, set language to device language
-    /*if (!this.props.language) {
-      // Get device language and remove region identifier (the '-' and everything following)
-      const deviceLocale = Localization.locale.split("-")[0];
-      console.log("Device language: ", deviceLocale);
-
-      // Set device language as user's preferred language in redux state
-      this.props.setLanguage(deviceLocale);
-
-      // get content strings in correct language
-      this.handleStrings(deviceLocale);
-    } else {
-      // get content strings in correct language
-      this.handleStrings(this.props.language);
-    }*/
-    console.log("Props language: ", this.props.language);
-    console.log("Props strings: ", this.props.strings);
+    // update tabBarLabel language if changed
+    this.translateTabBarLabel();
 
     // get uid from AsyncStorage and save it to redux state
     let uid = await AsyncStorage.getItem("uid");
@@ -116,6 +119,18 @@ class NewVehiclesScreen extends Component {
     this.props.saveStringsToState(strings);
 
     //this.setState({ strings });
+  };
+
+  translateTabBarLabel = () => {
+    // get react-navigation's setParams function from props
+    const {
+      navigation: { setParams }
+    } = this.props;
+
+    // update react-navigation tabBarLabel params dynamically from redux store
+    setParams({
+      tabBarLabel: this.props.strings.mainTabNavigator.newVehicles
+    });
   };
 
   handleConnectivityChange = isConnected => {
@@ -158,14 +173,25 @@ class NewVehiclesScreen extends Component {
     });
   };
 
+  handleDemoData = () => {
+    if (this.props.language === "da") {
+      return VehiclesDA;
+    }
+    if (this.props.language === "de") {
+      return VehiclesDE;
+    }
+    return Vehicles;
+  };
+
   renderScreen = () => {
     const strings = this.props.strings.newVehicles;
 
+    // show when app is checking for new vehicles
     if (this.state.loading) {
       return (
         <View>
           <View style={styles.viewStyle}>
-            <Text style={styles.textStyle}>Checking for new vehicles</Text>
+            <Text style={styles.textStyle}>{strings.checkForVehicles}</Text>
           </View>
           <View style={styles.spinnerStyle}>
             <Spinner />
@@ -174,11 +200,12 @@ class NewVehiclesScreen extends Component {
       );
     }
 
+    // show when app is resetting vehicles
     if (this.state.resetting) {
       return (
         <View>
           <View style={styles.viewStyle}>
-            <Text style={styles.textStyle}>Resetting vehicles</Text>
+            <Text style={styles.textStyle}>{strings.resettingVehicles}</Text>
           </View>
           <View style={styles.spinnerStyle}>
             <Spinner />
@@ -187,11 +214,12 @@ class NewVehiclesScreen extends Component {
       );
     }
 
+    // show when app is submitting likes
     if (this.state.submittingLikes) {
       return (
         <View>
           <View style={styles.viewStyle}>
-            <Text style={styles.textStyle}>Submitting your likes</Text>
+            <Text style={styles.textStyle}>{strings.submittingLikesText}</Text>
           </View>
           <View style={styles.spinnerStyle}>
             <Spinner />
@@ -200,38 +228,39 @@ class NewVehiclesScreen extends Component {
       );
     }
 
+    // show when all done for today - DEMO version
     if (
       !this.state.customer &&
       this.props.showDemo &&
-      this.props.submittedLikes
+      (this.props.submittedLikes || this.props.noLikes)
     ) {
       return (
         <View>
           <View style={styles.viewStyle}>
-            <Text style={styles.textStyle}>All done!</Text>
-            <Text style={styles.textStyleInfo}>
-              If you had submitted real vehicles they would have been added to
-              your favorites list on the relevant auction sites.
-            </Text>
+            <Text style={styles.textStyle}>{strings.demoAllDone}</Text>
+            <Text style={styles.textStyleInfo}>{strings.demoAllDoneInfo}</Text>
           </View>
           <View style={{ paddingHorizontal: 20 }}>
             <TouchableOpacity
               onPress={() => this.endNewVehiclesDemo()}
               style={styles.mwrButton}
             >
-              <Text style={styles.mwrTextStyle}>Go back to Welcome screen</Text>
+              <Text style={styles.mwrTextStyle}>
+                {strings.demoBackToWelcome}
+              </Text>
             </TouchableOpacity>
           </View>
         </View>
       );
     }
 
+    // show when user wants a demo of Swipe vehicle feature
     if (!this.state.customer && this.props.showDemo) {
       return (
         <View>
           {this.renderSwipeHelp()}
           <Swipe
-            data={Vehicles}
+            data={this.handleDemoData()}
             renderCard={this.renderCard}
             renderNoMoreCards={this.renderNoMoreCards}
             onSwipeLeft={vehicle => {
@@ -246,23 +275,24 @@ class NewVehiclesScreen extends Component {
       );
     }
 
+    // show when new user enters app and as long as not registered as customer
     if (!this.state.customer) {
       return <Welcome showDemo={this.showNewVehiclesDemo} />;
     }
 
-    if (this.props.submittedLikes) {
+    // show when all done for today
+    if (this.props.submittedLikes || this.props.noLikes) {
       return (
         <View>
           <View style={styles.viewStyle}>
-            <Text style={styles.textStyle}>All done!</Text>
-            <Text style={styles.textStyleInfo}>
-              Come back tomorrow for more
-            </Text>
+            <Text style={styles.textStyle}>{strings.allDone}</Text>
+            <Text style={styles.textStyleInfo}>{strings.allDoneInfo}</Text>
           </View>
         </View>
       );
     }
 
+    // show when no new vehicles are available yet
     if (this.props.noVehicles) {
       return (
         <View>
@@ -283,6 +313,7 @@ class NewVehiclesScreen extends Component {
       );
     }
 
+    // show when new vehicles are available to swipe through
     return (
       <View>
         {this.renderSwipeHelp()}
@@ -303,33 +334,72 @@ class NewVehiclesScreen extends Component {
   };
 
   renderNoMoreCards = () => {
-    if (!this.props.showDemo) {
+    const strings = this.props.strings.newVehicles;
+
+    // show if NO vehicles were liked and NOT in Demo mode
+    if (this.props.likedVehicles.length === 0 && !this.props.showDemo) {
       return (
         <View>
           <View style={styles.viewStyle}>
-            <Text style={styles.textStyle}>No more vehicles</Text>
+            <Text style={styles.textStyle}>{strings.noMoreVehicles}</Text>
             <Text style={styles.textStyleInfo}>
-              Click "Submit Likes" to add liked vehicles to your favorites list
+              {strings.noLikedVehiclesInfo}
             </Text>
           </View>
           <View style={{ paddingHorizontal: 20 }}>
             <TouchableOpacity
-              onPress={() => this.submitLikes()}
+              onPress={() => this.props.noLikedVehicles()}
               style={styles.mwrButton}
             >
-              <Text style={styles.mwrTextStyle}>Submit Likes</Text>
+              <Text style={styles.mwrTextStyle}>
+                {strings.confirmNoLikesButton}
+              </Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+              onPress={() => this.resetVehicles()}
+              style={styles.button}
+            >
+              <Text style={styles.textStyleButton}>
+                {strings.noLikesResetVehiclesButton}
+              </Text>
             </TouchableOpacity>
           </View>
         </View>
       );
-    } else {
+    }
+
+    // show if NO vehicles were liked and IN Demo mode
+    if (this.props.likedVehicles.length === 0 && this.props.showDemo) {
       return (
         <View>
           <View style={styles.viewStyle}>
-            <Text style={styles.textStyle}>No more vehicles</Text>
+            <Text style={styles.textStyle}>{strings.demoNoMoreVehicles}</Text>
             <Text style={styles.textStyleInfo}>
-              In the "Like" and "Nope" menus below you can review the vehicles
-              you liked and disliked.
+              {strings.demoNoMoreVehiclesInfo}
+            </Text>
+          </View>
+          <View style={{ paddingHorizontal: 20 }}>
+            <TouchableOpacity
+              onPress={() => this.props.noLikedVehicles()}
+              style={styles.mwrButton}
+            >
+              <Text style={styles.mwrTextStyle}>
+                {strings.demoSubmitLikesButton}
+              </Text>
+            </TouchableOpacity>
+          </View>
+        </View>
+      );
+    }
+
+    // show if SOME vehicles were liked and NOT in Demo mode
+    if (!this.props.showDemo) {
+      return (
+        <View>
+          <View style={styles.viewStyle}>
+            <Text style={styles.textStyle}>{strings.noMoreVehicles}</Text>
+            <Text style={styles.textStyleInfo}>
+              {strings.noMoreVehiclesInfo}
             </Text>
           </View>
           <View style={{ paddingHorizontal: 20 }}>
@@ -337,7 +407,33 @@ class NewVehiclesScreen extends Component {
               onPress={() => this.submitLikes()}
               style={styles.mwrButton}
             >
-              <Text style={styles.mwrTextStyle}>Submit Likes to continue</Text>
+              <Text style={styles.mwrTextStyle}>
+                {strings.submitLikesButton}
+              </Text>
+            </TouchableOpacity>
+          </View>
+        </View>
+      );
+    }
+
+    // show if SOME vehicles were liked and IN Demo mode
+    if (this.props.showDemo) {
+      return (
+        <View>
+          <View style={styles.viewStyle}>
+            <Text style={styles.textStyle}>{strings.demoNoMoreVehicles}</Text>
+            <Text style={styles.textStyleInfo}>
+              {strings.demoNoMoreVehiclesInfo}
+            </Text>
+          </View>
+          <View style={{ paddingHorizontal: 20 }}>
+            <TouchableOpacity
+              onPress={() => this.submitLikes()}
+              style={styles.mwrButton}
+            >
+              <Text style={styles.mwrTextStyle}>
+                {strings.demoSubmitLikesButton}
+              </Text>
             </TouchableOpacity>
           </View>
         </View>
@@ -416,12 +512,11 @@ class NewVehiclesScreen extends Component {
   };
 
   checkIfTrialReady = async () => {
+    strings = this.props.strings.helpMessages;
+
     // check if phone is connected to the Internet
     if (!this.props.isConnected) {
-      return Alert.alert(
-        "Oops, something went wrong",
-        "Looks like you lost your internet connection. Please reconnect and try again."
-      );
+      return Alert.alert(strings.oopsHeader, strings.isConnectedHelp);
     }
 
     this.setState({ loading: true });
@@ -446,17 +541,16 @@ class NewVehiclesScreen extends Component {
       this.props.vehiclesOutdated();
       this.setState({ customer: false });
       this.setState({ loading: false });
-      return Alert.alert("Free Trial", "Your free trial is not ready yet");
+      return Alert.alert(strings.freeTrialHeader, strings.freeTrialHelp);
     }
   };
 
   checkForNewVehicles = async () => {
+    strings = this.props.strings.helpMessages;
+
     // check if phone is connected to the Internet
     if (!this.props.isConnected) {
-      return Alert.alert(
-        "Oops, something went wrong",
-        "Looks like you lost your internet connection. Please reconnect and try again."
-      );
+      return Alert.alert(strings.oopsHeader, strings.isConnectedHelp);
     }
 
     this.setState({ loading: true });
@@ -493,12 +587,11 @@ class NewVehiclesScreen extends Component {
   };
 
   checkForNewVehiclesFromSettingsMenu = async () => {
+    strings = this.props.strings.helpMessages;
+
     // check if phone is connected to the Internet
     if (!this.props.isConnected) {
-      return Alert.alert(
-        "Oops, something went wrong",
-        "Looks like you lost your internet connection. Please reconnect and try again."
-      );
+      return Alert.alert(strings.oopsHeader, strings.isConnectedHelp);
     }
 
     this.setState({ loading: true });
@@ -523,11 +616,10 @@ class NewVehiclesScreen extends Component {
   };
 
   resetVehicles = async () => {
+    strings = this.props.strings.helpMessages;
+
     if (!this.props.isConnected) {
-      return Alert.alert(
-        "Oops, something went wrong",
-        "Looks like you lost your internet connection. Please reconnect and try again."
-      );
+      return Alert.alert(strings.oopsHeader, strings.isConnectedHelp);
     }
 
     this.setState({ resetting: true });
@@ -540,12 +632,11 @@ class NewVehiclesScreen extends Component {
   };
 
   submitLikes = async () => {
+    strings = this.props.strings.helpMessages;
+
     // check if phone is connected to the Internet
     if (!this.props.isConnected) {
-      return Alert.alert(
-        "Oops, something went wrong",
-        "Looks like you lost your internet connection. Please reconnect and try again."
-      );
+      return Alert.alert(strings.oopsHeader, strings.isConnectedHelp);
     }
 
     this.setState({ submittingLikes: true });
@@ -568,6 +659,8 @@ class NewVehiclesScreen extends Component {
 
   onWillFocus = params => {
     //console.log("will focus params: ", params);
+    this.translateTabBarLabel();
+
     if (!params) {
       return;
     }
@@ -587,10 +680,18 @@ class NewVehiclesScreen extends Component {
       this.props.navigation.setParams({ itemID: "none" });
     }
 
+    if (params.itemID === "changedLanguage") {
+      this.props.navigation.setParams({ itemID: "none" });
+      this.props.navigation.navigate("liked", {
+        itemID: "changedLanguage"
+      });
+    }
+
     return;
   };
 
   render() {
+    console.log("this.props.noLikes: ", this.props.noLikes);
     return (
       <View style={styles.container}>
         <NavigationEvents
@@ -689,11 +790,12 @@ function mapStateToProps(state) {
   const { uid } = state.auth;
   const vehicles = state.vehicles;
   const likesSummary = state.likesSummary;
-  const { submittedLikes } = state.likeStatus;
+  const { submittedLikes, noLikes } = state.likeStatus;
   const { swipeHelp } = state.onboardingStatus;
   const { showDemo } = state.demo;
   const { isConnected } = state.online;
   const { language, strings } = state.locale;
+  const likedVehicles = state.likes;
   return {
     newDate,
     newStatus,
@@ -702,11 +804,13 @@ function mapStateToProps(state) {
     vehicles,
     likesSummary,
     submittedLikes,
+    noLikes,
     swipeHelp,
     showDemo,
     isConnected,
     language,
-    strings
+    strings,
+    likedVehicles
   };
 }
 

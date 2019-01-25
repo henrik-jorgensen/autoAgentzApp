@@ -1,10 +1,10 @@
 {
   "language": "Deutsch",
   "mainTabNavigator": {
-    "newVehicles": "New Vehicles",
-    "like": "Like",
-    "nope": "Nope",
-    "settings": "More"
+    "newVehicles": "Neue Fahrzeuge",
+    "like": "Ja",
+    "nope": "Nein",
+    "settings": "Mehr"
   },
   "authHome": {
     "continue": "CONTINUE",
@@ -18,15 +18,18 @@
     "demoAllDoneInfo": "If you had submitted real vehicles they would have been added to your favorites list on the relevant auction sites.",
     "demoBackToWelcome": "Go back to Welcome screen",
     "demoNoMoreVehicles": "No more vehicles",
-    "demoNoMoreVehiclesInfo": "In the &quot;Like&quot; and &quot;Nope&quot; menus below you can review the vehicles you liked and disliked.",
-    "demoSubmitLikesButton": "Submit Likes to continue",
+    "demoNoMoreVehiclesInfo": "In the \"Like\" and \"Nope\" menus below you can review the vehicles you liked and disliked.",
+    "demoSubmitLikesButton": "Fortsetzen",
     "allDone": "All done!",
     "allDoneInfo": "Come back tomorrow for more",
     "noNewVehicles": "Keine neue Fahrzeuge",
-    "checkForVehiclesButton": "Neue Fahrzeuge suchen",
+    "checkForVehiclesButton": "Neue Fahrzeuge holen",
     "noMoreVehicles": "No more vehicles",
-    "noMoreVehiclesInfo": "Click &quot;Submit Likes&quot; to add liked vehicles to your favorites list",
-    "submitLikesButton": "Submit Likes"
+    "noMoreVehiclesInfo": "Click \"Submit Likes\" to add liked vehicles to your favorites list",
+    "submitLikesButton": "Submit Likes",
+    "noLikedVehiclesInfo": "You didn't like any of today's vehicles. Please confirm by clicking the button below.",
+    "confirmNoLikesButton": "I didn't like any vehicles today",
+    "noLikesResetVehiclesButton": "Made a mistake, reset vehicles"
   },
   "helpMessages": {
     "helpHeader": "Help Message",
@@ -35,5 +38,51 @@
     "phoneLengthHelp": "You must enter an 8 digit phone number to continue.",
     "isConnectedHelp": "Looks like you lost your internet connection. Please reconnect and try again.",
     "freeTrialHelp": "Your free trial is not ready yet"
+  },
+  "settings": {
+    "signOut": "Ausloggen",
+    "checkForVehicles": "Neue Fahrzeuge holen",
+    "checkIfTrialReady": "Check if free trial is ready",
+    "resetVehicles": "Fahrzeuge zurücksetzen",
+    "activateHelpScreens": "Hilfeschirme aktivieren",
+    "selectLanguage": "Sprache wählen",
+    "userID": "Nutzer-ID"
+  },
+  "liked": {
+    "noVehicles": "Es gibt noch keine Fahrzeuge auf der Ja Liste",
+    "likesSubmitted": "Ihre Ja Fahrzeuge sind versandt worden!"
+  },
+  "nope": {
+    "noVehicles": "Es gibt noch keine Fahrzeuge auf der Nein Liste",
+    "likesSubmitted": "Ihre Ja Fahrzeuge sind versandt worden!"
+  },
+  "vehicleCardDemo": {
+    "demoVehicle": "DEMO FAHRZEUG",
+    "auctionEnds": "Auktionsende",
+    "at": "um",
+    "kwText": "kW/",
+    "hpText": "PS",
+    "doorsText": "Türe",
+    "km": "km",
+    "seatsText": "Sitze",
+    "gearText": "G",
+    "daysToSell": "Verkauft in",
+    "days": "Tage",
+    "sold12Months": "Verkauft 12 Mon",
+    "onStockText": "Auf lager"
+  },
+  "vehicleCard": {
+    "auctionEnds": "Auktion ended",
+    "at": "um",
+    "kwText": "kW/",
+    "hpText": "PS",
+    "doorsText": "Türe",
+    "km": "km",
+    "seatsText": "Sitze",
+    "gearText": "G",
+    "daysToSell": "Verkauft in",
+    "days": "Tage",
+    "sold12Months": "Verkauft 12 Mon",
+    "onStockText": "Auf Lager"
   }
 }

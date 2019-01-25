@@ -9,7 +9,8 @@ import {
   NO_MORE_VEHICLES,
   CLEAR_LIKES_DISLIKES,
   SUBMITTED_LIKED_VEHICLES,
-  VEHICLES_OUTDATED
+  VEHICLES_OUTDATED,
+  NO_LIKED_VEHICLES
 } from "./types";
 import URLs from "../../../constants/URLs";
 import ApiKeys from "../../../constants/ApiKeys";
@@ -43,6 +44,12 @@ export const noMoreVehicles = () => {
 export const vehiclesOutdated = () => {
   return {
     type: VEHICLES_OUTDATED
+  };
+};
+
+export const noLikedVehicles = () => {
+  return {
+    type: NO_LIKED_VEHICLES
   };
 };
 
