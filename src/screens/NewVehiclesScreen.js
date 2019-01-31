@@ -117,8 +117,6 @@ class NewVehiclesScreen extends Component {
 
     // Save content strings to redux state
     this.props.saveStringsToState(strings);
-
-    //this.setState({ strings });
   };
 
   translateTabBarLabel = () => {

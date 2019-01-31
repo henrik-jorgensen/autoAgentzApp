@@ -19,16 +19,36 @@ import { Icon } from "native-base";
 import axios from "axios";
 import { connect } from "react-redux";
 import { NavigationEvents } from "react-navigation";
-import { Spinner } from "../../components/common";
+import { Localization } from "expo-localization";
 
+import { Spinner } from "../../components/common";
 import * as actions from "../../redux/actions";
 import URLs from "../../../constants/URLs";
 import ApiKeys from "../../../constants/ApiKeys";
+import { Translations } from "../../components/common/Translations";
 
 const SCREEN_HEIGHT = Dimensions.get("window").height;
 const SCREEN_WIDTH = Dimensions.get("window").width;
 
 class AuthHomeScreen extends Component {
+  constructor(props) {
+    super(props);
+    if (!this.props.language) {
+      // Get device language and remove region identifier (the '-' and everything following)
+      const deviceLocale = Localization.locale.split("-")[0];
+      console.log("Device language: ", deviceLocale);
+
+      // Set device language as user's preferred language in redux state
+      this.props.setLanguage(deviceLocale);
+
+      // get content strings in correct language
+      this.handleStrings(deviceLocale);
+    } else {
+      // get content strings in correct language
+      this.handleStrings(this.props.language);
+    }
+  }
+
   static navigationOptions = {
     header: null
   };
@@ -94,6 +114,14 @@ class AuthHomeScreen extends Component {
     }
 
     return;
+  };
+
+  handleStrings = language => {
+    // get strings in correct language
+    const strings = Translations(language);
+
+    // Save content strings to redux state
+    this.props.saveStringsToState(strings);
   };
 
   keyboardWillShow = event => {
@@ -181,19 +209,14 @@ class AuthHomeScreen extends Component {
   handleSubmit = async () => {
     // remove spaces from phoneNumber
     let phone = this.props.phone.split(" ").join("");
+    const strings = this.props.strings.helpMessages;
 
     if (phone.length < 8) {
-      return Alert.alert(
-        "Help Message",
-        "You must enter an 8 digit phone number to continue."
-      );
+      return Alert.alert(strings.oopsHeader, strings.phoneLengthHelp);
     }
 
     if (!this.props.isConnected) {
-      return Alert.alert(
-        "Help Message",
-        "Your internet connection is offline. You must be online to continue."
-      );
+      return Alert.alert(strings.oopsHeader, strings.isConnectedHelp);
     }
 
     this.setState({ error: "", loading: true });
@@ -215,7 +238,7 @@ class AuthHomeScreen extends Component {
           error: error.response.data.error.message,
           loading: false
         });
-        return Alert.alert("Help Message", this.state.error);
+        return Alert.alert(strings.oopsHeader, this.state.error);
       }
     }
   };
@@ -242,7 +265,7 @@ class AuthHomeScreen extends Component {
     if (Platform.OS === "ios") {
       return 80;
     } else {
-      return 100;
+      return 71;
     }
   };
 
@@ -250,7 +273,7 @@ class AuthHomeScreen extends Component {
     if (Platform.OS === "ios") {
       return 100;
     } else {
-      return 120;
+      return 91;
     }
   };
 
@@ -277,7 +300,10 @@ class AuthHomeScreen extends Component {
         error: error.response.data.error.message,
         loading: false
       });
-      return Alert.alert("Help Message", this.state.error);
+      return Alert.alert(
+        this.props.strings.helpMessages.helpHeader,
+        this.state.error
+      );
     }
   };
 
@@ -345,6 +371,13 @@ class AuthHomeScreen extends Component {
       inputRange: [100, 400, SCREEN_HEIGHT],
       outputRange: [500, 375, this.handleForwardArrowTop()]
     });
+
+    // get strings in preferred language from redux. If not available yet
+    // get strings from Translations component based on device language
+    const strings =
+      this.props.strings && this.props.strings.authHome
+        ? this.props.strings.authHome
+        : Translations(Localization.locale.split("-")[0]).authHome;
 
     return (
       <View style={styles.container}>
@@ -421,7 +454,7 @@ class AuthHomeScreen extends Component {
                   onPress={() => this.increaseHeightOfLogin()}
                   style={styles.mwrButton}
                 >
-                  <Text style={styles.mwrTextStyle}>CONTINUE</Text>
+                  <Text style={styles.mwrTextStyle}>{strings.continue}</Text>
                 </TouchableOpacity>
               </Animated.View>
 
@@ -435,7 +468,7 @@ class AuthHomeScreen extends Component {
                   opacity: loginOpacity
                 }}
               >
-                Enter your mobile number
+                {strings.enterMobileNo}
               </Animated.Text>
 
               <Animated.View
@@ -624,8 +657,9 @@ const styles = StyleSheet.create({
 const mapStateToProps = state => {
   const { prefix, phone } = state.auth;
   const { isConnected } = state.online;
+  const { language, strings } = state.locale;
 
-  return { prefix, phone, isConnected };
+  return { prefix, phone, isConnected, strings, language };
 };
 
 export default connect(

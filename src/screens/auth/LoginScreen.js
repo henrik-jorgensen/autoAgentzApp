@@ -63,24 +63,19 @@ class LoginScreen extends Component {
 
   handleSubmit = async () => {
     const { phone, prefix } = this.props;
+    const strings = this.props.strings.helpMessages;
 
     // remove spaces from code
     let code = this.state.code.split("  ").join("");
 
     // check if code length is valid
     if (code.length < 6) {
-      return Alert.alert(
-        "Help Message",
-        "You must provide a six digit code to continue"
-      );
+      return Alert.alert(strings.oopsHeader, strings.enterCodeHelp);
     }
 
     // check if phone is connected to the Internet
     if (!this.props.isConnected) {
-      return Alert.alert(
-        "Help Message",
-        "Your internet connection is offline. You must be online to continue."
-      );
+      return Alert.alert(strings.oopsHeader, strings.isConnectedHelp);
     }
 
     this.setState({ error: "", loading: true });
@@ -103,7 +98,7 @@ class LoginScreen extends Component {
         loading: false,
         error: error.response.data.error.message
       });
-      return Alert.alert("Help Message", this.state.error);
+      return Alert.alert(strings.oopsHeader, this.state.error);
     }
   };
 
@@ -141,7 +136,7 @@ class LoginScreen extends Component {
         {/* Content Area */}
         <View style={styles.content}>
           <Text style={styles.text}>
-            Enter the six digit code that was sent to your mobile phone.
+            {this.props.strings.loginScreen.enterCode}
           </Text>
 
           <View style={styles.textInputView}>
@@ -238,8 +233,9 @@ const styles = StyleSheet.create({
 const mapStateToProps = state => {
   const { prefix, phone } = state.auth;
   const { isConnected } = state.online;
+  const { strings } = state.locale;
 
-  return { prefix, phone, isConnected };
+  return { prefix, phone, isConnected, strings };
 };
 
 export default connect(

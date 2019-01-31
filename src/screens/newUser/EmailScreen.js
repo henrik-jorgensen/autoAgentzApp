@@ -73,12 +73,10 @@ class EmailScreen extends Component {
 
   handleSubmit = () => {
     const email = this.props.email;
+    const strings = this.props.strings.helpMessages;
 
     if (email.length < 7 || !email.includes(".") || !email.includes("@")) {
-      return Alert.alert(
-        "Help Message",
-        "You must enter a valid email address to continue."
-      );
+      return Alert.alert(strings.oopsHeader, strings.enterEmailHelp);
     }
 
     this.props.navigation.navigate("terms");
@@ -121,7 +119,7 @@ class EmailScreen extends Component {
 
         {/* Content */}
         <Text style={[{ top: this.handleTextTop() }, styles.text]}>
-          Enter your email address
+          {this.props.strings.emailScreen.enterEmail}
         </Text>
         <View style={[{ top: this.handleInputViewTop() }, styles.inputView]}>
           <TextInput
@@ -212,8 +210,9 @@ const styles = StyleSheet.create({
 
 const mapStateToProps = state => {
   const { email } = state.newUser;
+  const { strings } = state.locale;
 
-  return { email };
+  return { email, strings };
 };
 
 export default connect(

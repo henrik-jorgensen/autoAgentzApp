@@ -72,11 +72,10 @@ class NameScreen extends Component {
   };
 
   handleSubmit = () => {
+    const strings = this.props.strings.helpMessages;
+
     if (this.props.name.length < 5 || !this.props.name.includes(" ")) {
-      return Alert.alert(
-        "Help Message",
-        "You must enter your first and last name to continue."
-      );
+      return Alert.alert(strings.oopsHeader, strings.enterNameHelp);
     }
 
     this.props.navigation.navigate("company");
@@ -119,7 +118,7 @@ class NameScreen extends Component {
 
         {/* Content */}
         <Text style={[{ top: this.handleTextTop() }, styles.text]}>
-          Enter your name
+          {this.props.strings.nameScreen.enterName}
         </Text>
         <View style={[{ top: this.handleInputViewTop() }, styles.inputView]}>
           <TextInput
@@ -210,8 +209,9 @@ const styles = StyleSheet.create({
 
 const mapStateToProps = state => {
   const { name } = state.newUser;
+  const { strings } = state.locale;
 
-  return { name };
+  return { name, strings };
 };
 
 export default connect(

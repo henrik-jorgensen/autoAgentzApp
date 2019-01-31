@@ -3,7 +3,7 @@
   "mainTabNavigator": {
     "newVehicles": "Neue Fahrzeuge",
     "like": "Ja",
-    "nope": "Nein",
+    "nope": "Nee",
     "settings": "Mehr"
   },
   "authHome": {
@@ -37,7 +37,13 @@
     "freeTrialHeader": "Free Trial",
     "phoneLengthHelp": "You must enter an 8 digit phone number to continue.",
     "isConnectedHelp": "Looks like you lost your internet connection. Please reconnect and try again.",
-    "freeTrialHelp": "Your free trial is not ready yet"
+    "freeTrialHelp": "Your free trial is not ready yet",
+    "enterNameHelp": "You must enter your first and last name to continue",
+    "enterCompanyHelp": "You must enter your company name to continue",
+    "enterWebsiteHelp": "You must enter your website address to continue",
+    "enterEmailHelp": "You must enter a valid email address to continue",
+    "enterCodeHelp": "You must provide a six digit code to continue",
+    "declineTermsHelp": "You must agree to the Terms of Service and Privacy Policy in order to use this service"
   },
   "settings": {
     "signOut": "Ausloggen",
@@ -49,12 +55,12 @@
     "userID": "Nutzer-ID"
   },
   "liked": {
-    "noVehicles": "Es gibt noch keine Fahrzeuge auf der Ja Liste",
-    "likesSubmitted": "Ihre Ja Fahrzeuge sind versandt worden!"
+    "noVehicles": "Keine Fahrzeuge auf der Ja Liste",
+    "likesSubmitted": "Deine Ja Fahrzeuge sind versandt worden!"
   },
   "nope": {
-    "noVehicles": "Es gibt noch keine Fahrzeuge auf der Nein Liste",
-    "likesSubmitted": "Ihre Ja Fahrzeuge sind versandt worden!"
+    "noVehicles": "Keine Fahrzeuge auf der Nee Liste",
+    "likesSubmitted": "Deine Ja Fahrzeuge sind versandt worden!"
   },
   "vehicleCardDemo": {
     "demoVehicle": "DEMO FAHRZEUG",
@@ -84,5 +90,47 @@
     "days": "Tage",
     "sold12Months": "Verkauft 12 Mon",
     "onStockText": "Auf Lager"
+  },
+  "welcome": {
+    "welcomeTo": "Welcome to",
+    "welcomeText": "We will contact you shortly to set up your free 2 week trial",
+    "demoButton": "Try the app with demo vehicles"
+  },
+  "cardHelp": {
+    "swipeRight": "SWIPE RIGHT",
+    "to": "to",
+    "likeAVehicle": "like a vehicle",
+    "swipeLeft": "SWIPE LEFT",
+    "dismissAVehicle": "dismiss a vehicle",
+    "gotIt": "Got it!"
+  },
+  "authHome": {
+    "continue": "FORTSETZEN",
+    "enterMobileNo": "Deine Handynummer eingeben"
+  },
+  "swipe": {
+    "like": "JA",
+    "nope": "NEE"
+  },
+  "nameScreen": {
+    "enterName": "Enter your name"
+  },
+  "companyScreen": {
+    "enterCompanyName": "Enter your company name"
+  },
+  "websiteScreen": {
+    "enterWebsite": "Enter your website address"
+  },
+  "emailScreen": {
+    "enterEmail": "Enter your email address"
+  },
+  "acceptTermsScreen": {
+    "doYouAgreeTo": "Do you agree to autoAgentz's",
+    "termsOfService": "Terms of Service",
+    "and": "and",
+    "privacyPolicy": "Privacy Policy"
+  },
+  "loginScreen": {
+    "enterCode": "Enter the six digit code that was sent to your mobile phone"
   }
 }

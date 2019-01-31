@@ -72,11 +72,10 @@ class CompanyScreen extends Component {
   };
 
   handleSubmit = () => {
+    const strings = this.props.strings.helpMessages;
+
     if (this.props.company.length < 3) {
-      return Alert.alert(
-        "Help Message",
-        "You must enter your company name to continue."
-      );
+      return Alert.alert(strings.oopsHeader, strings.enterCompanyHelp);
     }
 
     this.props.navigation.navigate("website");
@@ -119,7 +118,7 @@ class CompanyScreen extends Component {
 
         {/* Content */}
         <Text style={[{ top: this.handleTextTop() }, styles.text]}>
-          Enter your company name
+          {this.props.strings.companyScreen.enterCompanyName}
         </Text>
         <View style={[{ top: this.handleInputViewTop() }, styles.inputView]}>
           <TextInput
@@ -210,8 +209,9 @@ const styles = StyleSheet.create({
 
 const mapStateToProps = state => {
   const { company } = state.newUser;
+  const { strings } = state.locale;
 
-  return { company };
+  return { company, strings };
 };
 
 export default connect(

@@ -15,10 +15,10 @@
     "resettingVehicles": "Nulstiller biler",
     "submittingLikesText": "Indsender Jeps listen",
     "demoAllDone": "Færdig!",
-    "demoAllDoneInfo": "Hvis du havde indsendt rigtige biler, ville de blive tilføjet dine favoritlister på de relevante auktion sites.",
+    "demoAllDoneInfo": "Hvis du havde jeps'et rigtige biler, ville de blive tilføjet dine favoritlister på de aktuelle auktion sites",
     "demoBackToWelcome": "Tilbage til velkomstskærmen",
     "demoNoMoreVehicles": "Ikke flere biler for i dag",
-    "demoNoMoreVehiclesInfo": "I \"Jeps\" og \"Niks\" menuerne nedenfor kan du gennemse bilerne, du har Jeps'et og Niks'et",
+    "demoNoMoreVehiclesInfo": "I \"Jeps\" og \"Niks\" menuerne nedenfor kan du gennemse bilerne, du har jeps'et og niks'et",
     "demoSubmitLikesButton": "Fortsæt",
     "allDone": "Færdig!",
     "allDoneInfo": "Kom tilbage i morgen for flere biler",
@@ -27,17 +27,23 @@
     "noMoreVehicles": "Ikke flere biler for i dag",
     "noMoreVehiclesInfo": "Klik på knappen nedenfor for at tilføje jepsede biler til din favoritliste",
     "submitLikesButton": "Føj Jeps liste til favoritter",
-    "noLikedVehiclesInfo": "Du jepsede ikke nogen biler. Kontakt os gerne, hvis du vil have lavet ændringer i dit daglige feed",
+    "noLikedVehiclesInfo": "Du jepsede ikke nogen biler. Kontakt os gerne, hvis du vil have justeret dit daglige feed",
     "confirmNoLikesButton": "Ingen jepsede biler i dag",
     "noLikesResetVehiclesButton": "Ups, jeg vil gerne starte forfra"
   },
   "helpMessages": {
     "helpHeader": "Hjælpebesked",
-    "oopsHeader": "Oops, something went wrong",
+    "oopsHeader": "Ups, noget gik galt",
     "freeTrialHeader": "Gratis test",
-    "phoneLengthHelp": "Du skal indtaste et 8-cifret telefonnummer for at fortsætte.",
-    "isConnectedHelp": "Det ser ud til at din internetforbindelse er offline. Du skal være online for at fortsætte.",
-    "freeTrialHelp": "Din gratis test er ikke klar endnu"
+    "phoneLengthHelp": "Du skal indtaste et 8-cifret telefonnummer for at fortsætte",
+    "isConnectedHelp": "Det ser ud til at din internetforbindelse er offline. Du skal være online for at fortsætte",
+    "freeTrialHelp": "Din gratis test er ikke klar endnu",
+    "enterNameHelp": "Du skal indtaste dit fornavn og efternavn for at fortsætte",
+    "enterCompanyHelp": "Du skal indtaste dit firmanavn for at fortsætte",
+    "enterWebsiteHelp": "Du skal indtaste din hjemmeside-adresse for at fortsætte",
+    "enterEmailHelp": "Du skal indtaste en valid e-mailadresse for at fortsætte",
+    "enterCodeHelp": "Du skal indtaste en 6-cifret kode for at fortsætte",
+    "declineTermsHelp": "Du skal acceptere vores servicevilkår og privatlivspolitik for at benytte denne app"
   },
   "settings": {
     "signOut": "Log ud",
@@ -49,11 +55,11 @@
     "userID": "Bruger-id"
   },
   "liked": {
-    "noVehicles": "Ingen biler på Jeps listen endnu",
+    "noVehicles": "Ingen biler på Jeps listen",
     "likesSubmitted": "Dine biler på Jeps listen er blevet sendt!"
   },
   "nope": {
-    "noVehicles": "Ingen biler på Niks listen endnu",
+    "noVehicles": "Ingen biler på Niks listen",
     "likesSubmitted": "Dine biler på Jeps listen er blevet sendt!"
   },
   "vehicleCardDemo": {
@@ -84,5 +90,47 @@
     "days": "dage",
     "sold12Months": "Solgt 12 mdr",
     "onStockText": "På lager"
+  },
+  "welcome": {
+    "welcomeTo": "Velkommen til",
+    "welcomeText": "Vi kontakter dig snarest for at klargøre din 2 ugers gratis test",
+    "demoButton": "Prøv app'en med demobiler"
+  },
+  "cardHelp": {
+    "swipeRight": "SWIPE TIL HØJRE",
+    "to": "for at",
+    "likeAVehicle": "synes godt om en bil",
+    "swipeLeft": "SWIPE TIL VENSTRE",
+    "dismissAVehicle": "afvise en bil",
+    "gotIt": "OK"
+  },
+  "authHome": {
+    "continue": "FORTSÆT",
+    "enterMobileNo": "Indtast dit mobilnummer"
+  },
+  "swipe": {
+    "like": "JEPS",
+    "nope": "NIKS"
+  },
+  "nameScreen": {
+    "enterName": "Indtast dit navn"
+  },
+  "companyScreen": {
+    "enterCompanyName": "Indtast dit firmanavn"
+  },
+  "websiteScreen": {
+    "enterWebsite": "Indtast din hjemmeside"
+  },
+  "emailScreen": {
+    "enterEmail": "Indtast din e-mailadresse"
+  },
+  "acceptTermsScreen": {
+    "doYouAgreeTo": "Vil du acceptere autoAgentz's",
+    "termsOfService": "servicevilkår",
+    "and": "og",
+    "privacyPolicy": "privatlivspolitik"
+  },
+  "loginScreen": {
+    "enterCode": "Indtast den 6-cifrede kode, som er blevet sendt til din mobil"
   }
 }

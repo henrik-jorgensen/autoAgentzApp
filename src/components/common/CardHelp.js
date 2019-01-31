@@ -7,12 +7,15 @@ import {
   Dimensions,
   TouchableOpacity
 } from "react-native";
+import { connect } from "react-redux";
 
 const SCREEN_WIDTH = Dimensions.get("window").width;
 const SCREEN_HEIGHT = Dimensions.get("window").height;
 
 class CardHelp extends Component {
   render() {
+    const strings = this.props.strings.cardHelp;
+
     return (
       <View>
         {/* SWIPE RIGHT HELP */}
@@ -32,14 +35,14 @@ class CardHelp extends Component {
                 : [styles.textStyle, { fontFamily: "OpenSans_bold" }]
             }
           >
-            SWIPE RIGHT
+            {strings.swipeRight}
           </Text>
           <Text
             style={
               SCREEN_HEIGHT <= 568 ? styles.textStyleSmall : styles.textStyle
             }
           >
-            to{" "}
+            {strings.to}{" "}
             <Text
               style={
                 SCREEN_HEIGHT <= 568
@@ -47,7 +50,7 @@ class CardHelp extends Component {
                   : styles.textStyleGreen
               }
             >
-              like a vehicle
+              {strings.likeAVehicle}
             </Text>
           </Text>
         </View>
@@ -69,14 +72,14 @@ class CardHelp extends Component {
                 : [styles.textStyle, { fontFamily: "OpenSans_bold" }]
             }
           >
-            SWIPE LEFT
+            {strings.swipeLeft}
           </Text>
           <Text
             style={
               SCREEN_HEIGHT <= 568 ? styles.textStyleSmall : styles.textStyle
             }
           >
-            to{" "}
+            {strings.to}{" "}
             <Text
               style={
                 SCREEN_HEIGHT <= 568
@@ -84,7 +87,7 @@ class CardHelp extends Component {
                   : styles.textStyleRed
               }
             >
-              dismiss a vehicle
+              {strings.dismissAVehicle}
             </Text>
           </Text>
         </View>
@@ -108,7 +111,7 @@ class CardHelp extends Component {
                   : styles.mwrTextStyle
               }
             >
-              Got it!
+              {strings.gotIt}
             </Text>
           </TouchableOpacity>
         </View>
@@ -184,4 +187,9 @@ const styles = StyleSheet.create({
   }
 });
 
-export default CardHelp;
+function mapStateToProps(state) {
+  const { strings } = state.locale;
+  return { strings };
+}
+
+export default connect(mapStateToProps)(CardHelp);

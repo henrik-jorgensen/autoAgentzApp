@@ -73,12 +73,10 @@ class WebsiteScreen extends Component {
 
   handleSubmit = () => {
     const website = this.props.website;
+    const strings = this.props.strings.helpMessages;
 
     if (website.length < 5 || !website.includes(".")) {
-      return Alert.alert(
-        "Help Message",
-        "You must enter your website address to continue."
-      );
+      return Alert.alert(strings.oopsHeader, strings.enterWebsiteHelp);
     }
 
     this.props.navigation.navigate("email");
@@ -121,7 +119,7 @@ class WebsiteScreen extends Component {
 
         {/* Content */}
         <Text style={[{ top: this.handleTextTop() }, styles.text]}>
-          Enter your website address
+          {this.props.strings.websiteScreen.enterWebsite}
         </Text>
         <View style={[{ top: this.handleInputViewTop() }, styles.inputView]}>
           <TextInput
@@ -212,8 +210,9 @@ const styles = StyleSheet.create({
 
 const mapStateToProps = state => {
   const { website } = state.newUser;
+  const { strings } = state.locale;
 
-  return { website };
+  return { website, strings };
 };
 
 export default connect(

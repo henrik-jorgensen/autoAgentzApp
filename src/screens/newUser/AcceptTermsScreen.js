@@ -90,19 +90,16 @@ class AcceptTermsScreen extends Component {
   };
 
   handleDeclineTerms = () => {
-    return Alert.alert(
-      "Help Message",
-      "You must agree to the Terms of Service and Privacy Policy in order to use this service"
-    );
+    const strings = this.props.strings.helpMessages;
+
+    return Alert.alert(strings.helpHeader, strings.declineTermsHelp);
   };
 
   handleSubmit = async () => {
+    const strings = this.props.strings.helpMessages;
     // check if phone is connected to the Internet
     if (!this.props.isConnected) {
-      return Alert.alert(
-        "Oops, something went wrong",
-        "Looks like you lost your internet connection. Please reconnect to continue."
-      );
+      return Alert.alert(strings.oopsHeader, strings.isConnectedHelp);
     }
 
     this.setState({ error: "", loading: true });
@@ -131,20 +128,18 @@ class AcceptTermsScreen extends Component {
         error: error.response.data.message,
         loading: false
       });
-      return Alert.alert("Oops, something went wrong", this.state.error);
+      return Alert.alert(strings.oopsHeader, this.state.error);
     }
 
     this.requestCode(prefix, phone);
   };
 
   requestCode = async (prefix, phone) => {
+    const strings = this.props.strings.helpMessages;
     // check if phone is connected to the Internet
     if (!this.props.isConnected) {
       this.setState({ loading: false });
-      return Alert.alert(
-        "Oops, something went wrong",
-        "Looks like you lost your internet connection. Please reconnect to continue."
-      );
+      return Alert.alert(strings.oopsHeader, strings.isConnectedHelp);
     }
 
     try {
@@ -161,7 +156,10 @@ class AcceptTermsScreen extends Component {
         error: error.response.data.error.message,
         loading: false
       });
-      return Alert.alert("Oops, something went wrong", this.state.error);
+      return Alert.alert(
+        this.props.strings.helpMessages.oopsHeader,
+        this.state.error
+      );
     }
   };
 
@@ -184,6 +182,7 @@ class AcceptTermsScreen extends Component {
   };
 
   render() {
+    strings = this.props.strings.acceptTermsScreen;
     return (
       <View style={styles.container}>
         {/* Back Button */}
@@ -202,19 +201,19 @@ class AcceptTermsScreen extends Component {
         {/* Content */}
         <View style={[{ top: this.handleTextTop() }, styles.viewContentStyle]}>
           <Text style={styles.text}>
-            Do you agree to autoAgentz's{" "}
+            {strings.doYouAgreeTo}{" "}
             <Text
               style={{ textDecorationLine: "underline" }}
               onPress={() => this.props.navigation.navigate("showTerms")}
             >
-              Terms of Service
+              {strings.termsOfService}
             </Text>{" "}
-            and{" "}
+            {strings.and}{" "}
             <Text
               style={{ textDecorationLine: "underline" }}
               onPress={() => this.props.navigation.navigate("privacyPolicy")}
             >
-              Privacy Policy
+              {strings.privacyPolicy}
             </Text>
             ?
           </Text>
@@ -304,8 +303,9 @@ const mapStateToProps = state => {
   const { prefix, phone } = state.auth;
   const { name, company, website, email } = state.newUser;
   const { isConnected } = state.online;
+  const { strings } = state.locale;
 
-  return { prefix, phone, name, company, website, email, isConnected };
+  return { prefix, phone, name, company, website, email, isConnected, strings };
 };
 
 export default connect(

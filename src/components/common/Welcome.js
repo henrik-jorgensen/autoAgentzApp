@@ -7,15 +7,18 @@ import {
   Dimensions,
   TouchableOpacity
 } from "react-native";
+import { connect } from "react-redux";
 
 const SCREEN_WIDTH = Dimensions.get("window").width;
 
 class Welcome extends Component {
   render() {
+    const strings = this.props.strings.welcome;
+
     return (
       <View>
         <View style={styles.viewStyle}>
-          <Text style={styles.textStyleWelcome}>Welcome to</Text>
+          <Text style={styles.textStyleWelcome}>{strings.welcomeTo}</Text>
         </View>
         <View style={styles.viewStyleLogo}>
           <Image
@@ -24,9 +27,7 @@ class Welcome extends Component {
           />
         </View>
         <View style={styles.viewStyleContent}>
-          <Text style={styles.textStyle}>
-            We will contact you shortly to set up your free 2 week trial
-          </Text>
+          <Text style={styles.textStyle}>{strings.welcomeText}</Text>
         </View>
         <View style={{ paddingHorizontal: 20 }}>
           <TouchableOpacity
@@ -40,7 +41,7 @@ class Welcome extends Component {
                   : styles.mwrTextStyle
               }
             >
-              Try the app with demo vehicles
+              {strings.demoButton}
             </Text>
           </TouchableOpacity>
         </View>
@@ -99,4 +100,9 @@ const styles = StyleSheet.create({
   }
 });
 
-export default Welcome;
+function mapStateToProps(state) {
+  const { strings } = state.locale;
+  return { strings };
+}
+
+export default connect(mapStateToProps)(Welcome);

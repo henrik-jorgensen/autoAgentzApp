@@ -138,7 +138,9 @@ class Swipe extends Component {
                   styles.likeTextAnimatedView
                 ]}
               >
-                <Text style={styles.likeText}>LIKE</Text>
+                <Text style={styles.likeText}>
+                  {this.props.strings.swipe.like}
+                </Text>
               </Animated.View>
 
               <Animated.View
@@ -147,7 +149,9 @@ class Swipe extends Component {
                   styles.dislikeTextAnimatedView
                 ]}
               >
-                <Text style={styles.dislikeText}>NOPE</Text>
+                <Text style={styles.dislikeText}>
+                  {this.props.strings.swipe.nope}
+                </Text>
               </Animated.View>
 
               {this.props.renderCard(item)}
@@ -236,7 +240,8 @@ const styles = StyleSheet.create({
 
 function mapStateToProps(state) {
   const { index } = state.swipe;
-  return { index };
+  const { strings } = state.locale;
+  return { index, strings };
 }
 
 export default connect(
