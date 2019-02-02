@@ -243,11 +243,22 @@ class AuthHomeScreen extends Component {
     }
   };
 
+  handleVehicleCardImage = () => {
+    if (!this.props.language) {
+      return require("../../../assets/vehicleCardEN.png");
+    }
+    if (this.props.language === "da") {
+      return require("../../../assets/vehicleCardDA.png");
+    }
+    if (this.props.language === "de") {
+      return require("../../../assets/vehicleCardDE.png");
+    }
+    return require("../../../assets/vehicleCardEN.png");
+  };
+
   handleVehicleCardStyle = () => {
-    if (SCREEN_HEIGHT <= 568) {
+    if (SCREEN_HEIGHT <= 667) {
       return styles.vehicleCardSmall;
-    } else if (SCREEN_HEIGHT <= 667) {
-      return styles.vehicleCardMedium;
     } else {
       return styles.vehicleCard;
     }
@@ -286,12 +297,14 @@ class AuthHomeScreen extends Component {
   };
 
   requestCode = async (prefix, phone) => {
+    console.log("this.props.language: ", this.props.language);
     try {
       await axios.post(URLs.requestPassword, {
         prefix: prefix,
         phone: phone,
         accountSid: ApiKeys.CloudFunctions.accountSid,
-        authToken: ApiKeys.CloudFunctions.authToken
+        authToken: ApiKeys.CloudFunctions.authToken,
+        language: this.props.language
       });
       this.setState({ loading: false, error: "" });
       this.props.navigation.navigate("login");
@@ -433,7 +446,7 @@ class AuthHomeScreen extends Component {
 
             {/* Vehicle card */}
             <Image
-              source={require("../../../assets/vehicleCard.png")}
+              source={this.handleVehicleCardImage()}
               style={this.handleVehicleCardStyle()}
             />
           </Animatable.View>
@@ -554,13 +567,13 @@ const styles = StyleSheet.create({
   },
   logoSection: {
     height: 80,
-    marginBottom: 20,
+    marginBottom: 5,
     alignItems: "center",
     justifyContent: "center"
   },
   logoSectionSmall: {
     height: 60,
-    marginBottom: 10,
+    marginBottom: 0,
     alignItems: "center",
     justifyContent: "center"
   },
@@ -579,23 +592,21 @@ const styles = StyleSheet.create({
   },
   logo: {
     width: 261,
-    height: 54,
-    borderRadius: 10
+    height: 54
   },
   logoSmall: {
     width: 217.5,
-    height: 45,
-    borderRadius: 5
+    height: 45
   },
   vehicleCard: {
-    width: 288,
-    height: 473,
-    borderRadius: 10
+    width: SCREEN_WIDTH - 20,
+    height: (SCREEN_WIDTH - 20) * 1.47191,
+    borderRadius: 15
   },
   vehicleCardSmall: {
-    width: 225.29,
-    height: 370,
-    borderRadius: 10
+    width: (SCREEN_HEIGHT - 180) / 1.47191,
+    height: SCREEN_HEIGHT - 180,
+    borderRadius: 15
   },
   vehicleCardMedium: {
     width: 274,

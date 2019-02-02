@@ -323,11 +323,11 @@ const styles = StyleSheet.create({
     flex: 1
   },
   textStyle: {
-    fontSize: 16,
+    fontSize: 14,
     paddingVertical: 4
   },
   textStyleSmall: {
-    fontSize: 14,
+    fontSize: 13,
     paddingVertical: 3
   },
   textStylePerformance: {

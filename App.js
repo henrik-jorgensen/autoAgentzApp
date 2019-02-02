@@ -112,7 +112,9 @@ export default class App extends React.Component {
     });
 
     const images = [
-      require("./assets/vehicleCard.png"),
+      require("./assets/vehicleCardDE.png"),
+      require("./assets/vehicleCardDA.png"),
+      require("./assets/vehicleCardEN.png"),
       require("./assets/LogoHorizontalWhite.png"),
       require("./assets/dk_flag.png"),
       require("./assets/swipeLeftIcon.png"),
