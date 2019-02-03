@@ -119,7 +119,8 @@ class AcceptTermsScreen extends Component {
           companyName: company,
           website: website,
           email: email,
-          mobile: uid
+          mobile: uid,
+          language: this.props.language
         }
       });
     } catch (error) {
@@ -147,7 +148,8 @@ class AcceptTermsScreen extends Component {
         prefix: prefix,
         phone: phone,
         accountSid: ApiKeys.CloudFunctions.accountSid,
-        authToken: ApiKeys.CloudFunctions.authToken
+        authToken: ApiKeys.CloudFunctions.authToken,
+        language: this.props.language
       });
       this.setState({ loading: false, error: "" });
       this.props.navigation.navigate("login");
@@ -303,9 +305,19 @@ const mapStateToProps = state => {
   const { prefix, phone } = state.auth;
   const { name, company, website, email } = state.newUser;
   const { isConnected } = state.online;
-  const { strings } = state.locale;
+  const { strings, language } = state.locale;
 
-  return { prefix, phone, name, company, website, email, isConnected, strings };
+  return {
+    prefix,
+    phone,
+    name,
+    company,
+    website,
+    email,
+    isConnected,
+    strings,
+    language
+  };
 };
 
 export default connect(

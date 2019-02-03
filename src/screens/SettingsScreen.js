@@ -225,7 +225,7 @@ class SettingsScreen extends Component {
           data={data}
           initValue="Select language"
           onChange={item => {
-            this.props.setLanguage(item.key);
+            this.props.setLanguage(item.key, this.props.uid);
             this.handleStrings(item.key);
             this.translateTabBarLabel();
             this.props.navigation.navigate("newVehicles", {
