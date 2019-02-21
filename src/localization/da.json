@@ -128,7 +128,9 @@
     "doYouAgreeTo": "Vil du acceptere autoAgentz's",
     "termsOfService": "servicevilkår",
     "and": "og",
-    "privacyPolicy": "privatlivspolitik"
+    "privacyPolicy": "privatlivspolitik",
+    "yes": "JA",
+    "no": "NEJ"
   },
   "loginScreen": {
     "enterCode": "Indtast den 6-cifrede kode, som er blevet sendt til din mobil"

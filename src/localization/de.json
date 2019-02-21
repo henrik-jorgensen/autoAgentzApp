@@ -128,7 +128,9 @@
     "doYouAgreeTo": "Do you agree to autoAgentz's",
     "termsOfService": "Terms of Service",
     "and": "and",
-    "privacyPolicy": "Privacy Policy"
+    "privacyPolicy": "Privacy Policy",
+    "yes": "JA",
+    "no": "NEIN"
   },
   "loginScreen": {
     "enterCode": "Enter the six digit code that was sent to your mobile phone"

@@ -1,0 +1,147 @@
+{
+  "title": "Privacy Policy",
+  "lastModified": "Last modified: ",
+  "lastModifiedDate": "7 February 2019",
+  "intro": "In this privacy policy it is explained what is personal data, what types of personal data we collect, for what purposes said data is collected, how it is processed and what rights you have in this regard.",
+  "pdp": {
+    "title": "1.  Personal Data Processing",
+    "whatIsPersonalData": "1.1  What is personal data",
+    "whatIsPersonalDataExplanation": "Personal data means any information relating to an identified or identifiable natural person, such as for instance your contact information or app settings.",
+    "generalPrinciplesForPdp": "1.2  General principles for personal data processing by AutoAgentz",
+    "generalPrinciplesIntro": "AutoAgentz adheres to the following principles when processing your personal data:",
+    "list": {
+      "bullet1": "We will only collect personal data for specified, explicit and legitimate purposes",
+      "bullet2": "We will not collect personal data beyond what is necessary to accomplish those purposes",
+      "bullet3": "We will not use personal data for purposes other than that for which the data was collected, except as stated herein, or with prior consent",
+      "bullet4": "We will not transfer personal data to third parties, except as stated herein, or with prior consent",
+      "bullet5": "We will maintain appropriate technical and organizational measures to protect your personal data against accidental or unlawful destruction or accidental loss, alteration, unauthorized disclosure or access and against all other unlawful forms of processing",
+      "bullet6": "Except when stated herein, we will not store personal data longer than is necessary to accomplish the purpose for which the data was collected or for which it is further processed, or as is required by law."
+    },
+    "gdprReference": "Your personal information is protected by law through the General Data Protection Regulation (REGULATION (EU) 2016/679 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation)."
+  },
+  "pdwc": {
+    "title": "Personal data we collect and process",
+    "intro": "When you engage with autoAgentz via various channels, including our websites, apps, and customer support, we collect and process your personal data. The personal data that we collect and process can be categorized as follows:",
+    "list": {
+      "bullet1": "Your personal details, such as your name, e-mail address, physical address (if provided), phone number, company name, IP address, device language, push token id, and preferred language.",
+      "bullet2": "Your purchase information, such as your personal details as specified above, your order information, such as product service name, date of purchase, your payment information, such as credit card or similar payment information and friend referral (if applicable).",
+      "bullet3": "Your use information, such as your personal details as specified above, product and app usage, date and frequency, and login credentials.",
+      "bullet4": "Requests for customer support and technical assistance, containing your personal details, as specified above.",
+      "bullet5": "Information provided when completing surveys, questionnaires and feedback forms, such as your personal details, as specified above, evaluation of product services, and your location information.",
+      "bullet6": "Your behavior information collected via use of cookies and similar technologies like pixels, tags and other identifiers in order to remember your preferences, to understand how our website and app are used and to customize our marketing offerings."
+    }
+  },
+  "hwupd": {
+    "title": "How we use your personal data",
+    "intro": "We only collect and process personal data, if at least one of the below mentioned purposes applies:",
+    "list": {
+      "bullet1": "You create a user profile on our autoAgentz app to try out our products and services.",
+      "bullet2": "We provide you with customized information on news, events, competitions and similar marketing content related to autoAgentz and our products and services. Our processing in this regard will be based on your consent thereto.",
+      "bullet3": "We handle your purchase orders, complete purchase transactions, and ensure delivery of purchased product(s) and service(s). Our processing is necessary for the performance of a contract, to which you are a party.",
+      "bullet4": "We provide you with relevant product software updates. Our processing is necessary for the purposes of the legitimate interests pursued by autoAgentz and such processing is not considered to be harmful towards you.",
+      "bullet5": "We provide you with customer service, handle your requests or complaints and provide you with product support. Our processing is necessary for the performance of a contract, to which you are a party.",
+      "bullet6": "We ensure better customer experience by providing you with personal benefits, such as discounts or customized offers based on previous purchases and possible friend referrals. Our processing in this regard will be based on your consent thereto.",
+      "bullet7": "We conduct analytics and statistics on use of our products and services to learn how our products and services are used, to improve the quality of our products and services and to develop new ones. Our processing is necessary for the purposes of the legitimate interests pursued by autoAgentz and such processing is not considered to be harmful towards you.",
+      "bullet8": "We collect your feedback regarding your use of autoAgentz products and services by inviting you to complete surveys, questionnaires or feedback forms. Our processing in this regard will be based on your consent thereto."
+    },
+    "end": "Accordingly, some of your personal data is collected and processed in order for us to fulfil our contractual obligations to you, for instance, when you purchase our products and services, and contact our customer support. Should you choose not to provide us with the requested and necessary personal data in this regard, we might not be able to fully satisfy your request."
+  },
+  "sppd": {
+    "title": "1.5  Where we store and process your personal data",
+    "intro": "Your personal data is stored and processed with Google Cloud Platform, which operates both within the EU and in third party countries. Therefore, your personal data may be stored both within the EU and in third party countries."
+  },
+  "disclosure": {
+    "title": "1.6  Disclosure of your personal data to third parties",
+    "intro": "As a general principle, we collect and process data in order to facilitate or improve autoAgentz’s products, services or offers. We do not sell your personal data or share the said data with third parties, except to the extent stated in this Privacy Policy.",
+    "content": "We may disclose your personal data to third parties to the extent required by law, court order or a decision rendered by a competent public authority and for the purpose of law enforcement. In addition, we may share your personal data with the following third parties:",
+    "list": {
+      "bullet1": "Third party vendors carrying out services on our behalf, including billing, sales, marketing, IT support, advertising, analytics, research, customer service, data storage, validation, security, fraud prevention, payment processing, SMS-services, and legal services. Such third-party vendors have access to perform these services but are prohibited from using your personal data for other purposes.",
+      "bullet2": "Third parties in order to establish, exercise or defend legal rights of AutoAgentz.",
+      "bullet3": "Third parties in the event of any merger, sale, joint venture, assignment, transfer or other disposition of all or any portion of AutoAgentz’s assets or stock (including without limitation in connection with any bankruptcy or similar proceedings).",
+      "bullet4": "Other third parties subject to your consent."
+    },
+    "end": "When we disclose your personal data to a third party, we take all reasonable steps to ensure that those third parties are bound by confidentiality and privacy obligations with respect to the protection of your personal data. The disclosure is conducted in compliance with legal requirements, including entering into data processing agreements with the relevant third parties, to ensure that personal data is only processed in accordance with our instructions, applicable law and regulations and for the purpose specified by us and to ensure adequate security measures."
+  },
+  "retention": {
+    "title": "1.7  Retention of your personal data",
+    "intro": "We keep your information for no longer than necessary for the purposes for which it is collected. The length of time for which we retain information depends on the purposes for which we collect and use it.",
+    "content1": "Personal data related to your purchase is kept and processed for a period of five (5) years from the date of purchase, unless such data is legitimately processed for other purposes, such as providing you with personal benefits or customized direct marketing upon your consent or for pursuing our legal claims, where maintaining such information is considered necessary.",
+    "content2": "Personal data related to our provision of direct marketing to you is kept and processed for a period of one (1) year from the date you last have been active in opening our marketing communication or otherwise showing interest in such communication.",
+    "content3": "Personal data related to your use of our apps is kept and processed for a period of three (3) years from the date you last have been active in using any of autoAgentz’s apps.",
+    "content4": "Personal data related to our provision of personal benefits to you is kept and processed for a period of five (5) years from the date of your last purchase of an autoAgentz product or service. Personal data related to your feedback on our products and services is kept and processed for a period of two (2) years from the completion date of the given survey, questionnaire of feedback form.",
+    "content5": "Relevant personal information will be deleted after expiry of the above-mentioned periods, unless such data legitimately can be kept and processed for other processing purposes, which we have legal basis for."
+  },
+  "cookies": {
+    "title": "1.8  Cookies",
+    "intro": "We use cookies and similar technologies like pixels, tags and other identifiers in order to remember your preferences, to understand how our websites and apps are used and to customize our marketing offerings.",
+    "content1": "A cookie is a small text file that is placed on your computer or mobile device when you visit a site, that enables us to: (1) recognize your computer; (2) store your preferences and settings; (3) understand the autoAgentz web pages you have visited; (4), enhance your user experience by delivering and measuring the effectiveness of content and advertising tailored to your interests; (5) perform searches and analytics; and (6) assist with security and administrative functions. Cookies are generally placed in your browser cache.",
+    "content2": "Pixels are tiny electronic tags with a unique identifier embedded in websites, online ads and/or email that are designed to: (1) collect usage information like ad impressions or clicks and e-mail open rates; (2) measure popularity of the advertising; and (3) access user cookies.",
+    "content3": "As we adopt additional technologies, we may also gather information through other methods.",
+    "content4": "Please note that you can change your settings to notify you when a cookie is being set or updated, or to block cookies altogether. Please consult the \"Help\" section of your browser for more information. Please note that by blocking, disabling, or managing any or all cookies, you may not have access to certain features or offerings on our website or apps. For example, to complete a purchase on our website, you will need to accept cookies sent by our site. For more information on the cookies we use and the purposes for which we use them, please refer to our Cookie Policy."
+  },
+  "responsible": {
+    "title": "1.9  Responsible for processing",
+    "intro": "AutoAgentz IVS, Ærøvænget 48, DK-5500 Middelfart, Denmark is data controller and is responsible for the processing of your personal data."
+  },
+  "yourRights": "2.  Your Rights",
+  "rightToAccess": {
+    "title": "2.1  Right to access your personal data and data portability",
+    "intro": "You have the right to access and receive the personal data concerning you, which you have provided to autoAgentz, in a structured, commonly used and machine-readable format and have the right to transmit those data to any third party, you should choose to.",
+    "content1": "The copy of your personal data will be delivered as soon as possible and within one month of receiving your request."
+  },
+  "rightToErasure": {
+    "title": "2.2  Right to erasure (\"right to be forgotten\")",
+    "intro": "You have the right to have your personal data deleted from AutoAgentz’s servers, unless autoAgentz is entitled or obliged by applicable law and regulations to keep and process such information regardless the withdrawal of your consent.",
+    "content1": "You may contact AutoAgentz to review, update or delete personal data stored about you. Please note that prior to accessing and making changes to your account, we will need to verify your identity properly.",
+    "content2": "Following your deletion request your personal data will be deleted from autoAgentz’ servers as soon as possible within one (1) month of receiving your request, while it might take a period of two (2) months to ensure complete deletion of any information that might be stored in our back-up."
+  },
+  "rightToWithdraw": {
+    "title": "2.3  Right to withdraw your consent",
+    "intro": "Some of AutoAgentz’s processing activities may be based on your consent. In such case, you have the right to withdraw your consent at any time. Withdrawal of your consent will not affect the lawfulness of processing conducted prior to the withdrawal.",
+    "content1": "If you withdraw your consent, AutoAgentz and third parties involved in personal data processing will cease to process your personal data, unless and to the extent the continued processing or storage is permitted or required according to the applicable personal data legislation or other applicable laws and regulations.",
+    "content2": "Please note that as a consequence of your withdrawal of your consent, autoAgentz may not be able to meet your requests or provide you with our services."
+  },
+  "rightToRestriction": {
+    "title": "2.4  Right to restriction of processing and right to object",
+    "intro": "You have the right to restriction of processing of your personal data, if the personal data is not correct, if the processing is unlawful, but you oppose erasure of your personal data, if AutoAgentz no longer needs your personal data for the purposes of processing, but storing such data is requested by you for the establishment, exercise or defence of legal claims, or if you have objected to processing and verification, whether autoAgentz still has legitimate interest in the given personal data is pending.",
+    "content1": "At any time you have the right to object to processing of your personal data collected and processed for purposes of the legitimate interests pursued by autoAgentz, for instance, when we provide you with relevant software updates, make your future purchases easier by remembering your shipping details, or when we conduct analytics and statistics on your use type, date and frequency of usage of our products and services. Please see the Contact section below for relevant contact details.",
+    "content2": "Furthermore, you have the right to object to processing of your personal data for direct marketing purposes. You can do so by unsubscribing from our marketing information by clicking on the unsubscribe link in the bottom of marketing communication from AutoAgentz."
+  },
+  "rightToRectification": {
+    "title": "2.5  Right to rectification",
+    "intro": "If you find that we have wrongful personal data stored about you, you have the right to have your data rectified. Please see the Contact section below for relevant contact details."
+  },
+  "rightToComplain": {
+    "title": "2.6  Right to complain",
+    "intro": "If you want to complain about a privacy breach, please contact autoAgentz by sending your complaint to AutoAgentz IVS, Ærøvænget 48, DK-5500 Middelfart, Denmark, or by sending an e-mail to gdpr@autoagentz.com.",
+    "content1": "We will acknowledge receipt of your complaint within five (5) business days. We will do our best to resolve it as quickly as possible and within one (1) month from the date of complaint. In case the response will require longer term than one (1) month, we will let you know and inform you of the relevant reason(s).",
+    "content2": "If you are not satisfied with the outcome of your complaint or with the handling of your complaint at AutoAgentz, you may refer your complaint to the Danish Data Protection Authority, Datatilsynet, Borgergade 28, 5., DK-1300 Copenhagen, Denmark or by sending an e-mail to dt@datatilsynet.dk."
+  },
+  "miscellaneous": "3.  Miscellaneous",
+  "thirdParty": {
+    "title": "3.1  Third-party websites, plug-ins and services",
+    "intro": "Websites and apps of AutoAgentz may contain links to third party websites, plug-ins, for instance social media login plug-ins, and other services.",
+    "content1": "If you choose to use these websites, plug-ins or services, you may disclose your information to those third-parties. autoAgentz is not responsible for the content or practices of those websites, plug-ins or services. The collection, use, and disclosure of your personal data will be subject to the privacy policies of these third parties and not this Privacy Policy. We urge you to read the privacy and security policies of the relevant third-parties."
+  },
+  "dataSecurity": {
+    "title": "3.2  Data security",
+    "intro": "AutoAgentz is committed to protecting the security of your personal data. We use necessary organizational, technical, and administrative measures to protect your personal data under control of AutoAgentz, such as control of access, transmission, input and availability and the separation of data.",
+    "content1": "Access to a number of online services at AutoAgentz are protected by access restrictions based on user name and password.",
+    "content2": "Your personal details, if you have provided such to AutoAgentz remain encrypted in AutoAgentz’s secure web servers. All external transmissions of personal data facilitated by autoAgentz are protected by encryption.",
+    "content3": "If you have reason to believe that your interaction with AutoAgentz is no longer secure (for example, if you feel that the security of any account you might have with autoAgentz has been compromised), please notify us of the problem immediately by contacting us. Please see Contact section below for relevant contact details."
+  },
+  "changes": {
+    "title": "3.3  Changes to our Privacy Policy",
+    "intro": "AutoAgentz may modify or update this Privacy Policy when necessary to reflect changes in AutoAgentz’s products and services, changes in applicable legislation, regulations or practice and to address customer feedback. Accordingly, please review it periodically. Date of the latest update is always provided on the top of the document.",
+    "content1": "If there are material changes to this Privacy Policy, we will notify you either by posting a notice or by sending you a notification."
+  },
+  "contact": {
+    "title": "3.4  Contact details",
+    "intro": "If you have questions about this Privacy Policy or AutoAgentz’s processing of your personal data, please contact us at:",
+    "company": "AutoAgentz IVS",
+    "street": "Ærøvænget 48",
+    "postcodeCity": "DK-5500 Middelfart",
+    "country": "Denmark",
+    "end": "or by sending an email to gdpr@autoagentz.com."
+  }
+}

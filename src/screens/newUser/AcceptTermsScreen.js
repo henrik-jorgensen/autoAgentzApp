@@ -178,7 +178,10 @@ class AcceptTermsScreen extends Component {
           styles.agreeButton
         ]}
       >
-        <Icon name="md-checkmark" style={styles.icon} />
+        {/*<Icon name="md-checkmark" style={styles.icon} />*/}
+        <Text style={{ color: "#fff", fontSize: 22 }}>
+          {this.props.strings.acceptTermsScreen.yes}
+        </Text>
       </TouchableOpacity>
     );
   };
@@ -234,7 +237,10 @@ class AcceptTermsScreen extends Component {
               styles.declineButton
             ]}
           >
-            <Icon name="md-close" style={styles.icon} />
+            {/*<Icon name="md-close" style={styles.icon} />*/}
+            <Text style={{ color: "#fff", fontSize: 22 }}>
+              {this.props.strings.acceptTermsScreen.no}
+            </Text>
           </TouchableOpacity>
         </View>
       </View>
@@ -253,25 +259,25 @@ const styles = StyleSheet.create({
     justifyContent: "space-around"
   },
   declineButton: {
-    height: 65,
-    width: 65,
+    height: 70,
+    width: 70,
     backgroundColor: "#B33A3A",
     alignItems: "center",
     justifyContent: "center",
-    borderRadius: 33
+    borderRadius: 38
   },
   agreeButton: {
-    height: 65,
-    width: 65,
+    height: 70,
+    width: 70,
     backgroundColor: "#4BB543",
     paddingLeft: 2,
     alignItems: "center",
     justifyContent: "center",
-    borderRadius: 33
+    borderRadius: 38
   },
   agreeButtonView: {
-    height: 65,
-    width: 65,
+    height: 70,
+    width: 70,
     backgroundColor: "#222",
     paddingLeft: 2,
     alignItems: "center",
