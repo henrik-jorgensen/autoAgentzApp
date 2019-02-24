@@ -13,8 +13,7 @@ import { Icon } from "native-base";
 import { connect } from "react-redux";
 
 import * as actions from "../../redux/actions";
-import { Spinner } from "../../components/common";
-import { PrivacyPolicy } from "../../components/common/PrivacyPolicy";
+import { PrivacyPolicy } from "../../components/common/Translations";
 
 const SCREEN_WIDTH = Dimensions.get("window").width;
 const SCREEN_HEIGHT = Dimensions.get("window").height;
@@ -418,7 +417,7 @@ class PrivacyPolicyScreen extends Component {
                 style={{ color: "#fff", fontSize: 28 }}
               />
               {"  "}
-              Go back
+              {this.props.strings.goBack}
             </Text>
           </TouchableOpacity>
         </View>
@@ -505,9 +504,9 @@ const styles = StyleSheet.create({
 });
 
 const mapStateToProps = state => {
-  const { language } = state.locale;
+  const { language, strings } = state.locale;
 
-  return { language };
+  return { language, strings };
 };
 
 export default connect(

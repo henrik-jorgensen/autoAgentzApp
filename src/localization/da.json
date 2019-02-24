@@ -134,5 +134,6 @@
   },
   "loginScreen": {
     "enterCode": "Indtast den 6-cifrede kode, som er blevet sendt til din mobil"
-  }
+  },
+  "goBack": "Tilbage"
 }

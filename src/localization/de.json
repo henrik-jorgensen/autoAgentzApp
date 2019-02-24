@@ -125,14 +125,15 @@
     "enterEmail": "Enter your email address"
   },
   "acceptTermsScreen": {
-    "doYouAgreeTo": "Do you agree to autoAgentz's",
-    "termsOfService": "Terms of Service",
-    "and": "and",
-    "privacyPolicy": "Privacy Policy",
+    "doYouAgreeTo": "Do you agree to AutoAgentz's",
+    "termsOfService": "Geschäftsbedingungen",
+    "and": "und",
+    "privacyPolicy": "Datenschutzrichtlinie",
     "yes": "JA",
     "no": "NEIN"
   },
   "loginScreen": {
     "enterCode": "Enter the six digit code that was sent to your mobile phone"
-  }
+  },
+  "goBack": "Zurück"
 }
