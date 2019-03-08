@@ -43,7 +43,7 @@
     "enterWebsiteHelp": "Du skal indtaste din hjemmeside-adresse for at fortsætte",
     "enterEmailHelp": "Du skal indtaste en valid e-mailadresse for at fortsætte",
     "enterCodeHelp": "Du skal indtaste en 6-cifret kode for at fortsætte",
-    "declineTermsHelp": "Du skal acceptere vores servicevilkår og privatlivspolitik for at benytte denne app"
+    "declineTermsHelp": "Du skal acceptere vores servicevilkår og privatlivspolitik for at kunne benytte denne app"
   },
   "settings": {
     "signOut": "Log ud",
@@ -125,7 +125,7 @@
     "enterEmail": "Indtast din e-mailadresse"
   },
   "acceptTermsScreen": {
-    "doYouAgreeTo": "Vil du acceptere autoAgentz's",
+    "doYouAgreeTo": "Er du enig i, og accepterer du autoAgentz's",
     "termsOfService": "servicevilkår",
     "and": "og",
     "privacyPolicy": "privatlivspolitik",

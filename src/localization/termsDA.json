@@ -1,163 +1,163 @@
 {
-  "title": "Vilkår og betingelser",
+  "title": "Servicevilkår",
   "effectiveFrom": "Gældende fra ",
   "effectiveDate": "7. februar 2019",
-  "termsIntro": "Hej og velkommen til vores vilkår og betingelser. This is important and affects your legal rights, so please read them and our Privacy Policy and other terms referenced in this document carefully",
+  "termsIntro": "Hej og velkommen til vores servicevilkår. De er vigtige og påvirker dine juridiske rettigheder. Læs derfor servicevilkårene, vores privatlivspolitik samt de øvrige betingelser, der bliver refereret til i dette dokument, omhyggeligt.",
   "introduction": {
     "title": "1.  Indledning",
-    "intro": "Thanks for choosing AutoAgentz (“AutoAgentz”, “we”, “us”, “our”). By signing up or otherwise using the AutoAgentz service, websites, and software applications (together, the “AutoAgentz Service” or “Service”)  you are entering into a binding contract with the AutoAgentz entity indicated at the bottom of this document.",
-    "content1": "Your agreement with us includes these Terms of Service (“Terms”) and our Privacy Policy. (The Terms, Privacy Policy, and any additional terms that you agree to, as discussed in the Entire Agreement section, are referred to together as the “Agreements”.) If you wish to review the terms of the Agreements, the effective version of the Agreements can be found on AutoAgentz’s website. You acknowledge that you have read and understood the Agreements, accept these Agreements, and agree to be bound by them. If you don’t agree with (or cannot comply with) the Agreements, then you may not use the AutoAgentz Service.",
-    "content2": "Please read the Agreements carefully. They cover important information about AutoAgentz Services provided to you and any charges, taxes, and fees we bill you. The Agreements include information about future changes to the Agreements, automatic renewals, limitations of liability, privacy information, a class action waiver, and resolution of disputes by arbitration instead of in court.",
-    "content3": "Any information that you provide during sign-up can be corrected during the sign-up process by returning to the previous screens and correcting erroneous information.",
-    "content4": "In order to use the AutoAgentz Service and access the Content, you need to (1) be 18 or older, (2) have the power to enter a binding contract with us and not be barred from doing so under any applicable laws, and (3) be resident in a country where the Service is available. You also promise that any registration information that you submit to AutoAgentz is true, accurate, and complete, and you agree to keep it that way at all times."
+    "intro": "Tak fordi at du valgte AutoAgentz (“AutoAgentz”, “vi”, “os”, “vores”). Ved at tilmelde dig eller på anden måde bruge AutoAgentz’s tjeneste, hjemmesider og software applikationer (tilsammen “AutoAgentz Servicen” eller “Servicen”) indgår du en bindende aftale med AutoAgentz-entiteten, der er angivet i bunden af dette dokument.",
+    "content1": "Din aftale med os indeholder disse Servicevilkår (\"Vilkår\") og vores Privatlivspolitik. (Vilkårene, privatlivspolitikken og eventuelle yderligere vilkår, som du accepterer, som beskrevet i afsnittet Hele aftalen, henvises tilsammen som \"Aftalerne\".) Hvis du ønsker at gennemgå vilkårene i aftalerne, findes den gældende version af Aftalerne på AutoAgentz’s hjemmeside (www.autoagentz.com). Du anerkender, at du har læst og forstået aftalerne, accepteret disse aftaler og accepterer at være bundet af dem. Hvis du ikke er enig i (eller ikke overholder) Aftalerne, må du ikke bruge AutoAgentz-tjenesten.",
+    "content2": "Læs venligst aftalerne omhyggeligt. De dækker vigtige oplysninger om AutoAgentz Servicen, som vi stiller til rådighed for dig, og om eventuelle gebyrer og afgifter, vi fakturerer dig. Aftalerne indeholder oplysninger om fremtidige ændringer i Aftalerne, automatiske fornyelser, ansvarsbegrænsninger, oplysninger om privatlivets fred, gruppesøgsmålafkald og løsning af tvister ved voldgift i stedet for i retten.",
+    "content3": "Oplysninger, du giver under tilmeldingen, kan rettes under registreringsprocessen ved at vende tilbage til de forrige skærme og ændre de forkerte oplysninger.",
+    "content4": "For at bruge AutoAgentz Servicen og få adgang til indholdet, skal du (1) være 18 år eller ældre, (2) have beføjelse til at indgå en bindende kontrakt med os og ikke være forhindret i at gøre det i henhold til gældende lovgivning og (3) være bosat i et land, hvor Servicen er tilgængelig. Du lover også, at alle registreringsoplysninger, du sender til AutoAgentz, er sande, præcise og komplette, og du accepterer at holde det på den måde til enhver tid."
   },
   "changes": {
-    "title": "2.  Ændringer i Aftalerne",
-    "intro": "Occasionally we may, in our discretion, make changes to the Agreements. When we make material changes to the Agreements, we’ll provide you with prominent notice as appropriate under the circumstances, for example by displaying a prominent notice within the Service or by sending you an email.",
-    "content1": "In some cases, we will notify you in advance, and your continued use of the Service after the changes have been made will constitute your acceptance of the changes. Please therefore make sure you read any such notice carefully.",
-    "content2": "If you do not wish to continue using the Service under the new version of the Agreements, you may terminate the Agreements by contacting us at customerservice@autoagentz.com."
+    "title": "2.  Ændringer til Aftalerne",
+    "intro": "Vi kan lejlighedsvis, efter vores eget skøn, foretage ændringer i Aftalerne. Når vi foretager væsentlige ændringer i Aftalerne, giver vi dig besked, fx ved at vise en fremtrædende meddelelse i Servicen eller ved at sende dig en e-mail",
+    "content1": "I nogle tilfælde vil vi give dig besked på forhånd, og din fortsatte brug af Servicen efter ændringerne vil udgøre din accept af ændringerne. Vær derfor opmærksom på, at du læser en sådan besked omhyggeligt.",
+    "content2": "Hvis du ikke ønsker at fortsætte med at bruge Servicen under den nye version af Aftalerne, kan du opsige Aftalerne ved at kontakte os på kundeservice@autoagentz.com."
   },
   "using": {
     "title": "3.  Brug af AutoAgentz",
-    "intro": "Here is some information about the ways AutoAgentz can be used."
+    "intro": "Her er noget information om, hvordan AutoAgentz kan bruges."
   },
   "services": {
-    "title": "3.1  Our Services & Paid Subscriptions",
-    "intro": "AutoAgentz helps Used Car Dealers grow their business by researching listings on vehicle auctions for vehicles that the Used Car Dealer has a history of selling frequently and within a short time frame. AutoAgentz’s research ensures that vehicle conditions on recommended  vehicles match the Used Car Dealer’s preferences and that recommended vehicles are listed on vehicle auctions that the Used Car Dealer is comfortable buying from.",
-    "content1": "The Service results in a daily list of recommended vehicles (provided matching vehicles were found) in our mobile app. In the app the Used Car Dealer can quickly check out the vehicles and add liked vehicles to his favorites lists on the auction sites.",
-    "content2": "AutoAgentz services require payment before you can access them. The AutoAgentz services that may be accessed after payment are currently referred to as the “Premium Service” and the “Platinum Service” (together, the “Paid Subscriptions”). You can learn more about our services by visiting our website."
+    "title": "3.1  Vores Services og betalte abonnementer",
+    "intro": "AutoAgentz hjælper brugtvognsforhandlere med at forøge deres forretning ved at undersøge køretøjsauktioner for køretøjer, som brugtvognsforhandleren historisk set har været god til at sælge inden for en kort tidsramme. AutoAgentz sikrer ligeledes, at standen på de anbefalede køretøjer stemmer overens med brugtvognsforhandlerens præferencer, og at anbefalede køretøjer er tilmeldt køretøjsauktioner, som brugtvognsforhandleren har tillid til at købe fra.",
+    "content1": "Servicen leverer en daglig liste med anbefalede køretøjer (hvis der findes matchende køretøjer) i vores mobilapp. I appen kan brugtvognsforhandleren hurtigt tjekke køretøjerne og tilføje interessante køretøjer til hans favoritlister på auktionshjemmesiderne.",
+    "content2": "AutoAgentz-tjenesterne kræver betaling, før du kan få adgang til dem. Tjenesterne, der kan fås adgang til efter betaling, kaldes for øjeblikket \"Premium\" og \"Platin\" (tilsammen \"Betalte Abonnementer\"). Du kan læse mere om tjenesterne ved at besøge vores hjemmeside."
   },
   "prerequisites": {
-    "title": "3.2  Prerequisites for subscribing to our Services",
-    "intro": "In order to subscribe to AutoAgentz’s Services the Used Car Dealer must meet certain prerequisites.",
-    "content1": "Prerequisites for subscribing to AutoAgentz’s Premium Service:",
+    "title": "3.2  Forudsætninger for at abonnere på vores Services",
+    "intro": "For at abonnere på AutoAgentz’s Services er der visse forudsætninger, som abonnenten skal opfylde.",
+    "content1": "Forudsætninger for at abonnere på AutoAgentz’s Premium abonnement:",
     "list": {
-      "bullet1": "The Subscriber must provide AutoAgentz with a list of approved online vehicle auction websites where the Subscriber wants to receive vehicle recommendations from.",
-      "bullet2": "The Subscriber must provide AutoAgentz with a list of approved auctions at each approved online vehicle auction website where the Subscriber wants to receive vehicle recommendations from.",
-      "bullet3": "The Subscriber must provide AutoAgentz with a list of preferred vehicle characteristics (e.g. makes, models, equipment, etc.)  that AutoAgentz can use as basis for its daily vehicle recommendations.",
-      "bullet4": "If the Subscriber wants to have liked vehicles added automatically to his favorites lists on the corresponding online vehicle auction websites, he must provide AutoAgentz with account login credentials to all approved online vehicle auction websites. Alternatively, the Subscriber can have a list of liked vehicles sent to his email address when submitting liked vehicles inside the AutoAgentz app."
+      "bullet1": "Abonnenten skal forsyne AutoAgentz med en liste over godkendte auktionswebsteder, hvorfra abonnenten ønsker at modtage køretøjsanbefalinger.",
+      "bullet2": "Abonnenten skal forsyne AutoAgentz med en liste over godkendte auktioner på godkendte auktionswebsteder, hvorfra abonnenten ønsker at modtage køretøjsanbefalinger.",
+      "bullet3": "Abonnenten skal forsyne AutoAgentz med en liste over foretrukne køretøjskarakteristika (f.eks. mærker, modeller, udstyr, årgange, osv.), som AutoAgentz skal bruge som grundlag for sine daglige anbefalinger.",
+      "bullet4": "Hvis abonnenten ønsker at få tilføjet “likede” køretøjer automatisk til sine favoritlister på de tilhørende auktionswebsteder, skal abonnenten forsyne AutoAgentz med login adgang til abonnentens konti på de godkendte auktionswebsteder. Alternativt kan abonnenten få tilsendt en liste med de “likede” køretøjer til sin e-mail-adresse."
     },
-    "content2": "Prerequisites for subscribing to AutoAgentz’s Platinum Service:",
+    "content2": "Forudsætninger for at abonnere på AutoAgentz’s Platinum Service:",
     "list2": {
-      "bullet1": "The Subscriber must provide AutoAgentz with a list of approved online vehicle auction websites where the Subscriber wants to receive vehicle recommendations from.",
-      "bullet2": "The Subscriber must provide AutoAgentz with a list of approved auctions at each approved online vehicle auction website where the Subscriber wants to receive vehicle recommendations from.",
-      "bullet3": "The Subscriber must have a subscription to Indicata Inventory Management (www.indicata.com) or a similar service.",
-      "bullet4": "If the Subscriber wants to have liked vehicles added automatically to his favorites lists on the corresponding online vehicle auction websites, he must provide AutoAgentz with account login credentials to all approved online vehicle auction websites. Alternatively, the Subscriber can have a list of liked vehicles sent to his email address when submitting liked vehicles inside the AutoAgentz app."
+      "bullet1": "Abonnenten skal forsyne AutoAgentz med en liste over godkendte auktionswebsteder, hvorfra abonnenten ønsker at modtage køretøjsanbefalinger.",
+      "bullet2": "Abonnenten skal forsyne AutoAgentz med en liste over godkendte auktioner på godkendte auktionswebsteder, hvorfra abonnenten ønsker at modtage køretøjsanbefalinger.",
+      "bullet3": "Abonnenten skal have et abonnement på Indicata Lagerstyring (www.indicata.dk) eller en lignende tjeneste.",
+      "bullet4": "Hvis abonnenten ønsker at få tilføjet “likede” køretøjer automatisk til sine favoritlister på de tilhørende auktionswebsteder, skal abonnenten forsyne AutoAgentz med login adgang til abonnentens konti på de godkendte auktionswebsteder. Alternativt kan abonnenten få tilsendt en liste med de “likede” køretøjer til sin e-mail-adresse."
     }
   },
   "trials": {
-    "title": "3.3  Trials",
-    "intro": "From time to time, AutoAgentz may offer trials of Paid Subscriptions for a specified period without payment or at a reduced rate (a “Trial”). AutoAgentz reserves the right, in its absolute discretion, to determine your eligibility for a Trial, and, subject to applicable laws, to withdraw or to modify a Trial at any time without prior notice and with no liability, to the greatest extent permitted under the law."
+    "title": "3.3  Prøver",
+    "intro": "AutoAgentz kan fra tid til anden tilbyde prøve af betalte abonnementer i en bestemt periode uden betaling eller med reduceret sats (en \"Prøve\"). AutoAgentz forbeholder sig ret til efter eget valg at afgøre, om du er berettiget til en Prøve, og i henhold til gældende lovgivning at stoppe eller ændre en Prøve på et hvilket som helst tidspunkt uden forudgående varsel og uden ansvar, i det største omfang tilladt i henhold til loven."
   },
   "rightsWeGrant": {
-    "title": "4.  Rights we grant you",
-    "intro": "The AutoAgentz Service and is the property of AutoAgentz. We grant you a limited, non-exclusive, revocable licence to make use of the AutoAgentz Service. This Licence shall remain in effect until and unless terminated by you or AutoAgentz. You promise and agree that you are using the Content for your own personal use and that you will not redistribute or transfer the AutoAgentz Service.",
-    "content1": "The AutoAgentz software applications is licensed, not sold, to you, and AutoAgentz retains ownership of all copies of the AutoAgentz software applications even after installation on your personal computers, mobile handsets, tablets, and/or other relevant devices (“Devices”).",
-    "content2": "All AutoAgentz trademarks, service marks, trade names, logos, domain names, and any other features of the AutoAgentz brand (“AutoAgentz Brand Features”) are the sole property of AutoAgentz. The Agreements do not grant you any rights to use any AutoAgentz Brand Features whether for commercial or non-commercial use.",
-    "content3": "You agree to abide by our User guidelines and not to use the AutoAgentz Service or any part thereof in any manner not expressly permitted by the Agreements. Except for the rights expressly granted to you in these Agreements, AutoAgentz grants no right, title, or interest to you in the AutoAgentz Service.",
-    "content4": "Third party software (for example, open source software libraries) included in the AutoAgentz Service are licensed to you either under the Agreements or under the relevant third party software library’s licence terms as published in the help or settings section of our mobile client and/or on our website."
+    "title": "4.  Rettigheder vi giver dig",
+    "intro": "AutoAgentz Servicen tilhører AutoAgentz. Vi giver dig en begrænset, ikke-eksklusiv, tilbagekaldelig licens til at gøre brug af AutoAgentz Servicen. Denne licens forbliver i kraft indtil og medmindre den opsiges af dig eller AutoAgentz. Du lover og accepterer, at du bruger indholdet til eget brug, og at du ikke omfordeler eller overfører AutoAgentz Servicen.",
+    "content1": "AutoAgentz softwareapplikationerne er licenseret og ikke solgt til dig, og AutoAgentz beholder ejerskab af alle kopier af AutoAgentz softwareapplikationerne, selv efter installation på dine personlige computere, mobiltelefoner, tablets og / eller andre relevante enheder (\"Enheder\").",
+    "content2": "Alle AutoAgentz varemærker, servicemærker, handelsnavne, logoer, domænenavne og andre funktioner i AutoAgentz-mærket (\"AutoAgentz Mærkefunktioner\") er ejet 100% af AutoAgentz. Aftalerne giver dig ikke ret til at bruge AutoAgentz Mærkefunktioner, uanset om det er til kommerciel eller ikke-kommerciel brug.",
+    "content3": "Du accepterer at overholde vores Brugervejledning og ikke at bruge AutoAgentz Servicen eller nogen del heraf på en måde, der ikke udtrykkeligt er tilladt i Aftalerne. Bortset fra de rettigheder, der udtrykkeligt er givet dig i disse aftaler, giver AutoAgentz ingen rettigheder, krav eller andel til dig i AutoAgentz Servicen.",
+    "content4": "Tredjeparts software (fx open source softwarebiblioteker), der er inkluderet i AutoAgentz Servicen, er licenseret til dig enten i henhold til Aftalerne eller under det relevante tredjeparts softwarebiblioteks licensvilkår som publiceret i Indstillinger sektionen af vores mobilklient og / eller på vores hjemmeside."
   },
   "rightsYouGrant": {
-    "title": "5.  Rights you grant us",
-    "intro": "In consideration for the rights granted to you under the Agreements, you grant us the right (1) to allow the AutoAgentz Service to use the processor, bandwidth, and storage hardware on your Device in order to facilitate the operation of the Service, and (2) to provide information to you.",
-    "content1": "If you provide feedback, ideas or suggestions to AutoAgentz in connection with the AutoAgentz Service (“Feedback”), you acknowledge that the Feedback is not confidential and you authorize AutoAgentz to use that Feedback without restriction and without payment to you."
+    "title": "5.  Rettigheder du giver os",
+    "intro": "I betragtning af de rettigheder, du har fået i henhold til Aftalerne, giver du os ret til (1) at tillade AutoAgentz Servicen at bruge processoren, båndbredden og lagringshardwaren på din Enhed for at lette driften af Servicen og (2) at give oplysninger til dig.",
+    "content1": "Hvis du giver feedback, ideer eller forslag til AutoAgentz i forbindelse med AutoAgentz Servicen (\"Feedback\"), anerkender du, at Feedback ikke er fortroligt, og du bemyndiger AutoAgentz til at bruge denne Feedback uden begrænsning og uden betaling til dig."
   },
   "userGuidelines": {
-    "title": "6.  User guidelines",
-    "intro": "We’ve established a few ground rules for you to follow when using the Service, to make sure AutoAgentz stays enjoyable for everyone.",
-    "content1": "The following is not permitted for any reason whatsoever:",
+    "title": "6.  Brugervejledning",
+    "intro": "Vi har etableret et par grundregler, du skal følge, når du bruger Servicen, for at sikre at AutoAgentz forbliver brugbar for alle.",
+    "content1": "Følgende er ikke tilladt af nogen grund:",
     "list": {
-      "bullet1": "Circumventing any technology used by AutoAgentz to protect the Service;",
-      "bullet2": "Selling, renting, sublicensing or leasing of any part of the AutoAgentz Service;",
-      "bullet3": "Circumventing any territorial restrictions applied by AutoAgentz; or",
-      "bullet4": "Providing your password to any other person or using any other person’s username and password."
+      "bullet1": "Omgå enhver teknologi, som AutoAgentz bruger til at beskytte Servicen;",
+      "bullet2": "Salg, leje, underlicensering eller leasing af nogen del af AutoAgentz Servicen;",
+      "bullet3": "Omgå de geografiske restriktioner, der anvendes af AutoAgentz; eller",
+      "bullet4": "Give din adgangskode til nogen anden person eller bruge andre personers brugernavn og adgangskode."
     },
-    "content2": "Your password protects your user account, and you are solely responsible for keeping your password confidential and secure. You understand that you are responsible for all use of your username and password on the Service. If your username or password is lost or stolen, or if you believe there has been unauthorized access to your account by third parties, please notify us immediately and change your password by logging out of the Service as soon as possible."
+    "content2": "Din adgangskode beskytter din brugerkonto, og du er eneansvarlig for at holde din adgangskode fortrolig og sikker. Du forstår, at du er ansvarlig for al brug af dit brugernavn og adgangskode på Servicen. Hvis dit brugernavn eller din adgangskode er tabt eller stjålet, eller hvis du mener, at der har været uautoriseret adgang til din konto af tredjepart, bedes du straks underrette os og ændre din adgangskode ved at logge ud af Servicen så hurtigt som muligt."
   },
   "limitations": {
-    "title": "7.  Service limitations and modifications",
-    "intro": "AutoAgentz will make reasonable efforts to keep the AutoAgentz Service operational. However, certain technical difficulties or maintenance may, from time to time, result in temporary interruptions.",
-    "content1": "To the extent permissible under applicable law, AutoAgentz reserves the right, periodically and at any time, to modify or discontinue, temporarily or permanently, functions and features of the AutoAgentz Service, with or without notice, all without liability to you, except where prohibited by law, for any interruption, modification, or discontinuation of the AutoAgentz Service or any function or feature thereof.",
-    "content2": "Notwithstanding the foregoing, if you have prepaid fees for Paid Subscriptions that AutoAgentz permanently discontinues prior to the end of the Pre-Paid Period (defined in the Payments and cancellations section), AutoAgentz will refund you the prepaid fees for the Pre-Paid Period after such discontinuation.",
-    "content3": "You understand, agree, and accept that AutoAgentz has no obligation to maintain, support, upgrade, or update the Service. This section will be enforced to the extent permissible by applicable law."
+    "title": "7.  Servicebegrænsninger og -ændringer",
+    "intro": "AutoAgentz vil gøre en rimelig indsats for at holde AutoAgentz Servicen i drift. Dog kan visse tekniske vanskeligheder eller vedligeholdelse fra tid til anden resultere i midlertidige afbrydelser.",
+    "content1": "I det omfang det er tilladt i henhold til gældende lovgivning, forbeholder AutoAgentz sig ret til regelmæssigt og til enhver tid at ændre eller opsige, midlertidigt eller permanent, med eller uden varsel, uden ansvar for dig, undtagen hvor forbudt ved lov, AutoAgentz Servicen eller enhver funktion eller delelement deraf.",
+    "content2": "På trods af ovenstående, hvis du har forudbetalt gebyrer for et Betalt Abonnement, som AutoAgentz permanent opsiger inden udløbet af den forudbetalte periode (defineret i afsnittet Betalinger og opsigelser), refunderer AutoAgentz de forudbetalte gebyrer for forudbetalte perioder efter sådanne opsigelser.",
+    "content3": "Du forstår, indvilliger og accepterer, at AutoAgentz ikke har nogen forpligtelse til at opretholde, understøtte, opgradere eller opdatere Servicen. Dette afsnit vil blive håndhævet i det omfang det er tilladt i henhold til gældende lovgivning."
   },
   "support": {
     "title": "8.  Kundesupport",
-    "intro": "For customer support with account-related and payment-related questions (“Customer Support Queries”), please send an email to support@AutoAgentz.com. We will use reasonable endeavours to respond to all Customer Support Queries within a reasonable time frame but we make no guarantees or warranties of any kind that any Customer Support Queries will be responded to within any particular time frame and/or that we will be able to satisfactorily answer any such queries."
+    "intro": "For kundesupport vedrørende kontorelaterede og betalingsrelaterede spørgsmål (\"Kundesupport Forespørgsler\"), send venligst en mail til kundeservice@autoagentz.com. Vi vil bestræbe os på at besvare alle Kundesupport Forespørgsler inden for en rimelig tidsramme, men vi giver ingen garantier eller forsikringer af nogen art om, at Kundesupport Forespørgsler vil blive besvaret inden for en bestemt tidsramme og/eller, at vi vil være i stand til at svare tilfredsstillende på sådanne spørgsmål."
   },
   "payments": {
-    "title": "9.  Betalinger og annulleringer",
-    "intro": "Paid Subscriptions can be purchased directly from AutoAgentz either by (1) paying a monthly subscription fee; or (2) paying a yearly subscription fee.",
-    "content1": "When you register for a Paid Subscription or Trial online, you consent to get access to AutoAgentz Premium or Platinum once it has been customized for your used car business.",
-    "content2": "Your payment to AutoAgentz will automatically renew at the end of the subscription period, unless you cancel your Paid Subscription before the end of the current subscription period. The cancellation will take effect the day after the last day of the current subscription period, and our Service will discontinue.",
-    "content3": "However, if you cancel your payment or Paid Subscription and/or terminate any of the Agreements before the end of the current subscription period, we will not refund any subscription fees already paid to us. The refund method will depend upon the payment method.",
-    "content4": "AutoAgentz may change the price for the Paid Subscriptions from time to time, and will communicate any price changes to you in advance and, if applicable, how to accept those changes. Price changes for Paid Subscriptions will take effect at the start of the next subscription period following the date of the price change.",
-    "content5": "As permitted by local law, you accept the new price by continuing to use the AutoAgentz Service after the price change takes effect. If you do not agree with the price changes, you have the right to reject the change by unsubscribing from the AutoAgentz Service prior to the price change going into effect. Please therefore make sure you read any such notification of price changes carefully."
+    "title": "9.  Betalinger og opsigelser",
+    "intro": "Betalingsabonnementer kan købes direkte hos AutoAgentz enten ved (1) at betale et månedligt abonnementsgebyr eller (2) at betale et årligt abonnementsgebyr.",
+    "content1": "Når du tilmelder dig et Betalingsabonnement eller en prøve online, giver du samtykke til at få adgang til AutoAgentz Premium eller Platin tjenesten, når det er blevet tilpasset til din brugtvognsforretning.",
+    "content2": "Din betaling til AutoAgentz fornyes automatisk ved afslutningen af abonnementsperioden, medmindre du opsiger dit Betalingsabonnement inden udgangen af den aktuelle abonnementsperiode. Opsigelsen træder i kraft dagen efter den sidste dag i den nuværende abonnementsperiode, og vores Service ophører.",
+    "content3": "Hvis du opsiger din betaling eller dit Betalingsabonnement og/eller opsiger nogen af Aftalerne inden udløbet af den aktuelle abonnementsperiode, refunderer vi ikke abonnementsgebyrer, der allerede er betalt til os. Refusionsmetoden vil afhænge af betalingsmetoden.",
+    "content4": "AutoAgentz kan ændre prisen for Betalingsabonnementerne fra tid til anden og vil kommunikere eventuelle prisændringer til dig på forhånd, og, hvis det er relevant, hvordan du accepterer disse ændringer. Prisændringer for Betalingsabonnementer træder i kraft ved starten af næste abonnementsperiode efter datoen for prisændringen.",
+    "content5": "Som tilladt i henhold til lokal lov accepterer du den nye pris ved fortsat at bruge AutoAgentz Servicen efter prisændringen træder i kraft. Hvis du ikke er enig i prisændringerne, har du ret til at afvise ændringen ved at opsige AutoAgentz Servicen inden prisændringen træder i kraft. Vær derfor opmærksom på, at du læser en sådan meddelelse om prisændringer omhyggeligt."
   },
   "term": {
     "title": "10.  Termin og afslutning",
-    "intro": "The Agreements will continue to apply to you until terminated by either you or AutoAgentz. However, you acknowledge and agree that the perpetual licence granted by you in relation to Feedback, is irrevocable and will therefore continue after expiry or termination of any of the Agreements for any reason.",
-    "content1": "AutoAgentz may terminate the Agreements or suspend your access to the AutoAgentz Service at any time, including in the event of your actual or suspected unauthorised use of the AutoAgentz Service, or non-compliance with the Agreements. If you or AutoAgentz terminate the Agreements, or if AutoAgentz suspends your access to the AutoAgentz Service, you agree that AutoAgentz shall have no liability or responsibility to you and AutoAgentz will not refund any amounts that you have already paid, to the fullest extent permitted under applicable law.",
-    "content2": "To learn how to terminate your AutoAgentz account, please contact us through support@autoagentz.com. This section will be enforced to the extent permissible by applicable law. You may terminate the Agreements at any time.",
-    "content3": "Sections 5, 6, 7, 10, 11, 12, 13, 14, 15, 16, 17, and 18 herein, as well as any other sections of the Agreements that, either explicitly or by their nature, must remain in effect even after termination of the Agreements, shall survive termination."
+    "intro": "Aftalerne vil gælde for dig, indtil de afsluttes af enten dig eller AutoAgentz. Du anerkender dog og accepterer, at den evigtvarende licens, du har givet i forbindelse med Feedback, er uigenkaldelig og vil derfor fortsætte efter udløb eller opsigelse af nogen af Aftalerne uanset grund.",
+    "content1": "AutoAgentz kan til enhver tid opsige Aftalerne eller suspendere din adgang til AutoAgentz Servicen, herunder i tilfælde af din faktiske eller mistænkte uautoriserede brug af AutoAgentz Servicen eller manglende overholdelse af Aftalerne. Hvis du eller AutoAgentz opsiger Aftalerne, eller hvis AutoAgentz suspenderer din adgang til AutoAgentz Servicen, accepterer du, at AutoAgentz ikke har nogen forpligtelse eller ansvar overfor dig, og AutoAgentz refunderer ikke beløb, du allerede har betalt, i det omfang det er tilladt under gældende lov.",
+    "content2": "For mere information om, hvordan du afslutter di AutoAgentz-konto, bedes du kontakte os via kundeservice@autoagentz.com. Dette afsnit vil blive håndhævet i det omfang det er tilladt i henhold til gældende lovgivning. Du kan til enhver tid opsige Aftalerne.",
+    "content3": "Afsnit 5, 6, 7, 10, 11, 12, 13, 14, 15, 16, 17 og 18 heri samt alle andre afsnit i Aftalerne, som enten udtrykkeligt eller på grund af deres art skal forblive i kraft efter afslutning af Aftalerne, skal overleve Aftalernes afslutning."
   },
   "warranty": {
     "title": "11.  Garanti og ansvarsfraskrivelse",
-    "intro": "WE ENDEAVOUR TO PROVIDE THE BEST SERVICE WE CAN, BUT YOU UNDERSTAND AND AGREE THAT THE AUTOAGENTZ SERVICE IS PROVIDED “AS IS” AND “AS AVAILABLE”, WITHOUT EXPRESS OR IMPLIED WARRANTY OR CONDITION OF ANY KIND. YOU USE THE AUTOAGENTZ SERVICE AT YOUR OWN RISK. TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, AUTOAGENTZ MAKES NO REPRESENTATION AND DISCLAIMS NO WARRANTIES OR CONDITIONS OF SATISFACTORY QUALITY, MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT.",
-    "content1": "AUTOAGENTZ DOES NOT WARRANT THAT THE AUTOAGENTZ SERVICE IS FREE OF MALWARE OR OTHER HARMFUL COMPONENTS. IN ADDITION, AUTOAGENTZ MAKES NO REPRESENTATION NOR DOES IT WARRANT, ENDORSE, GUARANTEE, OR ASSUME RESPONSIBILITY FOR ANY THIRD PARTY APPLICATIONS (OR THE CONTENT THEREOF) OR ANY OTHER PRODUCT OR SERVICE ADVERTISED OR OFFERED BY A THIRD PARTY ON OR THROUGH THE AUTOAGENTZ SERVICE OR ANY HYPERLINKED WEBSITE, OR FEATURED IN ANY BANNER OR OTHER ADVERTISING.",
-    "content2": "YOU UNDERSTAND AND AGREE THAT AUTOAGENTZ IS NOT RESPONSIBLE OR LIABLE FOR ANY TRANSACTION BETWEEN YOU AND THIRD PARTY PROVIDERS OF THIRD PARTY APPLICATIONS OR PRODUCTS OR SERVICES ADVERTISED ON OR THROUGH THE AUTOAGENTZ SERVICE.",
-    "content3": "AS WITH ANY PURCHASE OF A PRODUCT OR SERVICE THROUGH ANY MEDIUM OR IN ANY ENVIRONMENT, YOU SHOULD USE YOUR JUDGMENT AND EXERCISE CAUTION WHERE APPROPRIATE. NO ADVICE OR INFORMATION WHETHER ORAL OR IN WRITING OBTAINED BY YOU FROM AUTOAGENTZ SHALL CREATE ANY WARRANTY ON BEHALF OF AUTOAGENTZ IN THIS REGARD. SOME ASPECTS OF THIS SECTION MAY NOT APPLY IN SOME JURISDICTIONS IF PROHIBITED BY APPLICABLE LAW.",
-    "content4": "THIS DOES NOT AFFECT YOUR STATUTORY RIGHTS AS A CONSUMER."
+    "intro": "Vi bestræber os på at levere den bedste service, vi kan, men du forstår og accepterer, at AutoAgentz Servicen leveres \"som er\" og \"som tilgængelig\", uden udtrykkelige eller underforståede garantier eller ansvarsbetingelser. Du bruger AutoAgentz Servicen på eget ansvar. Som tilladt under gældende lovgivning giver AutoAgentz ingen garanti eller vilkår for tilfredsstillende kvalitet, salgbarhed, egnethed til et bestemt formål eller ikke-krænkelse.",
+    "content1": "AutoAgentz garanterer ikke at AutoAgentz Servicen er fri for malware eller andre skadelige komponenter. Derudover repræsenterer AutoAgentz ikke nogen tredjepartsapplikationer (eller indholdet deri), ligesom AutoAgentz ikke giver nogen garanti, godkendelse eller tager ansvar for tredjepartsapplikationer eller noget andet produkt eller service annonceret af eller tilbudt af tredjepart på eller gennem AutoAgentz Servicen eller nogen hyperlinket hjemmeside eller funktioner i noget banner eller anden annoncering.",
+    "content2": "Du forstår og accepterer, at AutoAgentz ikke er ansvarlig eller forpligtet for transaktioner mellem dig og tredjepartsleverandører af tredjepartsapplikationer eller produkter eller tjenester annonceret på eller gennem AutoAgentz Servicen.",
+    "content3": "Som ved ethvert køb af et produkt eller en tjeneste gennem ethvert medium eller i et hvilket som helst miljø, bør du bruge din egen dømmekraft og være forsigtig, når det er relevant. Ingen råd eller oplysninger, hverken mundtlige eller skriftlige, som du har modtaget fra AutoAgentz, skaber nogen garanti fra AutoAgentz. Nogle aspekter af dette afsnit kan muligvis ikke finde anvendelse i nogle retsområder, hvis forbudt efter gældende lov.",
+    "content4": "Dette påvirker ikke dine lovbestemte rettigheder som forbruger."
   },
   "limitation": {
     "title": "12.  Begrænsning",
-    "intro": "YOU AGREE THAT, TO THE EXTENT PERMITTED BY APPLICABLE LAW, YOUR SOLE AND EXCLUSIVE REMEDY FOR ANY PROBLEMS OR DISSATISFACTION WITH THE AUTOAGENTZ SERVICE IS TO UNINSTALL ANY AUTOAGENTZ SOFTWARE AND TO STOP USING THE AUTOAGENTZ SERVICE. WHILE AUTOAGENTZ ACCEPTS NO RESPONSIBILITY FOR THIRD PARTY APPLICATIONS OR THE CONTENT THEREOF, AND WHILE YOUR RELATIONSHIP WITH SUCH THIRD PARTY APPLICATIONS MAY BE GOVERNED BY SEPARATE AGREEMENTS WITH SUCH THIRD PARTIES, TO THE EXTENT PERMITTED BY APPLICABLE LAW, YOUR SOLE AND EXCLUSIVE REMEDY, AS WITH RESPECT TO AUTOAGENTZ, FOR ANY PROBLEMS OR DISSATISFACTION WITH THIRD PARTY APPLICATIONS OR THE CONTENT THEREOF, IS TO UNINSTALL AND/OR STOP USING ANY SUCH THIRD PARTY APPLICATIONS.",
-    "content1": "TO THE FULLEST EXTENT PERMITTED BY LAW, IN NO EVENT WILL AUTOAGENTZ, ITS OFFICERS, SHAREHOLDERS, EMPLOYEES, AGENTS, DIRECTORS, SUBSIDIARIES, AFFILIATES, SUCCESSORS, ASSIGNS, SUPPLIERS, OR LICENSORS BE LIABLE FOR (1) ANY INDIRECT, SPECIAL, INCIDENTAL, PUNITIVE, EXEMPLARY, OR CONSEQUENTIAL DAMAGES; (2) ANY LOSS OF USE, DATA, BUSINESS, OR PROFITS (WHETHER DIRECT OR INDIRECT), IN ALL CASES ARISING OUT OF THE USE OR INABILITY TO USE THE AUTOAGENTZ SERVICE, THIRD PARTY APPLICATIONS, OR THIRD PARTY APPLICATION CONTENT, REGARDLESS OF LEGAL THEORY, WITHOUT REGARD TO WHETHER AUTOAGENTZ HAS BEEN WARNED OF THE POSSIBILITY OF THOSE DAMAGES, AND EVEN IF A REMEDY FAILS OF ITS ESSENTIAL PURPOSE; OR (3) AGGREGATE LIABILITY FOR ALL CLAIMS RELATING TO THE AUTOAGENTZ SERVICE, THIRD PARTY APPLICATIONS, OR THIRD PARTY APPLICATION CONTENT MORE THAN THE AMOUNTS PAID BY YOU TO AUTOAGENTZ DURING THE PRIOR TWELVE MONTHS IN QUESTION, TO THE EXTENT PERMISSIBLE BY APPLICABLE LAW.",
-    "content3": "Nothing in the Agreements removes or limits AutoAgentz’s liability for fraud, fraudulent misrepresentation, death or personal injury caused by its negligence, and, if required by applicable law, gross negligence. Some aspects of this section may not apply in some jurisdictions if prohibited by applicable law."
+    "intro": "Du accepterer, i det omfang det er tilladt ifølge gældende lov, at din eneste afhjælpning af eventuelle problemer eller utilfredshed med AutoAgentz Servicen er at afinstallere al AutoAgentz-software og stoppe med at bruge AutoAgentz Servicen. Mens AutoAgentz ikke accepterer noget ansvar for tredjepartsapplikationer eller indholdet af disse, og mens din forbindelse til disse tredjepartsapplikationer kan være styret af særlige aftaler med disse tredjeparter, accepterer du, i det omfang det er tilladt ifølge gældende lov, at med hensyn til AutoAgentz er din eneste afhjælpning af eventuelle problemer eller utilfredshed med tredjepartsapplikationer og indholdet af disse at afinstallere og / eller stoppe anvendelsen af tredjepartsapplikationerne.",
+    "content1": "I det omfang det er tilladt ifølge gældende lov, kan AutoAgentz, dens øverste ledelse, ejere, ansatte, agenter, ledere, datterselskaber,  samarbejdspartnere, efterfølgere, delegerede, leverandører eller licensgivere ikke blive gjort ansvarlig for (1) eventuelle indirekte, tilfældige, strafbare eller eksemplariske skader eller følgeskader; (2) ethvert tab af anvendelse, data, forretning eller profit (hverken direkte eller indirekte) i alle sager opstået på baggrund af anvendelsen eller manglende evne til at anvende AutoAgentz Servicen, tredjepartsapplikationer eller tredjepartsindhold, uanset juridisk teori, og uden hensyntagen til, at AutoAgentz er blevet advaret om muligheden for disse skader og selvom et retsmiddel svigter sit primære formål; eller (3) aggregeret ansvar for alle søgsmål relateret til AutoAgentz Servicen, tredjepartsapplikationer, eller tredjepartsindhold der ligger over det samlede beløb betalt af dig til AutoAgentz i de foregående 12 måneder i det omfang, det er tilladt ifølge gældende lov.",
+    "content3": "Intet i Aftalerne fjerner eller begrænser AutoAgentz’s ansvar for bedrageri, svigagtig vildledning, død eller personskade forårsaget af uagtsomhed og, hvis det kræves i henhold til gældende lov, grov uagtsomhed. Nogle aspekter af dette afsnit er muligvis ikke gældende i visse retsområder, hvis det er forbudt i henhold til gældende lovgivning."
   },
   "thirdParty": {
-    "title": "13.  Tredjeparts-rettigheder",
-    "intro": "You acknowledge and agree that certain distributors (such as app store providers) are intended beneficiaries of the Agreements and have the right to enforce the Agreements directly against you. Other than as set out in this section, the Agreements are not intended to grant rights to anyone except you and AutoAgentz, and in no event shall the Agreements create any third party beneficiary rights. Furthermore, the rights to terminate, rescind, or agree to any variation, waiver, or settlement of the Agreements are not subject to the consent of any other person."
+    "title": "13.  Tredjepartsrettigheder",
+    "intro": "Du anerkender og accepterer, at visse distributører (fx app store udbydere) er begunstigede af Aftalerne og har ret til at håndhæve Aftalerne direkte imod dig. Udover hvad angivet i denne sektion, har Aftalerne ikke til hensigt at give rettigheder til nogen undtagen dig og AutoAgentz, og under ingen omstændigheder skal Aftalerne oprette nogen tredjeparts begunstiget rettigheder. Endvidere er rettighederne til at opsige, ophæve eller acceptere enhver ændring, afkald eller aftale af Aftalerne ikke underlagt nogen anden persons samtykke."
   },
   "entireAgreement": {
     "title": "14.  Hele aftalen",
-    "intro": "Other than as stated in this section or as explicitly agreed upon in writing between you and AutoAgentz, the Agreements constitute all the terms and conditions agreed upon between you and AutoAgentz and supersede any prior agreements in relation to the subject matter of these Agreements, whether written or oral.",
-    "content1": "Please note, however, that other aspects of your use of the AutoAgentz Service may be governed by additional agreements. That could include, for example, access to the AutoAgentz Service as a result of free or discounted Trials. When you are presented with an offer for such aspects of your use, you will be presented with any related additional agreement, and you may have an opportunity to agree to additional terms. To the extent that there is any irreconcilable conflict between any additional terms and these Terms, the additional terms shall prevail."
+    "intro": "Bortset fra som angivet i dette afsnit eller som udtrykkeligt aftalt skriftligt mellem dig og AutoAgentz, udgør Aftalerne alle de vilkår og betingelser, der er aftalt mellem dig og AutoAgentz, og erstatter eventuelle tidligere aftaler med hensyn til emnet i disse Aftaler, uanset om de er skriftlige eller mundtlige.",
+    "content1": "Bemærk dog, at andre aspekter af din brug af AutoAgentz Servicen kan reguleres af yderligere aftaler. Det kan fx omfatte adgang til AutoAgentz Servicen som følge af gratis eller nedsatte Prøver. Når du modtager et tilbud om sådanne aspekter af din brug, vil du blive præsenteret for en relateret ekstraaftale, og du kan have mulighed for at acceptere yderligere vilkår. I det omfang der er en uforenelig konflikt mellem eventuelle yderligere vilkår og disse Vilkår, gælder de yderligere vilkår."
   },
   "severability": {
     "title": "15.  Adskillelse og afkald",
-    "intro": "Unless as otherwise stated in the Agreements, should any provision of the Agreements be held invalid or unenforceable for any reason or to any extent, such invalidity or unenforceability shall not in any manner affect or render invalid or unenforceable the remaining provisions of the Agreements, and the application of that provision shall be enforced to the extent permitted by law.",
-    "content1": "Any failure by AutoAgentz or any third party beneficiary to enforce the Agreements or any provision thereof shall not waive AutoAgentz’s or the applicable third party beneficiary’s right to do so."
+    "intro": "Medmindre andet er fastsat i Aftalerne, hvis nogen bestemmelse i Aftalerne erklæres ugyldig eller ikke kan håndhæves af en eller anden årsag eller i et hvilket som helst omfang, må en sådan invaliditet eller manglende evne til at kunne håndhæves på ingen måde påvirke eller gøre ugyldig eller gøre umuligt at håndhæve de resterende bestemmelser i Aftalerne, og anvendelsen af denne bestemmelse skal håndhæves i det omfang loven tillader det.",
+    "content1": "Enhver mangel fra AutoAgentz eller en tredjepartsbegunstiget til at håndhæve Aftalerne eller enhver bestemmelse heri, frafalder ikke AutoAgentz’s eller den pågældende tredjepartsbegunstigedes ret til at gøre det."
   },
   "assignment": {
     "title": "16.  Overdragelse",
-    "intro": "AutoAgentz may assign the Agreements or any part of them, and AutoAgentz may delegate any of its obligations under the Agreements. You may not assign the Agreements or any part of them, nor transfer or sub-license your rights under the Agreements, to any third party."
+    "intro": "AutoAgentz kan overdrage Aftalerne eller dele af dem, og AutoAgentz kan delegere sine forpligtelser i Aftalerne. Du må ikke overdrage Aftalerne eller nogen del af dem, og du må ikke overføre eller underlicensere dine rettigheder i henhold til Aftalerne til nogen tredjepart."
   },
   "indemnification": {
     "title": "17.  Erstatning",
-    "intro": "To the fullest extent permitted by applicable law, you agree to indemnify and hold AutoAgentz harmless from and against all damages, losses, and expenses of any kind (including reasonable attorney fees and costs) arising out of: (1) your breach of this Agreement; (2) any activity in which you engage on or through the AutoAgentz Service; and (3) your violation of any law or the rights of a third party."
+    "intro": "I det omfang det er tilladt i henhold til gældende lovgivning, accepterer du at holde AutoAgentz uskadelig fra og mod alle skader, tab og udgifter af enhver art (herunder rimelige advokatgebyrer og omkostninger) som følge af: (1) dit brud på denne Aftale; (2) enhver aktivitet, hvor du deltager i eller gennem AutoAgentz Servicen; og (3) din overtrædelse af enhver lov eller tredjemandsrettigheder."
   },
   "choiceOfLaw": "18.  Valg af lov, obligatorisk voldgift og hjemting",
   "governingLaw": {
     "title": "18.1  Lovvalg / retsområde",
-    "intro": "Unless otherwise required by a mandatory law of a member state of the European Union or any other jurisdiction, the Agreements (and any non-contractual disputes/claims arising out of or in connection with them) are subject to the laws of Denmark, without regard to choice or conflicts of law principles.",
-    "content1": "Further, you and AutoAgentz agree to the jurisdiction of the courts of Denmark to resolve any dispute, claim, or controversy that arises in connection with the Agreements (and any non-contractual disputes/claims arising out of or in connection with them).",
-    "content2": "AutoAgentz does not accept any codes of conduct as mandatory in connection with the services provided under these Agreements."
+    "intro": "Medmindre andet er påkrævet i henhold til en obligatorisk lov i et EU-medlemsland eller en anden jurisdiktion, er Aftalerne (og eventuelle ikke-kontraktlige tvister / krav som følge af eller i forbindelse med dem) underlagt dansk lovgivning uden hensyntagen til valg eller konflikter i lovens principper.",
+    "content1": "Endvidere er du og AutoAgentz enige om, at domstolene har kompetence til at løse enhver tvist, krav eller kontrovers, der opstår i forbindelse med Aftalerne (og eventuelle ikke-kontraktlige tvister / krav som følge af eller i forbindelse med dem).",
+    "content2": "AutoAgentz accepterer ikke nogen adfærdskodeks som obligatoriske i forbindelse med de ydelser, der leveres i henhold til disse Aftaler."
   },
   "classAction": {
-    "title": "18.2  GRUPPESØGSMÅLAFKALD",
-    "intro": "WHERE PERMITTED UNDER THE APPLICABLE LAW, YOU AND AUTOAGENTZ AGREE THAT EACH MAY BRING CLAIMS AGAINST THE OTHER ONLY IN YOUR OR ITS INDIVIDUAL CAPACITY AND NOT AS A PLAINTIFF OR CLASS MEMBER IN ANY PURPORTED CLASS OR REPRESENTATIVE ACTION. Unless both you and AutoAgentz agree, no arbitrator or judge may consolidate more than one person’s claims or otherwise preside over any form of a representative or class proceeding."
+    "title": "18.2  Gruppesøgsmålafkald",
+    "intro": "Hvor det er tilladt i henhold til gældende lovgivning, accepterer du og AutoAgentz, at hver enkelt kun kan indbringe klager over den anden i deres individuelle kapacitet og ikke som sagsøger eller gruppemedlem i et hvilket som helst gruppesøgsmål eller lignende repræsentativ handling. Medmindre både du og AutoAgentz er enige, må ingen voldgiftsmand eller dommer konsolidere mere end én persons søgsmål eller på anden måde præsidere over nogen form for gruppesøgsmål."
   },
   "contact": {
     "title": "19.  Kontakt",
-    "intro": "If you have any questions concerning the AutoAgentz Service or the Agreements, please contact AutoAgentz customer service by sending an email to customerservice@autoagentz.com.",
-    "content1": "Thank you for reading our Terms. We hope you enjoy AutoAgentz!",
+    "intro": "Hvis du har spørgsmål vedrørende AutoAgentz Servicen eller Aftalerne, bedes du kontakte AutoAgentz ved at sende en e-mail til kundeservice@autoagentz.com.",
+    "content1": "Tak fordi du læste vores Vilkår. Vi håber, du vil nyde AutoAgentz tjenesten!",
     "content2": "Contracting entity:",
-    "companyName": "AutoAgentz IVS",
+    "companyName": "AutoAgentz",
     "street": "Ærøvænget 48",
     "postcodeCity": "DK-5500 Middelfart",
-    "country": "Denmark",
+    "country": "Danmark",
     "vatNo": "CVR-no",
-    "copyright": "AutoAgentz IVS"
+    "copyright": "AutoAgentz"
   }
 }

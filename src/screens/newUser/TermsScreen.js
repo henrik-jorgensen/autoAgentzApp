@@ -329,7 +329,7 @@ class TermsScreen extends Component {
             <Text style={styles.h2}>{strings.contact.title}</Text>
             <Text style={styles.text}>{strings.contact.intro}</Text>
             <Text style={styles.text}>{strings.contact.content1}</Text>
-            <Text style={styles.text}>{strings.contact.content2}</Text>
+            {/*<Text style={styles.text}>{strings.contact.content2}</Text>*/}
             <Text style={styles.text}>{strings.contact.companyName}</Text>
             <Text style={styles.address}>{strings.contact.street}</Text>
             <Text style={styles.address}>{strings.contact.postcodeCity}</Text>

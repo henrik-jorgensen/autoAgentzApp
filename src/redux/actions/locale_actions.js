@@ -12,12 +12,12 @@ export const saveStringsToState = strings => {
   };
 };
 
-/*export const setLanguage = language => {
+export const saveLanguageToState = language => {
   return {
     type: CHANGE_LANGUAGE,
     payload: language
   };
-};*/
+};
 
 export const setLanguage = (language, uid) => async dispatch => {
   try {

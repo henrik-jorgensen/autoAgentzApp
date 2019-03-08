@@ -39,7 +39,7 @@ class AuthHomeScreen extends Component {
       console.log("Device language: ", deviceLocale);
 
       // Set device language as user's preferred language in redux state
-      this.props.setLanguage(deviceLocale);
+      this.props.saveLanguageToState(deviceLocale);
 
       // get content strings in correct language
       this.handleStrings(deviceLocale);
@@ -243,6 +243,50 @@ class AuthHomeScreen extends Component {
     }
   };
 
+  checkIfAcceptedTerms = async (prefix, phone) => {
+    let uid = "+" + prefix + phone;
+
+    await AsyncStorage.setItem("uid", uid);
+
+    let { data } = await axios.post(URLs.checkIfAcceptedTerms, {
+      uid: uid,
+      accountSid: ApiKeys.CloudFunctions.accountSid,
+      authToken: ApiKeys.CloudFunctions.authToken
+    });
+
+    if (data.acceptedTerms) {
+      this.requestCode(prefix, phone);
+    } else {
+      this.setState({ loading: false, error: "" });
+      this.props.navigation.navigate("name");
+    }
+  };
+
+  requestCode = async (prefix, phone) => {
+    console.log("this.props.language: ", this.props.language);
+
+    try {
+      await axios.post(URLs.requestPassword, {
+        prefix: prefix,
+        phone: phone,
+        accountSid: ApiKeys.CloudFunctions.accountSid,
+        authToken: ApiKeys.CloudFunctions.authToken,
+        language: this.props.language
+      });
+      this.setState({ loading: false, error: "" });
+      this.props.navigation.navigate("login");
+    } catch (error) {
+      this.setState({
+        error: error.response.data.error.message,
+        loading: false
+      });
+      return Alert.alert(
+        this.props.strings.helpMessages.helpHeader,
+        this.state.error
+      );
+    }
+  };
+
   handleVehicleCardImage = () => {
     if (!this.props.language) {
       return require("../../../assets/vehicleCardEN.png");
@@ -296,30 +340,6 @@ class AuthHomeScreen extends Component {
     }
   };
 
-  requestCode = async (prefix, phone) => {
-    console.log("this.props.language: ", this.props.language);
-    try {
-      await axios.post(URLs.requestPassword, {
-        prefix: prefix,
-        phone: phone,
-        accountSid: ApiKeys.CloudFunctions.accountSid,
-        authToken: ApiKeys.CloudFunctions.authToken,
-        language: this.props.language
-      });
-      this.setState({ loading: false, error: "" });
-      this.props.navigation.navigate("login");
-    } catch (error) {
-      this.setState({
-        error: error.response.data.error.message,
-        loading: false
-      });
-      return Alert.alert(
-        this.props.strings.helpMessages.helpHeader,
-        this.state.error
-      );
-    }
-  };
-
   renderNextButton = () => {
     if (this.state.loading) {
       return <Spinner />;
@@ -333,25 +353,6 @@ class AuthHomeScreen extends Component {
         <Icon name="md-arrow-forward" style={{ color: "white" }} />
       </TouchableOpacity>
     );
-  };
-
-  checkIfAcceptedTerms = async (prefix, phone) => {
-    let uid = "+" + prefix + phone;
-
-    await AsyncStorage.setItem("uid", uid);
-
-    let { data } = await axios.post(URLs.checkIfAcceptedTerms, {
-      uid: uid,
-      accountSid: ApiKeys.CloudFunctions.accountSid,
-      authToken: ApiKeys.CloudFunctions.authToken
-    });
-
-    if (data.acceptedTerms) {
-      this.requestCode(prefix, phone);
-    } else {
-      this.setState({ loading: false, error: "" });
-      this.props.navigation.navigate("name");
-    }
   };
 
   render() {

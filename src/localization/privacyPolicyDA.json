@@ -2,146 +2,146 @@
   "title": "Privatlivspolitik",
   "lastModified": "Sidst ændret: ",
   "lastModifiedDate": "7. februar 2019",
-  "intro": "In this privacy policy it is explained what is personal data, what types of personal data we collect, for what purposes said data is collected, how it is processed and what rights you have in this regard.",
+  "intro": "I denne privatlivspolitik forklares det, hvad personoplysninger er, hvilke typer personoplysninger vi indsamler, til hvilke formål oplysningerne indsamles, hvordan de behandles, og hvilke rettigheder du har i denne forbindelse.",
   "pdp": {
-    "title": "1.  Personal data processing",
-    "whatIsPersonalData": "1.1  What is personal data",
-    "whatIsPersonalDataExplanation": "Personal data means any information relating to an identified or identifiable natural person, such as for instance your contact information or app settings.",
-    "generalPrinciplesForPdp": "1.2  General principles for personal data processing by AutoAgentz",
-    "generalPrinciplesIntro": "AutoAgentz adheres to the following principles when processing your personal data:",
+    "title": "1.  Behandling af personoplysninger",
+    "whatIsPersonalData": "1.1  Hvad er personoplysninger",
+    "whatIsPersonalDataExplanation": "Personoplysninger er enhver form for oplysninger om en identificeret eller identificerbar fysisk person, fx dine kontaktoplysninger eller dine app-indstillinger.",
+    "generalPrinciplesForPdp": "1.2  Generelle principper for behandling af personoplysninger hos AutoAgentz",
+    "generalPrinciplesIntro": "AutoAgentz overholder følgende principper, når vi behandler dine personoplysninger:",
     "list": {
-      "bullet1": "We will only collect personal data for specified, explicit and legitimate purposes",
-      "bullet2": "We will not collect personal data beyond what is necessary to accomplish those purposes",
-      "bullet3": "We will not use personal data for purposes other than that for which the data was collected, except as stated herein, or with prior consent",
-      "bullet4": "We will not transfer personal data to third parties, except as stated herein, or with prior consent",
-      "bullet5": "We will maintain appropriate technical and organizational measures to protect your personal data against accidental or unlawful destruction or accidental loss, alteration, unauthorized disclosure or access and against all other unlawful forms of processing",
-      "bullet6": "Except when stated herein, we will not store personal data longer than is necessary to accomplish the purpose for which the data was collected or for which it is further processed, or as is required by law."
+      "bullet1": "Vi indsamler kun personoplysninger til specificerede, eksplicitte og legitime formål",
+      "bullet2": "Vi indsamler ikke personoplysninger ud over, hvad der er nødvendigt for at opfylde sådanne formål",
+      "bullet3": "Vi anvender ikke personoplysninger til andet end det formål, hvortil de er indsamlet, bortset fra som anført heri, eller med forudgående samtykke",
+      "bullet4": "Vi overfører ikke personoplysninger til tredjepart bortset fra som anført heri, eller med forudgående samtykke",
+      "bullet5": "Vi vil foretage de behørige tekniske og organisatoriske foranstaltninger for at beskytte dine personoplysninger mod hændelig eller ulovlig ødelæggelse eller hændeligt tab, ændring, uautoriseret videregivelse eller adgang samt mod alle andre former for ulovlig behandling",
+      "bullet6": "Medmindre det er anført heri, gemmer vi ikke personoplysninger længere end nødvendigt for at opfylde det formål, hvortil de indsamles eller viderebehandles, eller som er påkrævet ved lov."
     },
-    "gdprReference": "Your personal information is protected by law through the General Data Protection Regulation (REGULATION (EU) 2016/679 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation)."
+    "gdprReference": "Dine personoplysninger er beskyttet ved lov gennem EU-forordningen, Generel forordning om databeskyttelse (EUROPA-PARLAMENTETS OG RÅDETS FORORDNING (EU) 2016/679 af 27. april 2016 om beskyttelse af fysiske personer i forbindelse med behandling af personoplysninger og om fri udveksling af sådanne oplysninger og om ophævelse af direktiv 95/46/EF (generel forordning om databeskyttelse))."
   },
   "pdwc": {
-    "title": "1.3  Personal data we collect and process",
-    "intro": "When you engage with autoAgentz via various channels, including our websites, apps, and customer support, we collect and process your personal data. The personal data that we collect and process can be categorized as follows:",
+    "title": "1.3  Personoplysninger, vi indsamler og behandler",
+    "intro": "Når du interagerer med autoAgentz via forskellige kanaler, herunder vores websites, apps og kundeservice, indsamler og behandler vi dine personoplysninger. De personoplysninger, vi indsamler og behandler, kan kategoriseres på følgende måde:",
     "list": {
-      "bullet1": "Your personal details, such as your name, e-mail address, physical address (if provided), phone number, company name, IP address, device language, push token id, and preferred language.",
-      "bullet2": "Your purchase information, such as your personal details as specified above, your order information, such as product service name, date of purchase, your payment information, such as credit card or similar payment information and friend referral (if applicable).",
-      "bullet3": "Your use information, such as your personal details as specified above, product and app usage, date and frequency, and login credentials.",
-      "bullet4": "Requests for customer support and technical assistance, containing your personal details, as specified above.",
-      "bullet5": "Information provided when completing surveys, questionnaires and feedback forms, such as your personal details, as specified above, evaluation of product services, and your location information.",
-      "bullet6": "Your behavior information collected via use of cookies and similar technologies like pixels, tags and other identifiers in order to remember your preferences, to understand how our website and app are used and to customize our marketing offerings."
+      "bullet1": "Dine personoplysninger såsom navn, e-mailadresse, fysisk adresse (hvis relevant), telefonnummer, firmanavn, IP-adresse, enhedssprog, push token id og foretrukket sprog.",
+      "bullet2": "Dine købsoplysninger, fx dine personoplysninger som angivet ovenfor, ordreoplysninger såsom produktnavn, købsdato, betalingsoplysninger såsom kreditkort eller lignende betalingsoplysninger og vennehenvisninger (hvis relevant).",
+      "bullet3": "Oplysninger om din brug, herunder dine personoplysninger som angivet ovenfor, app brug, dato og frekvens og log ind-oplysninger.",
+      "bullet4": "Anmodninger om kundeservice og teknisk bistand, der indeholder dine personoplysninger som angivet ovenfor.",
+      "bullet5": "Oplysninger, som du udleverer ved udfyldelse af undersøgelser, spørgeskemaer og evalueringsskemaer, fx dine personoplysninger som angivet ovenfor, evaluering af produkter og tjenester og dine placeringsoplysninger.",
+      "bullet6": "Din adfærdsoplysninger indsamlet ved brug af cookies og lignende teknologier som fx. pixel og andre identifikatorer for at huske dine præferencer, med henblik på at forstå, hvordan vores websites og apps bruges og til at tilpasse vores markedsføring."
     }
   },
   "hwupd": {
-    "title": "1.4  How we use your personal data",
-    "intro": "We only collect and process personal data, if at least one of the below mentioned purposes applies:",
+    "title": "1.4  Sådan bruger vi dine personoplysninger",
+    "intro": "Vi indsamler og behandler kun personoplysninger, hvis mindst ét af nedenstående formål er gældende:",
     "list": {
-      "bullet1": "You create a user profile on our autoAgentz app to try out our products and services.",
-      "bullet2": "We provide you with customized information on news, events, competitions and similar marketing content related to autoAgentz and our products and services. Our processing in this regard will be based on your consent thereto.",
-      "bullet3": "We handle your purchase orders, complete purchase transactions, and ensure delivery of purchased product(s) and service(s). Our processing is necessary for the performance of a contract, to which you are a party.",
-      "bullet4": "We provide you with relevant product software updates. Our processing is necessary for the purposes of the legitimate interests pursued by autoAgentz and such processing is not considered to be harmful towards you.",
-      "bullet5": "We provide you with customer service, handle your requests or complaints and provide you with product support. Our processing is necessary for the performance of a contract, to which you are a party.",
-      "bullet6": "We ensure better customer experience by providing you with personal benefits, such as discounts or customized offers based on previous purchases and possible friend referrals. Our processing in this regard will be based on your consent thereto.",
-      "bullet7": "We conduct analytics and statistics on use of our products and services to learn how our products and services are used, to improve the quality of our products and services and to develop new ones. Our processing is necessary for the purposes of the legitimate interests pursued by autoAgentz and such processing is not considered to be harmful towards you.",
-      "bullet8": "We collect your feedback regarding your use of autoAgentz products and services by inviting you to complete surveys, questionnaires or feedback forms. Our processing in this regard will be based on your consent thereto."
+      "bullet1": "Du opretter en brugerprofil på vores autoAgentz app for at prøve vores produkter og tjenester.",
+      "bullet2": "Vi forsyner dig med brugertilpassede oplysninger om nyheder, events, konkurrencer og lignende marketingindhold relateret til AutoAgentz og deres produkter og tjenester. Vores behandling i denne henseende vil være baseret på dit samtykke hertil.",
+      "bullet3": "Vi behandler dine indkøbsordrer, gennemfører købstransaktioner og sikrer levering af købte varer og tjenester. Denne behandling er nødvendig for at kunne gennemføre en aftale, som du er part i.",
+      "bullet4": "Vi forsyner dig med relevante softwareopdateringer. Vores behandling er nødvendig af hensyn til de legitime interesser, der opretholdes af AutoAgentz, og en sådan behandling anses ikke for at være skadelig for dig.",
+      "bullet5": "Vi forsyner dig med kundeservice, håndterer dine anmodninger eller klager og giver dig produkt support. Denne behandling er nødvendig for at kunne gennemføre en aftale, som du er part i.",
+      "bullet6": "Vi sikrer en bedre kundeoplevelse ved at give dig personlige fordele såsom rabatter eller personlige tilbud baseret på tidligere køb og eventuelle venne-henvisninger. Vores behandling i denne henseende vil være baseret på dit samtykke hertil.",
+      "bullet7": "Vi foretager analyser og udarbejder statistik over brugen af vores produkter og tjenester for at kunne se, hvordan vores produkter og tjenester anvendes, forbedre kvaliteten af vores produkter og tjenester og udvikle nye produkter og tjenester. Vores behandling er nødvendig af hensyn til de legitime interesser, der opretholdes af AutoAgentz, og en sådan behandling anses ikke for at være skadelig for dig.",
+      "bullet8": "Vi indsamler din feedback om din brug af AutoAgentz produkter og tjenester ved at invitere dig til at udfylde undersøgelser, spørgeskemaer eller evalueringsskemaer. Vores behandling i denne henseende vil være baseret på dit samtykke hertil."
     },
-    "end": "Accordingly, some of your personal data is collected and processed in order for us to fulfil our contractual obligations to you, for instance, when you purchase our products and services, and contact our customer support. Should you choose not to provide us with the requested and necessary personal data in this regard, we might not be able to fully satisfy your request."
+    "end": "Derfor indsamles og behandles visse af dine personoplysninger med henblik på at opfylde vores kontraktforpligtelser over for dig, fx når du køber vores produkter og tjenester og kontakter vores kundeservice. Hvis du vælger ikke at indsende de anmodede og nødvendige personoplysninger i denne forbindelse, vil vi muligvis ikke kunne opfylde din anmodning."
   },
   "sppd": {
-    "title": "1.5  Where we store and process your personal data",
-    "intro": "Your personal data is stored and processed with Google Cloud Platform, which operates both within the EU and in third party countries. Therefore, your personal data may be stored both within the EU and in third party countries."
+    "title": "1.5  Lagring og behandling af dine personoplysninger",
+    "intro": "Dine personoplysninger lagres og behandles via Google Cloud Platform, som både opererer i EU og i tredjeparts lande. Derfor kan dine personoplysninger blive lagret både i EU og i tredjeparts lande."
   },
   "disclosure": {
-    "title": "1.6  Disclosure of your personal data to third parties",
-    "intro": "As a general principle, we collect and process data in order to facilitate or improve AutoAgentz’s products, services or offers. We do not sell your personal data or share the said data with third parties, except to the extent stated in this Privacy Policy.",
-    "content": "We may disclose your personal data to third parties to the extent required by law, court order or a decision rendered by a competent public authority and for the purpose of law enforcement. In addition, we may share your personal data with the following third parties:",
+    "title": "1.6  Udlevering af dine personoplysninger til tredjeparter",
+    "intro": "Som udgangspunkt indsamler og behandler vi oplysningerne med henblik på at levere eller forbedre AutoAgentz’ produkter, tjenester eller tilbud. Vi sælger ikke dine personoplysninger til og udveksler ikke sådanne data med tredjeparter undtagen i det omfang, der er angivet i denne Privatlivspolitik.",
+    "content": "Vi kan udlevere dine personoplysninger til tredjeparter i det omfang, det kræves af lovgivningen, en retskendelse eller en afgørelse truffet af en kompetent offentlig myndighed og med henblik på retshåndhævelse. Derudover kan vi dele dine personoplysninger med følgende tredjeparter:",
     "list": {
-      "bullet1": "Third party vendors carrying out services on our behalf, including billing, sales, marketing, IT support, advertising, analytics, research, customer service, data storage, validation, security, fraud prevention, payment processing, SMS-services, and legal services. Such third-party vendors have access to perform these services but are prohibited from using your personal data for other purposes.",
-      "bullet2": "Third parties in order to establish, exercise or defend legal rights of AutoAgentz.",
-      "bullet3": "Third parties in the event of any merger, sale, joint venture, assignment, transfer or other disposition of all or any portion of AutoAgentz’s assets or stock (including without limitation in connection with any bankruptcy or similar proceedings).",
-      "bullet4": "Other third parties subject to your consent."
+      "bullet1": "Tredjepartsleverandører, der udfører ydelser på vores vegne, herunder fakturering, salg, marketing, IT-support, reklame, analyse, markedsresearch, kundeservice, datalagring, validering, sikkerhed, forebyggelse af svindel, behandling af betalinger, SMS-tjenester og juridiske tjenester. Sådanne tredjepartsleverandører har adgang til at udføre sådanne tjenester, men må ikke bruge dine personoplysninger til andre formål.",
+      "bullet2": "Tredjeparter med henblik på at fastslå, udøve eller forsvare AutoAgentz’ juridiske rettigheder eller krav.",
+      "bullet3": "Tredjeparter i tilfælde af fusion, salg, joint venture, tildeling, overdragelse eller anden afhændelse af alle eller en del af AutoAgentz’ aktiver eller andele (herunder, men ikke begrænset til, eventuel konkursbehandling eller lignende).",
+      "bullet4": "Andre tredjeparter under forudsætning af dit samtykke."
     },
-    "end": "When we disclose your personal data to a third party, we take all reasonable steps to ensure that those third parties are bound by confidentiality and privacy obligations with respect to the protection of your personal data. The disclosure is conducted in compliance with legal requirements, including entering into data processing agreements with the relevant third parties, to ensure that personal data is only processed in accordance with our instructions, applicable law and regulations and for the purpose specified by us and to ensure adequate security measures."
+    "end": "Når vi videregiver dine personoplysninger til tredjepart, tager vi alle rimelige forholdsregler for at sikre, at sådanne tredjeparter er bundet af fortroligheds- og databeskyttelsesforpligtelser med hensyn til beskyttelse af dine personoplysninger. Videregivelsen sker i overensstemmelse med lovgivningsmæssige krav, herunder om indgåelse af databehandleraftaler med relevante parter for at sikre, at personoplysninger udelukkende behandles i overensstemmelse med vores instruktioner, gældende lovgivning og forskrifter og til de formål, der specificeres af os, og for at sikre passende sikkerhedsforanstaltninger."
   },
   "retention": {
-    "title": "1.7  Retention of your personal data",
-    "intro": "We keep your information for no longer than necessary for the purposes for which it is collected. The length of time for which we retain information depends on the purposes for which we collect and use it.",
-    "content1": "Personal data related to your purchase is kept and processed for a period of five (5) years from the date of purchase, unless such data is legitimately processed for other purposes, such as providing you with personal benefits or customized direct marketing upon your consent or for pursuing our legal claims, where maintaining such information is considered necessary.",
-    "content2": "Personal data related to our provision of direct marketing to you is kept and processed for a period of one (1) year from the date you last have been active in opening our marketing communication or otherwise showing interest in such communication.",
-    "content3": "Personal data related to your use of our apps is kept and processed for a period of three (3) years from the date you last have been active in using any of autoAgentz’s apps.",
-    "content4": "Personal data related to our provision of personal benefits to you is kept and processed for a period of five (5) years from the date of your last purchase of an autoAgentz product or service. Personal data related to your feedback on our products and services is kept and processed for a period of two (2) years from the completion date of the given survey, questionnaire of feedback form.",
-    "content5": "Relevant personal information will be deleted after expiry of the above-mentioned periods, unless such data legitimately can be kept and processed for other processing purposes, which we have legal basis for."
+    "title": "1.7  Opbevaring af dine personoplysninger",
+    "intro": "Vi opbevarer ikke dine oplysninger længere end nødvendigt til de formål, hvortil de indsamles. Det tidsrum, vi opbevarer oplysningerne, afhænger af de formål, hvortil vi indsamler og bruger dem.",
+    "content1": "Personoplysninger vedrørende dit køb opbevares og behandles i en periode på fem (5) år fra købsdatoen, medmindre sådanne data behandles lovligt til andre formål såsom at give dig personlige fordele eller personlig direkte markedsføring med dit samtykke eller for at forfølge vores juridiske krav, hvortil opbevaring af sådanne oplysninger anses for nødvendig.",
+    "content2": "Personoplysninger vedrørende vores levering af direkte markedsføring til dig opbevares og behandles i en periode på et (1) år fra den dato, hvor du senest har været aktiv ved oprettelse af vores markedskommunikation eller på anden måde viser interesse for en sådan kommunikation.",
+    "content3": "Personoplysninger relateret til din brug af vores apps og softwareopdateringer opbevares og behandles i en periode på tre (3) år fra den dato, du senest har været aktiv ved brug af apps fra AutoAgentz.",
+    "content4": "Personoplysninger vedrørende levering af vores personlige fordele opbevares og behandles i en periode på fem (5) år fra datoen for dit sidste køb af AutoAgentz produkter og tjenester. Personoplysninger relateret til din feedback på vores produkter og tjenester opbevares og behandles i en periode på to (2) år fra udfyldelsen af den givne undersøgelse, spørgeskemaet eller evalueringsskemaet.",
+    "content5": "Relevante personoplysninger slettes efter udløbet af ovennævnte perioder, medmindre sådanne oplysninger lovligt kan opbevares og behandles til andre formål, som vi har juridisk grundlag for."
   },
   "cookies": {
     "title": "1.8  Cookies",
-    "intro": "We use cookies and similar technologies like pixels, tags and other identifiers in order to remember your preferences, to understand how our websites and apps are used and to customize our marketing offerings.",
-    "content1": "A cookie is a small text file that is placed on your computer or mobile device when you visit a site, that enables us to: (1) recognize your computer; (2) store your preferences and settings; (3) understand the autoAgentz web pages you have visited; (4), enhance your user experience by delivering and measuring the effectiveness of content and advertising tailored to your interests; (5) perform searches and analytics; and (6) assist with security and administrative functions. Cookies are generally placed in your browser cache.",
-    "content2": "Pixels are tiny electronic tags with a unique identifier embedded in websites, online ads and/or email that are designed to: (1) collect usage information like ad impressions or clicks and e-mail open rates; (2) measure popularity of the advertising; and (3) access user cookies.",
-    "content3": "As we adopt additional technologies, we may also gather information through other methods.",
-    "content4": "Please note that you can change your settings to notify you when a cookie is being set or updated, or to block cookies altogether. Please consult the \"Help\" section of your browser for more information. Please note that by blocking, disabling, or managing any or all cookies, you may not have access to certain features or offerings on our website or apps. For example, to complete a purchase on our website, you will need to accept cookies sent by our site. For more information on the cookies we use and the purposes for which we use them, please refer to our Cookie Policy."
+    "intro": "Vi anvender cookies og lignende teknologier som fx pixel og andre identifikatorer for at huske dine præferencer, med henblik på at forstå, hvordan vores websites og apps bruges og til at tilpasse vores markedsføring.",
+    "content1": "En cookie er en lille tekstfil, der placeres på din computer eller mobile enhed, når du besøger et website, og som gør os i stand til at: (1) genkende din computer, (2) gemme dine præferencer og indstillinger, (3) forstå de websites tilhørende AutoAgentz, du har besøgt, (4), forbedre brugeroplevelsen ved at levere og måle effektiviteten af indhold og annoncer målrettet dine interesser, (5) foretage søgninger og analyse og (6) bistå med sikkerhedsmæssige og administrative funktioner. Cookies placeres generelt i browserens cache.",
+    "content2": "Pixels er små elektroniske mærkater med en unik identifikator integreret på websites, onlineannoncer og/eller e-mails, der er udviklet til at: (1) indsamle forbrugsinformationer såsom eksponeringer for annoncer eller klik og åbning af e-mails, (2) måle annoncens popularitet og (3) få adgang til bruger-cookies.",
+    "content3": "Vi kan også indsamle oplysninger ved hjælp af andre metoder, efterhånden som vi indfører yderligere teknologier.",
+    "content4": "Bemærk, at du kan ændre dine indstillinger, så du får besked, når en cookie oprettes eller opdateres, eller til helt at blokere cookies. Se afsnittet \"Hjælp\" i din browser for at få flere oplysninger. Bemærk, at du muligvis ikke kan få adgang til visse funktioner eller tilbud på vores websites eller apps, hvis du blokerer, deaktiverer eller administrerer nogle eller alle cookies. Du skal eksempelvis acceptere cookies sendt fra vores websites for at gennemføre et køb på sådanne websites. Se vores politik vedrørende cookies for at få yderligere oplysninger om cookies og de formål, hvortil vi anvender dem."
   },
   "responsible": {
-    "title": "1.9  Responsible for processing",
-    "intro": "AutoAgentz IVS, Ærøvænget 48, DK-5500 Middelfart, Denmark is data controller and is responsible for the processing of your personal data."
+    "title": "1.9  Ansvarlig for behandling",
+    "intro": "AutoAgentz, Ærøvænget 48, DK-5500 Middelfart er dataansvarlig og har ansvaret for behandlingen af dine personoplysninger."
   },
-  "yourRights": "2.  Your Rights",
+  "yourRights": "2.  Dine rettigheder",
   "rightToAccess": {
-    "title": "2.1  Right to access your personal data and data portability",
-    "intro": "You have the right to access and receive the personal data concerning you, which you have provided to autoAgentz, in a structured, commonly used and machine-readable format and have the right to transmit those data to any third party, you should choose to.",
-    "content1": "The copy of your personal data will be delivered as soon as possible and within one month of receiving your request."
+    "title": "2.1  Adgang til dine personoplysninger og dataportabilitet",
+    "intro": "Du har ret til at få adgang til og modtage de personoplysninger om dig, du har givet til AutoAgentz, i et struktureret, almindeligt anvendt og maskinlæsbart format, og du har ret til at fremsende sådanne data til enhver tredjepart, som du vælger.",
+    "content1": "Kopien af dine personoplysninger vil blive leveret så hurtigt som muligt og inden for en måned fra modtagelsen af din forespørgsel."
   },
   "rightToErasure": {
-    "title": "2.2  Right to erasure (\"right to be forgotten\")",
-    "intro": "You have the right to have your personal data deleted from AutoAgentz’s servers, unless autoAgentz is entitled or obliged by applicable law and regulations to keep and process such information regardless the withdrawal of your consent.",
-    "content1": "You may contact AutoAgentz to review, update or delete personal data stored about you. Please note that prior to accessing and making changes to your account, we will need to verify your identity properly.",
-    "content2": "Following your deletion request your personal data will be deleted from autoAgentz’ servers as soon as possible within one (1) month of receiving your request, while it might take a period of two (2) months to ensure complete deletion of any information that might be stored in our back-up."
+    "title": "2.2  Ret til sletning (\"ret til at blive glemt\")",
+    "intro": "Du har ret til at få dine personoplysninger slettet fra AutoAgentz’ servere, medmindre AutoAgentz er berettiget eller forpligtet til i henhold til gældende love og regler at opbevare og behandle sådanne oplysninger uanset tilbagekaldelsen af dit samtykke.",
+    "content1": "Du kan også kontakte AutoAgentz med henblik på at gennemgå, opdatere eller slette dine personoplysninger. Bemærk, at vi er nødt til verificere din identitet på behørig vis, inden vi får adgang til og foretager ændringer på din konto.",
+    "content2": "Efter sletning vil dine personoplysninger blive slettet fra AutoAgentz’ servere hurtigst muligt og senest en (1) måned fra modtagelsen af din forespørgsel. Dog kan der gå en periode på to (2) måneder for at sikre fuldstændig sletning af oplysninger, som muligvis opbevares i vores backup."
   },
   "rightToWithdraw": {
-    "title": "2.3  Right to withdraw your consent",
-    "intro": "Some of AutoAgentz’s processing activities may be based on your consent. In such case, you have the right to withdraw your consent at any time. Withdrawal of your consent will not affect the lawfulness of processing conducted prior to the withdrawal.",
-    "content1": "If you withdraw your consent, AutoAgentz and third parties involved in personal data processing will cease to process your personal data, unless and to the extent the continued processing or storage is permitted or required according to the applicable personal data legislation or other applicable laws and regulations.",
-    "content2": "Please note that as a consequence of your withdrawal of your consent, autoAgentz may not be able to meet your requests or provide you with our services."
+    "title": "2.3  Ret til at tilbagekalde dit samtykke",
+    "intro": "En del af AutoAgentz’ behandlingsaktiviteter kan være baseret på dit samtykke. I så fald har du ret til at tilbagekalde dit samtykke når som helst. Tilbagekaldelse af dit samtykke påvirker ikke legitimiteten af databehandling foretaget inden en sådan tilbagekaldelse.",
+    "content1": "Hvis du tilbagekalder dit samtykke, vil AutoAgentz og tredjeparter involveret i behandling af personoplysninger ophøre med at behandle dine personoplysninger, medmindre og i det omfang den fortsatte behandling eller opbevaring er tilladt eller påkrævet i henhold til persondatalovgivningen eller andre gældende love og bestemmelser.",
+    "content2": "Bemærk, at AutoAgentz som følge af din tilbagekaldelse af dit samtykke muligvis ikke vil kunne opfylde dine anmodninger eller levere vores tjenester."
   },
   "rightToRestriction": {
-    "title": "2.4  Right to restriction of processing and right to object",
-    "intro": "You have the right to restriction of processing of your personal data, if the personal data is not correct, if the processing is unlawful, but you oppose erasure of your personal data, if AutoAgentz no longer needs your personal data for the purposes of processing, but storing such data is requested by you for the establishment, exercise or defence of legal claims, or if you have objected to processing and verification, whether autoAgentz still has legitimate interest in the given personal data is pending.",
-    "content1": "At any time you have the right to object to processing of your personal data collected and processed for purposes of the legitimate interests pursued by autoAgentz, for instance, when we provide you with relevant software updates, make your future purchases easier by remembering your shipping details, or when we conduct analytics and statistics on your use type, date and frequency of usage of our products and services. Please see the Contact section below for relevant contact details.",
-    "content2": "Furthermore, you have the right to object to processing of your personal data for direct marketing purposes. You can do so by unsubscribing from our marketing information by clicking on the unsubscribe link in the bottom of marketing communication from AutoAgentz."
+    "title": "2.4  Ret til begrænsning af behandling og ret til indsigelse",
+    "intro": "Du har ret til at begrænse behandlingen af dine personoplysninger, hvis personoplysningerne ikke er korrekte, hvis behandlingen er ulovlig, men du modsætter dig sletning af dine personoplysninger, hvis AutoAgentz ikke længere har brug for dine personoplysninger til behandling, men du anmoder om opbevaring af sådanne data til fastsættelse, udøvelse eller forsvar af retskrav, eller hvis du har gjort indsigelse mod behandling og verifikation af, om AutoAgentz stadig har legitim interesse i de givne personoplysninger er under behandling.",
+    "content1": "Du har ret til når som helst at gøre indsigelse mod behandlingen af de personoplysninger, der indsamles og behandles med henvisning til AutoAgentz’ legitime interesser, fx når vi forsyner dig med relevante softwareopdateringer, gør dine fremtidige køb lettere ved at huske dine kontaktoplysninger, eller når vi foretager analyser og udarbejder statistik om datoerne og hyppigheden for din brug af AutoAgentz produkter og tjenester. Se de relevante kontaktoplysninger i Kontakt os sektionen nedenfor.",
+    "content2": "Du har endvidere ret til at gøre indsigelse mod behandlingen af dine personoplysninger til direkte markedsføring. Du kan gøre dette ved at afmelde vores marketingoplysninger ved at klikke på linket til framelding i bunden af marketingkommunikation fra AutoAgentz."
   },
   "rightToRectification": {
-    "title": "2.5  Right to rectification",
-    "intro": "If you find that we have wrongful personal data stored about you, you have the right to have your data rectified. Please see the Contact section below for relevant contact details."
+    "title": "2.5  Ret til berigtigelse",
+    "intro": "Hvis du opdager, at vi har urigtige personoplysninger gemt om dig, har du ret til at få dine oplysninger rettet. Se de relevante kontaktoplysninger i Kontakt os sektionen nedenfor."
   },
   "rightToComplain": {
-    "title": "2.6  Right to complain",
-    "intro": "If you want to complain about a privacy breach, please contact autoAgentz by sending your complaint to AutoAgentz IVS, Ærøvænget 48, DK-5500 Middelfart, Denmark, or by sending an e-mail to gdpr@autoagentz.com.",
-    "content1": "We will acknowledge receipt of your complaint within five (5) business days. We will do our best to resolve it as quickly as possible and within one (1) month from the date of complaint. In case the response will require longer term than one (1) month, we will let you know and inform you of the relevant reason(s).",
-    "content2": "If you are not satisfied with the outcome of your complaint or with the handling of your complaint at AutoAgentz, you may refer your complaint to the Danish Data Protection Authority, Datatilsynet, Borgergade 28, 5., DK-1300 Copenhagen, Denmark or by sending an e-mail to dt@datatilsynet.dk."
+    "title": "2.6  Ret til at klage",
+    "intro": "Hvis du ønsker at klage over et brud på privatlivets fred, bedes du kontakte AutoAgentz ved at sende din klage til AutoAgentz, Ærøvænget 48, DK-5500 Middelfart eller ved at sende en e-mail til gdpr@autoagentz.com.",
+    "content1": "Vi bekræfter modtagelsen af din klage inden for fem (5) arbejdsdage. Vi vil gøre vores bedste for at behandle den så hurtigt som muligt og senest en (1) måned fra datoen for klagen. I tilfælde af at svar kræver længere tidsrum end en (1) måned, giver vi dig besked og informerer dig om den eller de relevante årsager.",
+    "content2": "Hvis du ikke er tilfreds med udfaldet eller håndteringen af din klage hos AutoAgentz, kan du indbringe klagen for den danske databeskyttelsesmyndighed Datatilsynet, Borgergade 28, 5., DK-1300 København eller sende en e-mail til dt@datatilsynet.dk."
   },
-  "miscellaneous": "3.  Miscellaneous",
+  "miscellaneous": "3.  Diverse",
   "thirdParty": {
-    "title": "3.1  Third-party websites, plug-ins and services",
-    "intro": "Websites and apps of AutoAgentz may contain links to third party websites, plug-ins, for instance social media login plug-ins, and other services.",
-    "content1": "If you choose to use these websites, plug-ins or services, you may disclose your information to those third-parties. autoAgentz is not responsible for the content or practices of those websites, plug-ins or services. The collection, use, and disclosure of your personal data will be subject to the privacy policies of these third parties and not this Privacy Policy. We urge you to read the privacy and security policies of the relevant third-parties."
+    "title": "3.1  Tredjeparts websites, plug-ins og tjenester",
+    "intro": "AutoAgentz’ websites og apps kan indeholde links til tredjeparts websites, plug-ins (fx plug-ins til log ind på sociale medier) og andre tjenester.",
+    "content1": "Hvis du vælger at benytte sådanne websites, plug-ins eller tjenester, videregiver du muligvis dine oplysninger til sådanne tredjeparter. AutoAgentz kan ikke holdes ansvarlig for indholdet af eller fremgangsmåden på sådanne websites, plug-ins eller tjenester. Indsamling, brug og videregivelse af dine personoplysninger er underlagt sådanne tredjeparters privatlivspolitikker og ikke denne Privatlivspolitik. Vi opfordrer dig til at læse de pågældende tredjeparters privatlivs- og sikkerhedspolitikker."
   },
   "dataSecurity": {
-    "title": "3.2  Data security",
-    "intro": "AutoAgentz is committed to protecting the security of your personal data. We use necessary organizational, technical, and administrative measures to protect your personal data under control of AutoAgentz, such as control of access, transmission, input and availability and the separation of data.",
-    "content1": "Access to a number of online services at AutoAgentz are protected by access restrictions based on user name and password.",
-    "content2": "Your personal details, if you have provided such to AutoAgentz remain encrypted in AutoAgentz’s secure web servers. All external transmissions of personal data facilitated by autoAgentz are protected by encryption.",
-    "content3": "If you have reason to believe that your interaction with AutoAgentz is no longer secure (for example, if you feel that the security of any account you might have with autoAgentz has been compromised), please notify us of the problem immediately by contacting us. Please see Contact section below for relevant contact details."
+    "title": "3.2  Datasikkerhed",
+    "intro": "AutoAgentz er forpligtet til at opretholde sikkerheden for dine personoplysninger. Vi anvender de nødvendige organisatoriske, tekniske og administrative foranstaltninger til at beskytte dine personoplysninger, som kontrolleres af AutoAgentz, herunder styring af adgang, transmission, input og tilgængelighed samt adskillelse af data.",
+    "content1": "Adgang til en række onlinetjenester hos AutoAgentz er beskyttet med adgangsrestriktioner, som er baseret på brugernavn og adgangskode.",
+    "content2": "Dine personoplysninger, hvis du har oplyst sådanne til AutoAgentz, forbliver krypteret på AutoAgentz’ sikre webservere. Alle eksterne transmissioner af personoplysninger, som foretages af AutoAgentz, er beskyttet ved kryptering.",
+    "content3": "Hvis du har grund til at tro, at din interaktion med AutoAgentz ikke længere er sikker (hvis du fx føler, at sikkerheden på en konto, du måtte have hos AutoAgentz, er blevet kompromitteret), bedes du straks underrette os herom ved at kontakte os. Se de relevante kontaktoplysninger i Kontakt os sektionen nedenfor."
   },
   "changes": {
-    "title": "3.3  Changes to our Privacy Policy",
-    "intro": "AutoAgentz may modify or update this Privacy Policy when necessary to reflect changes in AutoAgentz’s products and services, changes in applicable legislation, regulations or practice and to address customer feedback. Accordingly, please review it periodically. Date of the latest update is always provided on the top of the document.",
-    "content1": "If there are material changes to this Privacy Policy, we will notify you either by posting a notice or by sending you a notification."
+    "title": "3.3  Ændring af vores Privatlivspolitik",
+    "intro": "AutoAgentz kan ændre eller opdatere denne Privatlivspolitik efter behov for at afspejle ændringer i AutoAgentz’ produkter og tjenester, ændring af gældende love, regler eller praksis og for at behandle feedback fra kunderne. Derfor skal den gennemgås regelmæssigt. Datoen for den seneste opdatering fremgår altid øverst i dokumentet.",
+    "content1": "Hvis der sker væsentlige ændringer af denne Privatlivspolitik, orienterer vi dig ved enten at offentliggøre eller sende dig en meddelelse."
   },
   "contact": {
-    "title": "3.4  Contact details",
-    "intro": "If you have questions about this Privacy Policy or AutoAgentz’s processing of your personal data, please contact us at:",
-    "company": "AutoAgentz IVS",
+    "title": "3.4  Kontakt os",
+    "intro": "Hvis du har spørgsmål vedrørende denne Privatlivspolitik eller AutoAgentz’ behandling af dine personoplysninger, kan du skrive til os på:",
+    "company": "AutoAgentz",
     "street": "Ærøvænget 48",
     "postcodeCity": "DK-5500 Middelfart",
-    "country": "Denmark",
-    "end": "or by sending an email to gdpr@autoagentz.com."
+    "country": "Danmark",
+    "end": "eller sende en e-mail til gdpr@autoagentz.com"
   }
 }
