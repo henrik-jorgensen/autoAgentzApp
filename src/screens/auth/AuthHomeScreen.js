@@ -292,7 +292,7 @@ class AuthHomeScreen extends Component {
       return require("../../../assets/vehicleCardEN.png");
     }
     if (this.props.language === "da") {
-      return require("../../../assets/vehicleCardDA.png");
+      return require("../../../assets/vehicleCardDA2.png");
     }
     if (this.props.language === "de") {
       return require("../../../assets/vehicleCardDE.png");
@@ -301,10 +301,32 @@ class AuthHomeScreen extends Component {
   };
 
   handleVehicleCardStyle = () => {
-    if (SCREEN_HEIGHT <= 667) {
+    if (SCREEN_HEIGHT <= 736 && Platform.OS === "ios") {
+      return styles.vehicleCardSmall;
+    } else if (SCREEN_HEIGHT <= 667) {
       return styles.vehicleCardSmall;
     } else {
       return styles.vehicleCard;
+    }
+  };
+
+  handleLogoSection = () => {
+    if (SCREEN_HEIGHT <= 736 && Platform.OS === "ios") {
+      return styles.logoSectionSmall;
+    } else if (SCREEN_HEIGHT <= 667) {
+      return styles.logoSectionSmall;
+    } else {
+      return styles.logoSection;
+    }
+  };
+
+  handleLogoImage = () => {
+    if (SCREEN_HEIGHT <= 736 && Platform.OS === "ios") {
+      return styles.logoSmall;
+    } else if (SCREEN_HEIGHT <= 667) {
+      return styles.logoSmall;
+    } else {
+      return styles.logo;
     }
   };
 
@@ -432,16 +454,10 @@ class AuthHomeScreen extends Component {
             style={styles.cardSection}
           >
             {/* autoAgentz logo */}
-            <View
-              style={
-                SCREEN_HEIGHT <= 667
-                  ? styles.logoSectionSmall
-                  : styles.logoSection
-              }
-            >
+            <View style={this.handleLogoSection()}>
               <Image
                 source={require("../../../assets/LogoHorizontalWhite.png")}
-                style={SCREEN_HEIGHT <= 667 ? styles.logoSmall : styles.logo}
+                style={this.handleLogoImage()}
               />
             </View>
 
@@ -601,11 +617,11 @@ const styles = StyleSheet.create({
   },
   vehicleCard: {
     width: SCREEN_WIDTH - 20,
-    height: (SCREEN_WIDTH - 20) * 1.47191,
+    height: (SCREEN_WIDTH - 20) * 1.47472,
     borderRadius: 15
   },
   vehicleCardSmall: {
-    width: (SCREEN_HEIGHT - 180) / 1.47191,
+    width: (SCREEN_HEIGHT - 180) / 1.47472,
     height: SCREEN_HEIGHT - 180,
     borderRadius: 15
   },

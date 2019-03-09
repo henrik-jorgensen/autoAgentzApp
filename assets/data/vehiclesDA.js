@@ -22,7 +22,7 @@ export const VehiclesDA = [
       location: "DE, Hessen",
       color: "Sort",
       bodyType: "Sedan",
-      taxCategory: "U.afgift, +moms"
+      taxCategory: "u.afg. +moms"
     },
     dealerVehiclePerformance: {
       avgStockDaysSimilar: 24,
@@ -58,7 +58,7 @@ export const VehiclesDA = [
       location: "DE, Hamburg",
       color: "Koksgrå",
       bodyType: "Stationcar",
-      taxCategory: "U.afgift, +moms"
+      taxCategory: "u.afg. +moms"
     },
     dealerVehiclePerformance: {
       avgStockDaysSimilar: 28,
@@ -94,7 +94,7 @@ export const VehiclesDA = [
       location: "DK, Copenhagen",
       color: "White",
       bodyType: "SUV",
-      taxCategory: "U.afgift, +moms"
+      taxCategory: "u.afg. +moms"
     },
     dealerVehiclePerformance: {
       avgStockDaysSimilar: 32,
@@ -130,7 +130,7 @@ export const VehiclesDA = [
       location: "DE, Bayern",
       color: "Hvid",
       bodyType: "SUV",
-      taxCategory: "U.afgift, +moms"
+      taxCategory: "u.afg. +moms"
     },
     dealerVehiclePerformance: {
       avgStockDaysSimilar: 22,
@@ -166,7 +166,7 @@ export const VehiclesDA = [
       location: "NL, Limburg",
       color: "Sort",
       bodyType: "Stationcar",
-      taxCategory: "U.afgift, +moms"
+      taxCategory: "u.afg. +moms"
     },
     dealerVehiclePerformance: {
       avgStockDaysSimilar: 24,

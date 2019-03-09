@@ -2,7 +2,7 @@
   "language": "Dansk",
   "mainTabNavigator": {
     "newVehicles": "Nye biler",
-    "like": "Jeps",
+    "like": "Like",
     "nope": "Niks",
     "settings": "Mere"
   },
@@ -13,31 +13,31 @@
   "newVehicles": {
     "checkForVehicles": "Tjekker for nye biler",
     "resettingVehicles": "Nulstiller biler",
-    "submittingLikesText": "Indsender Jeps listen",
+    "submittingLikesText": "Indsender likede biler",
     "demoAllDone": "Færdig!",
-    "demoAllDoneInfo": "Hvis du havde jeps'et rigtige biler, ville de blive tilføjet dine favoritlister på de aktuelle auktion sites",
+    "demoAllDoneInfo": "Hvis du havde liket aktuelle biler, ville de være blevet tilføjet dine favoritlister på de relevante auktionshjemmesider",
     "demoBackToWelcome": "Tilbage til velkomstskærmen",
-    "demoNoMoreVehicles": "Ikke flere biler for i dag",
-    "demoNoMoreVehiclesInfo": "I \"Jeps\" og \"Niks\" menuerne nedenfor kan du gennemse bilerne, du har jeps'et og niks'et",
+    "demoNoMoreVehicles": "Ikke flere biler i dag",
+    "demoNoMoreVehiclesInfo": "I \"Like\" og \"Niks\" menuerne nedenfor kan du gennemse bilerne, du har liket og niks'et",
     "demoSubmitLikesButton": "Fortsæt",
     "allDone": "Færdig!",
     "allDoneInfo": "Kom tilbage i morgen for flere biler",
     "noNewVehicles": "Ingen nye biler",
     "checkForVehiclesButton": "Tjek for nye biler",
-    "noMoreVehicles": "Ikke flere biler for i dag",
-    "noMoreVehiclesInfo": "Klik på knappen nedenfor for at tilføje jepsede biler til din favoritliste",
-    "submitLikesButton": "Føj Jeps liste til favoritter",
-    "noLikedVehiclesInfo": "Du jepsede ikke nogen biler. Kontakt os gerne, hvis du vil have justeret dit daglige feed",
-    "confirmNoLikesButton": "Ingen jepsede biler i dag",
+    "noMoreVehicles": "Ikke flere biler i dag",
+    "noMoreVehiclesInfo": "Klik på knappen nedenfor for at tilføje likede biler til dine favoritlister",
+    "submitLikesButton": "Indsend likede biler",
+    "noLikedVehiclesInfo": "Du likede ikke nogen biler. Kontakt os gerne, hvis du vil have justeret dit daglige feed",
+    "confirmNoLikesButton": "Ingen likede biler i dag",
     "noLikesResetVehiclesButton": "Ups, jeg vil gerne starte forfra"
   },
   "helpMessages": {
     "helpHeader": "Hjælpebesked",
     "oopsHeader": "Ups, noget gik galt",
-    "freeTrialHeader": "Gratis test",
+    "freeTrialHeader": "Gratis prøve",
     "phoneLengthHelp": "Du skal indtaste et 8-cifret telefonnummer for at fortsætte",
     "isConnectedHelp": "Det ser ud til at din internetforbindelse er offline. Du skal være online for at fortsætte",
-    "freeTrialHelp": "Din gratis test er ikke klar endnu",
+    "freeTrialHelp": "Din gratis prøve er ikke klar endnu",
     "enterNameHelp": "Du skal indtaste dit fornavn og efternavn for at fortsætte",
     "enterCompanyHelp": "Du skal indtaste dit firmanavn for at fortsætte",
     "enterWebsiteHelp": "Du skal indtaste din hjemmeside-adresse for at fortsætte",
@@ -48,19 +48,19 @@
   "settings": {
     "signOut": "Log ud",
     "checkForVehicles": "Tjek for nye biler",
-    "checkIfTrialReady": "Tjek om din gratis test er klar",
+    "checkIfTrialReady": "Tjek om din gratis prøve er klar",
     "resetVehicles": "Nulstil biler",
     "activateHelpScreens": "Aktivér hjælpeskærme",
     "selectLanguage": "Vælg sprog",
     "userID": "Bruger-id"
   },
   "liked": {
-    "noVehicles": "Ingen biler på Jeps listen",
-    "likesSubmitted": "Dine biler på Jeps listen er blevet sendt!"
+    "noVehicles": "Ingen biler på Like listen",
+    "likesSubmitted": "Dine biler på Like listen er blevet sendt!"
   },
   "nope": {
     "noVehicles": "Ingen biler på Niks listen",
-    "likesSubmitted": "Dine biler på Jeps listen er blevet sendt!"
+    "likesSubmitted": "Dine biler på Like listen er blevet sendt!"
   },
   "vehicleCardDemo": {
     "demoVehicle": "DEMO BIL",
@@ -72,7 +72,7 @@
     "km": "km",
     "seatsText": "sæder",
     "gearText": "g",
-    "daysToSell": "Sælger på",
+    "daysToSell": "Sælges på gns.",
     "days": "dage",
     "sold12Months": "Solgt 12 mdr",
     "onStockText": "På lager"
@@ -86,14 +86,14 @@
     "km": "km",
     "seatsText": "sæder",
     "gearText": "g",
-    "daysToSell": "Sælger på",
+    "daysToSell": "Sælges på gns.",
     "days": "dage",
     "sold12Months": "Solgt 12 mdr",
     "onStockText": "På lager"
   },
   "welcome": {
     "welcomeTo": "Velkommen til",
-    "welcomeText": "Vi kontakter dig snarest for at klargøre din 2 ugers gratis test",
+    "welcomeText": "Vi kontakter dig snarest for at klargøre din gratis 2 ugers prøve",
     "demoButton": "Prøv app'en med demobiler"
   },
   "cardHelp": {
@@ -109,7 +109,7 @@
     "enterMobileNo": "Indtast dit mobilnummer"
   },
   "swipe": {
-    "like": "JEPS",
+    "like": "LIKE",
     "nope": "NIKS"
   },
   "nameScreen": {
