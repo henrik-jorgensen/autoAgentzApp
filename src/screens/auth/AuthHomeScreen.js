@@ -294,9 +294,9 @@ class AuthHomeScreen extends Component {
     if (this.props.language === "da") {
       return require("../../../assets/vehicleCardDA2.png");
     }
-    if (this.props.language === "de") {
+    /*if (this.props.language === "de") {
       return require("../../../assets/vehicleCardDE.png");
-    }
+    }*/
     return require("../../../assets/vehicleCardEN.png");
   };
 

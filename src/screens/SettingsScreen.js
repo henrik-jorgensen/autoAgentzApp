@@ -216,7 +216,6 @@ class SettingsScreen extends Component {
   languageSelector = () => {
     const data = [
       { key: "da", label: "Dansk" },
-      { key: "de", label: "Deutsch" },
       { key: "en", label: "English" }
     ];
     return (

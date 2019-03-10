@@ -14,8 +14,8 @@ export const Translations = language => {
       return da;
     case "en":
       return en;
-    case "de":
-      return de;
+    /*case "de":
+      return de;*/
     default:
       return en;
   }
@@ -27,8 +27,8 @@ export const Terms = language => {
       return termsDA;
     case "en":
       return termsEN;
-    case "de":
-      return termsDE;
+    /*case "de":
+      return termsDE;*/
     default:
       return termsEN;
   }
@@ -40,8 +40,8 @@ export const PrivacyPolicy = language => {
       return privacyPolicyDA;
     case "en":
       return privacyPolicyEN;
-    case "de":
-      return privacyPolicyDE;
+    /*case "de":
+      return privacyPolicyDE;*/
     default:
       return privacyPolicyEN;
   }
