@@ -1,37 +1,32 @@
 {
   "expo": {
     "name": "autoAgentz",
-    "description": "Daily handpicked vehicles to grow your used car business",
+    "description": "Indkøbshjælp med fokus på biler der sælger i din brugtvognsforretning",
     "slug": "autoAgentz",
     "privacy": "unlisted",
     "sdkVersion": "32.0.0",
-    "platforms": [
-      "ios",
-      "android"
-    ],
+    "platforms": ["ios", "android"],
     "version": "1.0.0",
     "orientation": "portrait",
     "primaryColor": "#2b2b2b",
     "icon": "./assets/icon.png",
     "splash": {
-      "image": "./assets/splashScreen.png",
+      "image": "./assets/splashScreenDK.png",
       "resizeMode": "contain",
       "backgroundColor": "#fff"
     },
     "updates": {
       "fallbackToCacheTimeout": 30000
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "bundleIdentifier": "com.autoAgentz.dailyPicksApp",
+      "bundleIdentifier": "com.autoAgentz.app",
       "buildNumber": "1.1.1",
       "supportsTablet": false,
       "usesIcloudStorage": false,
       "splash": {
         "backgroundColor": "#fff",
-        "image": "./assets/splashScreen.png"
+        "image": "./assets/splashScreenDK.png"
       }
     },
     "android": {
@@ -41,12 +36,12 @@
       "googleServicesFile": "./constants/google-services.json",
       "splash": {
         "backgroundColor": "#fff",
-        "ldpi": "./assets/splashScreen.png",
-        "mdpi": "./assets/splashScreen.png",
-        "hdpi": "./assets/splashScreen.png",
-        "xhdpi": "./assets/splashScreen.png",
-        "xxhdpi": "./assets/splashScreen.png",
-        "xxxhdpi": "./assets/splashScreen.png"
+        "ldpi": "./assets/splashScreenDK.png",
+        "mdpi": "./assets/splashScreenDK.png",
+        "hdpi": "./assets/splashScreenDK.png",
+        "xhdpi": "./assets/splashScreenDK.png",
+        "xxhdpi": "./assets/splashScreenDK.png",
+        "xxxhdpi": "./assets/splashScreenDK.png"
       }
     },
     "scheme": "autoAgentz",

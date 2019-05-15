@@ -56,11 +56,11 @@
   },
   "liked": {
     "noVehicles": "Ingen biler på Like listen",
-    "likesSubmitted": "Dine biler på Like listen er blevet sendt!"
+    "likesSubmitted": "Dine biler på Like listen er blevet indsendt!"
   },
   "nope": {
     "noVehicles": "Ingen biler på Niks listen",
-    "likesSubmitted": "Dine biler på Like listen er blevet sendt!"
+    "likesSubmitted": "Dine biler på Like listen er blevet indsendt!"
   },
   "vehicleCardDemo": {
     "demoVehicle": "DEMO BIL",
