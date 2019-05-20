@@ -289,15 +289,15 @@ class AuthHomeScreen extends Component {
 
   handleVehicleCardImage = () => {
     if (!this.props.language) {
-      return require("../../../assets/vehicleCardEN.png");
+      return require("../../../assets/welcome.png");
     }
     if (this.props.language === "da") {
-      return require("../../../assets/vehicleCardDA2.png");
+      return require("../../../assets/velkommen.png");
     }
     /*if (this.props.language === "de") {
       return require("../../../assets/vehicleCardDE.png");
     }*/
-    return require("../../../assets/vehicleCardEN.png");
+    return require("../../../assets/welcome.png");
   };
 
   handleVehicleCardStyle = () => {
@@ -453,13 +453,13 @@ class AuthHomeScreen extends Component {
             iterationCount={1}
             style={styles.cardSection}
           >
-            {/* autoAgentz logo */}
+            {/* autoAgentz logo
             <View style={this.handleLogoSection()}>
               <Image
                 source={require("../../../assets/LogoHorizontalWhite.png")}
                 style={this.handleLogoImage()}
               />
-            </View>
+            </View>*/}
 
             {/* Vehicle card */}
             <Image
@@ -616,18 +616,24 @@ const styles = StyleSheet.create({
     height: 45
   },
   vehicleCard: {
-    width: SCREEN_WIDTH - 20,
-    height: (SCREEN_WIDTH - 20) * 1.47472,
+    //width: SCREEN_WIDTH - 20,
+    width: 239,
+    //height: (SCREEN_WIDTH - 20) * 1.47472,
+    height: 278,
     borderRadius: 15
   },
   vehicleCardSmall: {
-    width: (SCREEN_HEIGHT - 180) / 1.47472,
-    height: SCREEN_HEIGHT - 180,
+    //width: (SCREEN_HEIGHT - 180) / 1.47472,
+    width: 191.2,
+    //height: SCREEN_HEIGHT - 180,
+    height: 222.4,
     borderRadius: 15
   },
   vehicleCardMedium: {
-    width: 274,
-    height: 450,
+    //width: 274,
+    width: 239,
+    //height: 450,
+    height: 278,
     borderRadius: 10
   },
   forwardArrow: {

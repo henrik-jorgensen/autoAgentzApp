@@ -21,7 +21,7 @@
     "assetBundlePatterns": ["**/*"],
     "ios": {
       "bundleIdentifier": "com.autoAgentz.app",
-      "buildNumber": "1.1.1",
+      "buildNumber": "1.0.1",
       "supportsTablet": false,
       "usesIcloudStorage": false,
       "splash": {
@@ -31,7 +31,7 @@
     },
     "android": {
       "package": "com.autoAgentz.dailyPicksApp",
-      "versionCode": 1,
+      "versionCode": 3,
       "permissions": [],
       "googleServicesFile": "./constants/google-services.json",
       "splash": {
