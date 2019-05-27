@@ -211,12 +211,19 @@ class AuthHomeScreen extends Component {
     let phone = this.props.phone.split(" ").join("");
     const strings = this.props.strings.helpMessages;
 
+    console.log(phone);
+
     if (phone.length < 8) {
       return Alert.alert(strings.oopsHeader, strings.phoneLengthHelp);
     }
 
     if (!this.props.isConnected) {
       return Alert.alert(strings.oopsHeader, strings.isConnectedHelp);
+    }
+
+    // test account
+    if (phone === "99778866") {
+      return this.props.navigation.navigate("login");
     }
 
     this.setState({ error: "", loading: true });
