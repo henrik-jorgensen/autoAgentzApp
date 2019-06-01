@@ -46,7 +46,8 @@ const styles = StyleSheet.create({
   },
   tabBarStyleXsMax: {
     height: 60,
-    borderTopColor: "#2b2b2b"
+    borderTopColor: "#2b2b2b",
+    marginBottom: -36
   }
 });
 
