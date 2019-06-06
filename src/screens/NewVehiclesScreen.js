@@ -91,11 +91,11 @@ class NewVehiclesScreen extends Component {
     let uid = await AsyncStorage.getItem("uid");
     this.props.saveUidToState(uid);
 
-    // check if user is registered as a customer
-    this.checkIfCustomer();
-
     // register device for push notifications
     this.registerForPushNotificationsAsync(uid);
+
+    // check if user is registered as a customer
+    this.checkIfCustomer();
 
     // check if device is connected to the internet
     NetInfo.isConnected.addEventListener(
@@ -488,11 +488,13 @@ class NewVehiclesScreen extends Component {
 
     console.log("checking if customer...");
 
-    //let uid = await AsyncStorage.getItem("uid");
+    let uid = await AsyncStorage.getItem("uid");
     //this.props.saveUidToState(uid);
 
+    console.log("uid: ", uid);
+
     let { data } = await axios.post(URLs.checkIfCustomer, {
-      uid: this.props.uid,
+      uid: uid,
       accountSid: ApiKeys.CloudFunctions.accountSid,
       authToken: ApiKeys.CloudFunctions.authToken
     });
@@ -521,11 +523,11 @@ class NewVehiclesScreen extends Component {
 
     console.log("checking if trial ready...");
 
-    //let uid = await AsyncStorage.getItem("uid");
+    let uid = await AsyncStorage.getItem("uid");
     //this.props.saveUidToState(uid);
 
     let { data } = await axios.post(URLs.checkIfCustomer, {
-      uid: this.props.uid,
+      uid: uid,
       accountSid: ApiKeys.CloudFunctions.accountSid,
       authToken: ApiKeys.CloudFunctions.authToken
     });
