@@ -6,7 +6,7 @@
     "privacy": "unlisted",
     "sdkVersion": "32.0.0",
     "platforms": ["ios", "android"],
-    "version": "1.0.5",
+    "version": "1.0.6",
     "orientation": "portrait",
     "primaryColor": "#2b2b2b",
     "icon": "./assets/icon.png",
@@ -21,7 +21,7 @@
     "assetBundlePatterns": ["**/*"],
     "ios": {
       "bundleIdentifier": "autoAgentz",
-      "buildNumber": "1.0.5",
+      "buildNumber": "1.0.6",
       "supportsTablet": false,
       "usesIcloudStorage": false,
       "splash": {
@@ -31,7 +31,7 @@
     },
     "android": {
       "package": "com.autoAgentz.dailyPicksApp",
-      "versionCode": 7,
+      "versionCode": 8,
       "permissions": [],
       "googleServicesFile": "./constants/google-services.json",
       "splash": {
