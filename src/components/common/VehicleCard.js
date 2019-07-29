@@ -1,5 +1,14 @@
 import React, { Component } from "react";
-import { Image, View, Text, StyleSheet, Dimensions } from "react-native";
+import {
+  Image,
+  View,
+  Text,
+  StyleSheet,
+  Dimensions,
+  Linking,
+  TouchableOpacity,
+  Platform
+} from "react-native";
 import {
   Container,
   Content,
@@ -10,7 +19,8 @@ import {
   Body,
   Icon,
   Left,
-  Right
+  Right,
+  Button
 } from "native-base";
 import { connect } from "react-redux";
 
@@ -18,6 +28,8 @@ import * as actions from "../../redux/actions";
 
 const SCREEN_WIDTH = Dimensions.get("window").width;
 const SIZE_THRESHOLD = 360;
+const BUTTON_WIDTH =
+  Platform.OS === "ios" ? SCREEN_WIDTH - 36 : SCREEN_WIDTH - 40;
 
 class VehicleCard extends Component {
   render() {
@@ -26,7 +38,8 @@ class VehicleCard extends Component {
       auctionEndDate,
       auctionEndTime,
       imageUri,
-      auctionSite
+      auctionSite,
+      url
     } = this.props.vehicle;
 
     const {
@@ -67,7 +80,8 @@ class VehicleCard extends Component {
       auctionEndText,
       auctionEndTextSmall,
       auctionSiteText,
-      auctionSiteTextSmall
+      auctionSiteTextSmall,
+      button
     } = styles;
 
     const {
@@ -311,6 +325,29 @@ class VehicleCard extends Component {
               </Text>
             </Right>
           </CardItem>
+
+          <CardItem>
+            <Body>
+              <TouchableOpacity
+                style={button}
+                onPress={() => {
+                  if (url) {
+                    Linking.openURL(url);
+                  }
+                  return;
+                }}
+              >
+                <Text
+                  style={[
+                    SCREEN_WIDTH < SIZE_THRESHOLD ? textStyleSmall : textStyle,
+                    { color: "#777" }
+                  ]}
+                >
+                  Se flere detaljer på {auctionSite}
+                </Text>
+              </TouchableOpacity>
+            </Body>
+          </CardItem>
         </Card>
       </Content>
     );
@@ -353,6 +390,14 @@ const styles = StyleSheet.create({
     width: null,
     flex: 1,
     resizeMode: "cover"
+  },
+  button: {
+    alignItems: "center",
+    backgroundColor: "#f1f1f1",
+    padding: 8,
+    borderRadius: 10,
+    width: BUTTON_WIDTH,
+    marginTop: -10
   },
   auctionEndText: {
     position: "absolute",

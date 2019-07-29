@@ -1,12 +1,12 @@
 {
   "expo": {
     "name": "autoAgentz",
-    "description": "Indkøbshjælp med fokus på biler der sælger i din brugtvognsforretning",
+    "description": "Datadrevet bilagent tilpasset din brugtvognsforretning",
     "slug": "autoAgentz",
     "privacy": "unlisted",
-    "sdkVersion": "32.0.0",
-    "platforms": ["ios", "android"],
-    "version": "1.0.6",
+    "sdkVersion": "33.0.0",
+    "platforms": ["ios", "android", "web"],
+    "version": "1.0.8",
     "orientation": "portrait",
     "primaryColor": "#2b2b2b",
     "icon": "./assets/icon.png",
@@ -16,12 +16,12 @@
       "backgroundColor": "#fff"
     },
     "updates": {
-      "fallbackToCacheTimeout": 30000
+      "fallbackToCacheTimeout": 3000
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
       "bundleIdentifier": "autoAgentz",
-      "buildNumber": "1.0.6",
+      "buildNumber": "1.0.8",
       "supportsTablet": false,
       "usesIcloudStorage": false,
       "splash": {
@@ -31,7 +31,7 @@
     },
     "android": {
       "package": "com.autoAgentz.dailyPicksApp",
-      "versionCode": 8,
+      "versionCode": 10,
       "permissions": [],
       "googleServicesFile": "./constants/google-services.json",
       "splash": {

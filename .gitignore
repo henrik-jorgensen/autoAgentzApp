@@ -7,3 +7,4 @@ npm-debug.*
 *.mobileprovision
 constants/*
 autoAgentz.jks
+autoAgentz_upload_cert.pem

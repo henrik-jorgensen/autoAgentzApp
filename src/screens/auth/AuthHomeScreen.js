@@ -19,7 +19,7 @@ import { Icon } from "native-base";
 import axios from "axios";
 import { connect } from "react-redux";
 import { NavigationEvents } from "react-navigation";
-import { Localization } from "expo-localization";
+import { Localization } from "expo";
 
 import { Spinner } from "../../components/common";
 import * as actions from "../../redux/actions";

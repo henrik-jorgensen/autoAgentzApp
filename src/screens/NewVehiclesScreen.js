@@ -14,7 +14,8 @@ import {
 } from "react-native";
 import { connect } from "react-redux";
 import { NavigationEvents } from "react-navigation";
-import { Permissions, Notifications } from "expo";
+import { Notifications } from "expo";
+import * as Permissions from 'expo-permissions';
 import { Localization } from "expo-localization";
 import { Icon } from "native-base";
 
